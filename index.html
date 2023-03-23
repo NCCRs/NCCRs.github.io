@@ -12,7 +12,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
         <!-- Title, icon, description and keywords -->
-        <title>NCCRs events</title>
+        <title>ORD</title>
         <link rel="shortcut icon" href="res/images/favicon.ico">
         <meta name="description" content="NCCRs events on Open Data in Research">
         <meta name="keywords" content="NCCR,Open Data,Switzerland,engineering,research">
@@ -98,6 +98,7 @@
             <!-- //.container -->
         </nav>
         <!-- //Navigation End -->
+        <!-- //Common part -->
 
 
 
@@ -113,7 +114,10 @@
                                     <div class="row">
                                         <div class="col-md-10 col-md-offset-1 text-center">
                                             <h2 class="font-family-alt font-weight-900 letter-spacing-2 text-white xs-title-extra-large sm-title-extra-large-3 title-extra-large-5">
-                                                <span class="text-base-color">Open Data</span> in Research
+                                                <!--
+                                                <span class="text-base-color">O</span>pen <span class="text-base-color">R</span>esearch <span class="text-base-color">D</span>ata events
+                                                -->
+                                                <span class="text-base-color">Open Research</span> Data events
                                             </h2>
                                         </div>
                                     </div>
@@ -126,14 +130,16 @@
                                                     April 28
                                                 </h3>
                                                 <p class="font-family-alt text-white sm-title-small title-medium">
-                                                at
+                                                in
                                                 </p>
-                                                <h4 class="font-family-alt font-weight-900 letter-spacing-2 text-uppercase text-white xs-title-small sm-title-medium title-extra-large">
-                                                    ETHZ Zurich
+                                                <h4 class="text-base-color font-family-alt font-weight-900 letter-spacing-2 text-uppercase text-white xs-title-small sm-title-medium title-extra-large">
+                                                    Zurich
                                                 </h4>
-                                                <a href="/zurich/register" class="btn btn-base-color sm-btn-medium btn-large" style="margin:0">
+                                                <!--
+                                                    <a href="/zurich/register" class="btn btn-base-color sm-btn-medium btn-large" style="margin:0">
                                                     Register Now
-                                                </a>
+                                                    </a>
+                                                -->
                                             </div>
                                         </a>
                                         <a href="/lausanne">
@@ -142,14 +148,16 @@
                                                     May 8
                                                 </h3>
                                                 <p class="font-family-alt text-white sm-title-small title-medium">
-                                                at
+                                                in
                                                 </p>
-                                                <h4 class="font-family-alt font-weight-900 letter-spacing-2 text-uppercase text-white xs-title-small sm-title-medium title-extra-large">
-                                                    EPFL Lausanne
+                                                <h4 class="text-base-color font-family-alt font-weight-900 letter-spacing-2 text-uppercase text-white xs-title-small sm-title-medium title-extra-large">
+                                                    Lausanne
                                                 </h4>
-                                                <a href="/lausanne/register" class="btn btn-base-color sm-btn-medium btn-large" style="margin:0">
+                                                <!--
+                                                    <a href="/lausanne/register" class="btn btn-base-color sm-btn-medium btn-large" style="margin:0">
                                                     Register Now
-                                                </a>
+                                                    </a>
+                                                -->
                                             </div>
                                         </a>
                                         <a href="/basel">
@@ -158,14 +166,16 @@
                                                     June 2
                                                 </h3>
                                                 <p class="font-family-alt text-white sm-title-small title-medium">
-                                                at
+                                                in
                                                 </p>
-                                                <h4 class="font-family-alt font-weight-900 letter-spacing-2 text-uppercase text-white xs-title-small sm-title-medium title-extra-large">
-                                                    Biozentrum Basel
+                                                <h4 class="text-base-color font-family-alt font-weight-900 letter-spacing-2 text-uppercase text-white xs-title-small sm-title-medium title-extra-large">
+                                                    Basel
                                                 </h4>
-                                                <a href="/basel/register" class="btn btn-base-color sm-btn-medium btn-large" style="margin:0">
+                                                <!--
+                                                    <a href="/basel/register" class="btn btn-base-color sm-btn-medium btn-large" style="margin:0">
                                                     Register Now
-                                                </a>
+                                                    </a>
+                                                -->
                                             </div>
                                         </a>
                                     </div>
@@ -243,8 +253,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-8 col-md-offset-2 text-center">
-                                <h3 class="display-block font-family-alt font-weight-900 letter-spacing-2 text-uppercase text-white xs-title-large-2 title-large-2">
+                                <h3 id="countdown-title" class="display-block font-family-alt font-weight-900 letter-spacing-2 text-uppercase text-white xs-title-large-2 title-large-2">
                                     Next event in
+                                    <span id="countdown-location" class="text-base-color xs-title-large-4 title-large-4"></span>
                                 </h3>
                                 <br>
                             </div>
