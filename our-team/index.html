@@ -149,24 +149,18 @@
 
         <!-- Create the team member div and add the content on the fly with an script -->
         <script>
-            // Create a function that creates a div for a particular team member respecting the structure of the team member div above
-            function getMemberDiv(name, image_path, url=""){
-                var div = document.createElement("div");
-                div.className = "member-box col-xs-6 col-sm-4 col-md-3";
-                div.innerHTML = '<div class="overflow-hidden position-relative width-100"><div class="position-relative"><img src="' + image_path + '" class="img-fluid" alt=""/></div><div class="bg-gray-light no-padding-rl padding-6 position-relative text-center"><span class="display-block font-family-alt font-weight-700 letter-spacing-2 text-gray-dark-2 text-small text-uppercase">' + name + '</span></div></div>';
-                if (url != ""){
-                    div.innerHTML = '<a href="' + url + '" target="_blank">' + div.innerHTML + '</a>';
-                }
-                return div;
-            }
-
             // Read the team members from the JSON file stored as 'team_members.json' in the same directory as this file
             fetch('/res/json/members.json').then(function(response){
                 let json = response.json();
                 return json;
             }).then(function(members){
                 members.forEach(function(member){
-                    let div = getMemberDiv(member.name, member.image_path, member?.url);
+                    var div = document.createElement("div");
+                    div.className = "member-box col-xs-6 col-sm-4 col-md-3";
+                    div.innerHTML = '<div class="overflow-hidden position-relative width-100"><div class="position-relative"><img src="' + member.image_path + '" class="img-fluid" alt=""/></div><div class="bg-gray-light no-padding-rl padding-6 position-relative text-center"><span class="display-block font-family-alt font-weight-700 letter-spacing-2 text-gray-dark-2 text-small text-uppercase">' + member.name + '</span></div></div>';
+                    if (member.url !== undefined) {
+                        div.innerHTML = '<a href="' + member.url + '" target="_blank">' + div.innerHTML + '</a>';
+                    }
                     document.getElementById("team-members").appendChild(div);
                 });
             });
@@ -180,16 +174,12 @@
                     div.className = "member-box col-xs-6 col-sm-4 col-md-4";
                     div.innerHTML = '<div class="overflow-hidden position-relative width-100"><div class="position-relative"><div class="img-wrapper"><img src="' + member.image_path + '" alt=""/></div></div><div class="bg-gray-light no-padding-rl padding-6 position-relative text-center"><span class="display-block font-family-alt font-weight-700 letter-spacing-2 text-gray-dark-2 text-small text-uppercase">' + member.name + '</span></div></div>';
 
-                    if (member?.website_url != ""){
+                    if (member.website_url !== undefined) {
                         div.innerHTML = '<a href="' + member.website_url + '" target="_blank">' + div.innerHTML + '</a>';
                     }
                     document.getElementById("nccr-network").appendChild(div);
                 });
             });
-
-
-
-
         </script>
 
 
