@@ -1,0 +1,62 @@
+{
+    "title": "ORD | Lausanne",
+    "description": "TODO: Add description",
+    "start" : "2023-04-28T09:00:00",
+    "end" : "2023-04-28T17:00:00",
+    "location" : {
+        "name" : "ETHZ",
+        "address" : "Rämistrasse 101, 8092 Zurich, Switzerland",
+        "url" : "http://www.example.com/",
+        "iframe_url" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.493729557988!2d8.54309831567382!3d47.37688697918501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e4e1f5c3c3b0d%3A0x7b2e3a4f4f4f4f4f!2sR%C3%A4mistrasse+101%2C+8092+Z%C3%BCrich!5e0!3m2!1sen!2sch!4v1427840000000"
+    },
+    "timeline" : [
+        {
+            "title" : "Event 1",
+            "description" : "Description of event 1",
+            "start" : "2023-04-28T09:00:00",
+            "end" : "2023-04-28T10:00:00",
+            "location" : {
+                "name": "Room 1",
+                "url": "",
+                "address": "example of address"
+            },
+            "speaker" : {
+                "name" : "Speaker 1",
+                "description" : "Description of speaker 1",
+                "photo" : "/res/images/speakers/speaker1.jpg",
+                "email": "example@test.com",
+                "link" : "https://example.com/speaker1"
+            },
+            "material_link": "https://example.com/materials1",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
+            "title" : "Event 2",
+            "description" : "Description of event 1",
+            "start" : "2023-04-28T10:00:00",
+            "end" : "2023-04-28T11:00:00",
+            "location" : {
+                "name": "Room 2",
+                "url": "",
+                "address": "example of address"
+            },
+            "speaker" : {
+                "name" : "Speaker 2",
+                "description" : "Description of speaker 2",
+                "photo" : "/res/images/speakers/speaker2.jpg",
+                "email": "example@test.com",
+                "link" : "https://example.com/speaker2"
+            },
+            "material_link": "https://example.com/materials2",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        }
+    ]
+}
+
+

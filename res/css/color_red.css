@@ -21,7 +21,11 @@
 */
 
 .text-base-color {
-    color: #e62b1e !important;
+    color: #9370DB !important;
+}
+
+.text-light-color {
+    color: #D8BFD8 !important;
 }
 
 
@@ -31,7 +35,7 @@
 
 .text-hover-base-color:hover,
 .text-hover-base-color:focus {
-    color: #e62b1e !important;
+    color: #9370DB !important;
 }
 
 
@@ -40,7 +44,7 @@
 */
 
 .bg-base-color {
-    background-color: #e62b1e !important;
+    background-color: #D8BFD8 !important;
 }
 
 
@@ -49,7 +53,7 @@
 */
 
 .bg-hover-base-color:hover {
-    background-color: #e62b1e !important;
+    background-color: #DDA0DD !important;
 }
 
 
