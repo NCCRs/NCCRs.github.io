@@ -1,6 +1,30 @@
 [
     {
+        "name": "Frederik Banis",
+        "image_path": "/res/images/team/Banis_Frederik_NCCR_Automation.png"
+    },
+    {
+        "name": "Aleksander Benjak",
+        "image_path": "/res/images/team/Benjak_Aleksander_MSE.jpg"
+    },
+    {
+        "name": "Kendra Brown",
+        "image_path": "/res/images/team/KendraBrown.jpg"
+    },
+    {
+        "name": "Lidia Favre-Quattropani",
+        "image_path": "/res/images/team/LidiaFavre-Quattropani.jpg"
+    },
+    {
+        "name": "Lauren Gamp",
+        "image_path": "/res/images/team/Gamp_Lauren.jpg"
+    },
+    {
         "name": "Romain Graux",
         "image_path": "/res/images/team/Romain_Graux.jpg"
+    },
+    {
+        "name": "Julie Sollier",
+        "image_path": "/res/images/team/Julie_Sollier.jpeg"
     }
 ]

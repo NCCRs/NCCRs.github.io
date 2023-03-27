@@ -61,7 +61,7 @@
 
     <body id="page-top">
         <!-- Navigation Start -->
-        <nav id="navigation" class="navbar navbar-fixed-top">
+        <nav id="navigation" class="navbar navbar-fixed-top navbar-dark">
             <div class="container">
                 <div class="row">
                     <div class="navbar-header col-lg-3">
@@ -73,24 +73,20 @@
                         </button>
 
                         <a class="navbar-brand font-family-alt letter-spacing-1 text-extra-large text-uppercase" href="/">
-                            <img class="logo-navbar-dark" src="../res/images/logos/todo.png" alt="TEDxJMI"/>
-                            <img class="logo-navbar-white" src="../res/images/logos/todo.png" alt="TEDxJMI"/>
+                            <img class="logo-navbar-dark" src="../res/images/logos/ORD_logo.png" alt="ORD"/>
+                            <img class="logo-navbar-white" src="../res/images/logos/ORD_logo.png" alt="ORD"/>
                         </a>
                     </div>
                     <!-- //.navbar-header -->
 
                     <div id="navbar" class="navbar-collapse collapse col-lg-9 pull-right">
                         <ul class="nav navbar-nav font-family-alt letter-spacing-1 text-uppercase font-weight-700">
-                            <li><a href="/" class="page-scroll">About</a></li>
-                            <li><a href="/zurich/" class="line-height-unset text-base-color">Zurich</a></li>
+                            <li><a href="/" class="line-height-unset">About</a></li>
+                            <li><a href="#page-top" class="page-scroll text-base-color">Zurich</a></li>
                             <li><a href="/lausanne/" class="line-height-unset text-base-color">Lausanne</a></li>
                             <li><a href="/basel/" class="line-height-unset text-base-color">Basel</a></li>
                             <li><a href="/our-team/" class="line-height-unset">Our Team</a></li>
-                            <li class="bg-base-color">
-                                <a href="/contact/" class="line-height-unset width-100">
-                                    Contact us
-                                </a>
-                            </li>
+                            <li><a href="/contact/" class="line-height-unset">Contact us</a></li>
                         </ul>
                     </div>
                     <!-- //.navbar-collapse -->
@@ -362,7 +358,7 @@
                         speaker.innerHTML = `
                             <div class="overflow-hidden position-relative width-100">
                                 <div class="img-wrapper">
-                                    <img src="${item.speaker.image}" alt="${item.speaker.name}" class="img-responsive">
+                                    <img src="${item.speaker.photo}" alt="${item.speaker.name}" class="img-responsive">
                                 </div>
                                 <!-- //.img-wrapper -->
 
@@ -461,7 +457,7 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="footer-logo xs-text-center">
-                            <img src="../res/images/logos/footer.svg" alt="">
+                            <img src="../res/images/logos/footer.png" alt="">
                         </div>
                         <!-- //.footer-logo -->
                     </div>

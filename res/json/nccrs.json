@@ -1,5 +1,15 @@
 [
     {
+        "name": "AntiResist",
+        "image_path": "/res/images/logos/nccr-antiresist-color.svg",
+        "website_url": "https://www.nccr-antiresist.ch"
+    },
+    {
+        "name": "Automation",
+        "image_path": "/res/images/logos/NCCR-Automation-CMYK-Positiv.svg",
+        "website_url": "https://nccr-automation.ch"
+    },
+    {
         "name": "Catalysis",
         "image_path": "/res/images/logos/NCCR Catalysis logo color RGB.svg",
         "website_url": "https://nccr-catalysis.ch"
@@ -10,18 +20,13 @@
         "website_url": "https://www.nccr-marvel.ch"
     },
     {
-        "name": "Automation",
-        "image_path": "/res/images/logos/NCCR-Automation-CMYK-Positiv.svg",
-        "website_url": "https://nccr-automation.ch"
-    },
-    {
-        "name": "AntiResist",
-        "image_path": "/res/images/logos/nccr-antiresist-color.svg",
-        "website_url": "https://www.nccr-antiresist.ch"
-    },
-    {
         "name": "Microbiomes",
         "image_path": "/res/images/logos/Logo_NCCR_Microbiomes_color.svg",
         "website_url": "https://nccr-microbiomes.ch"
+    },
+    {
+        "name": "Molecular Systems Engineering",
+        "image_path": "/res/images/logos/MSE_Logo_web.svg",
+        "website_url": "https://www.nccr-mse.ch"
     }
 ]

@@ -2,7 +2,7 @@
     "title": "ORD | Zurich",
     "description": "TODO: Add description",
     "start" : "2023-04-28T09:00:00",
-    "end" : "2023-04-28T17:00:00",
+    "end" : "2023-04-28T17:45:00",
     "location" : {
         "name" : "ETHZ",
         "address" : "Rämistrasse 101, 8092 Zurich, Switzerland",
@@ -11,46 +11,368 @@
     },
     "timeline" : [
         {
-            "title" : "Event 1",
-            "description" : "Description of event 1",
+            "title" : "Registration",
+            "description" : "",
             "start" : "2023-04-28T09:00:00",
-            "end" : "2023-04-28T10:00:00",
+            "end" : "2023-04-28T09:30:00",
             "location" : {
                 "name": "Room 1",
                 "url": "",
-                "address": "example of address"
+                "address": ""
             },
             "speaker" : {
-                "name" : "Speaker 1",
-                "description" : "Description of speaker 1",
-                "photo" : "/res/images/speakers/speaker1.jpg",
-                "email": "example@test.com",
-                "link" : "https://example.com/speaker1"
+                "name" : "",
+                "description" : "",
+                "photo" : "",
+                "email": "",
+                "link" : ""
             },
-            "material_link": "https://example.com/materials1",
+            "material_link": "",
             "keypoints": [
                 "Key point 1",
                 "Key point 2"
             ]
         },
         {
-            "title" : "Event 2",
-            "description" : "Description of event 1",
-            "start" : "2023-04-28T10:00:00",
-            "end" : "2023-04-28T11:00:00",
+            "title" : "Welcome",
+            "description" : "",
+            "start" : "2023-04-28T09:30:00",
+            "end" : "2023-04-28T09:45:00",
             "location" : {
                 "name": "Room 2",
                 "url": "",
-                "address": "example of address"
+                "address": ""
             },
             "speaker" : {
-                "name" : "Speaker 2",
-                "description" : "Description of speaker 2",
-                "photo" : "/res/images/speakers/speaker2.jpg",
-                "email": "example@test.com",
-                "link" : "https://example.com/speaker2"
+                "name" : "",
+                "description" : "",
+                "photo" : "",
+                "email": "",
+                "link" : ""
             },
-            "material_link": "https://example.com/materials2",
+            "material_link": "",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
+            "title" : "Why ORD?",
+            "description" : "",
+            "start" : "2023-04-28T09:45:00",
+            "end" : "2023-04-28T10:30:00",
+            "location" : {
+                "name": "Room 2",
+                "url": "",
+                "address": ""
+            },
+            "speaker" : {
+                "name" : "Alexander Sander",
+                "description" : "Free Software Foundation Europe",
+                "photo" : "/res/images/speakers/speaker.png",
+                "email": "",
+                "link" : ""
+            },
+            "material_link": "",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
+            "title" : "Coffee break",
+            "description" : "",
+            "start" : "2023-04-28T10:30:00",
+            "end" : "2023-04-28T10:45:00",
+            "location" : {
+                "name": "Room 2",
+                "url": "",
+                "address": ""
+            },
+            "speaker" : {
+                "name" : "",
+                "description" : "",
+                "photo" : "",
+                "email": "",
+                "link" : ""
+            },
+            "material_link": "",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
+            "title" : "IP and Licensing",
+            "description" : "",
+            "start" : "2023-04-28T10:45:00",
+            "end" : "2023-04-28T11:30:00",
+            "location" : {
+                "name": "Room 2",
+                "url": "",
+                "address": ""
+            },
+            "speaker" : {
+                "name" : "TBC",
+                "description" : "",
+                "photo" : "/res/images/speakers/speaker.png",
+                "email": "",
+                "link" : ""
+            },
+            "material_link": "",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
+            "title" : "Coffee break",
+            "description" : "",
+            "start" : "2023-04-28T11:30:00",
+            "end" : "2023-04-28T11:45:00",
+            "location" : {
+                "name": "Room 2",
+                "url": "",
+                "address": ""
+            },
+            "speaker" : {
+                "name" : "",
+                "description" : "",
+                "photo" : "",
+                "email": "",
+                "link" : ""
+            },
+            "material_link": "",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
+            "title" : "Journey towards open science and open data",
+            "description" : "",
+            "start" : "2023-04-28T11:45:00",
+            "end" : "2023-04-28T12:30:00",
+            "location" : {
+                "name": "Room 2",
+                "url": "",
+                "address": ""
+            },
+            "speaker" : {
+                "name" : "TBC",
+                "description" : "",
+                "photo" : "/res/images/speakers/speaker.png",
+                "email": "",
+                "link" : ""
+            },
+            "material_link": "",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
+            "title" : "Lunch break",
+            "description" : "",
+            "start" : "2023-04-28T12:30:00",
+            "end" : "2023-04-28T14:00:00",
+            "location" : {
+                "name": "Room 2",
+                "url": "",
+                "address": ""
+            },
+            "speaker" : {
+                "name" : "",
+                "description" : "",
+                "photo" : "",
+                "email": "",
+                "link" : ""
+            },
+            "material_link": "",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
+            "title" : "Reproducibility",
+            "description" : "",
+            "start" : "2023-04-28T14:00:00",
+            "end" : "2023-04-28T15:30:00",
+            "location" : {
+                "name": "Room 2",
+                "url": "",
+                "address": ""
+            },
+            "speaker" : {
+                "name" : "TBC",
+                "description" : "",
+                "photo" : "/res/images/speakers/speaker.png",
+                "email": "",
+                "link" : ""
+            },
+            "material_link": "",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
+            "title" : "Git basics",
+            "description" : "",
+            "start" : "2023-04-28T14:00:00",
+            "end" : "2023-04-28T15:30:00",
+            "location" : {
+                "name": "Room 2",
+                "url": "",
+                "address": ""
+            },
+            "speaker" : {
+                "name" : "Uwe Schmitt",
+                "description" : "ETH ID",
+                "photo" : "/res/images/speakers/speaker.png",
+                "email": "",
+                "link" : ""
+            },
+            "material_link": "",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
+            "title" : "Introduction to RDM with openBIS",
+            "description" : "",
+            "start" : "2023-04-28T14:00:00",
+            "end" : "2023-04-28T15:30:00",
+            "location" : {
+                "name": "Room 2",
+                "url": "",
+                "address": ""
+            },
+            "speaker" : {
+                "name" : "Rostyslav Kuzyakiv",
+                "description" : "ETHZ",
+                "photo" : "/res/images/speakers/speaker.png",
+                "email": "",
+                "link" : ""
+            },
+            "material_link": "",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
+            "title" : "Coffee break",
+            "description" : "",
+            "start" : "2023-04-28T15:30:00",
+            "end" : "2023-04-28T16:00:00",
+            "location" : {
+                "name": "Room 2",
+                "url": "",
+                "address": ""
+            },
+            "speaker" : {
+                "name" : "",
+                "description" : "",
+                "photo" : "",
+                "email": "",
+                "link" : ""
+            },
+            "material_link": "",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
+            "title" : "Workshop TBA",
+            "description" : "",
+            "start" : "2023-04-28T16:00:00",
+            "end" : "2023-04-28T17:30:00",
+            "location" : {
+                "name": "Room 2",
+                "url": "",
+                "address": ""
+            },
+            "speaker" : {
+                "name" : "TBC",
+                "description" : "",
+                "photo" : "/res/images/speakers/speaker.png",
+                "email": "",
+                "link" : ""
+            },
+            "material_link": "",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
+            "title" : "Git advanced",
+            "description" : "",
+            "start" : "2023-04-28T16:00:00",
+            "end" : "2023-04-28T17:30:00",
+            "location" : {
+                "name": "Room 2",
+                "url": "",
+                "address": ""
+            },
+            "speaker" : {
+                "name" : "Uwe Schmitt",
+                "description" : "ETH ID",
+                "photo" : "/res/images/speakers/speaker.png",
+                "email": "",
+                "link" : ""
+            },
+            "material_link": "",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
+            "title" : "Secure handling of sensitive data in research",
+            "description" : "",
+            "start" : "2023-04-28T16:00:00",
+            "end" : "2023-04-28T17:30:00",
+            "location" : {
+                "name": "Room 2",
+                "url": "",
+                "address": ""
+            },
+            "speaker" : {
+                "name" : "Diana Coman Schmid",
+                "description" : "ETHZ",
+                "photo" : "/res/images/speakers/speaker.png",
+                "email": "",
+                "link" : ""
+            },
+            "material_link": "",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
+            "title" : "Closing remarks",
+            "description" : "",
+            "start" : "2023-04-28T17:30:00",
+            "end" : "2023-04-28T17:45:00",
+            "location" : {
+                "name": "Room 2",
+                "url": "",
+                "address": ""
+            },
+            "speaker" : {
+                "name" : "",
+                "description" : "",
+                "photo" : "",
+                "email": "",
+                "link" : ""
+            },
+            "material_link": "",
             "keypoints": [
                 "Key point 1",
                 "Key point 2"
@@ -58,5 +380,3 @@
         }
     ]
 }
-
-
