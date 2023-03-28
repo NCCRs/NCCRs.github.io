@@ -227,75 +227,74 @@
             ]
         },
         {
-            "title" : "Introduction to Git, GitHub, GitLab",
             "type" : "workshop",
             "description" : "",
             "start" : "14:00",
             "end" : "15:30",
-            "location" : {
-                "name": "Batochime",
-                "url": "",
-                "address": ""
-            },
-            "speaker" : {
-                "name" : "TBC",
-                "description" : "",
-                "photo" : "/res/images/speakers/speaker.png",
-                "email": "",
-                "link" : ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
-        },
-        {
-            "title" : "Intellectual property",
-            "type" : "workshop-parallel",
-            "description" : "",
-            "start" : "14:00",
-            "end" : "15:30",
-            "location" : {
-                "name": "Batochime",
-                "url": "",
-                "address": ""
-            },
-            "speaker" : {
-                "name" : "Mauro Lattuada",
-                "description" : "EPFL Tech Transfer Office",
-                "photo" : "/res/images/speakers/speaker.png",
-                "email": "",
-                "link" : ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
-        },
-        {
-            "title" : "Uploading data to repositories",
-            "type" : "workshop-parallel",
-            "description" : "",
-            "start" : "14:00",
-            "end" : "15:30",
-            "location" : {
-                "name": "Batochime",
-                "url": "",
-                "address": ""
-            },
-            "speaker" : {
-                "name" : "Valeria Granata",
-                "description" : "Materials Cloud",
-                "photo" : "/res/images/speakers/speaker.png",
-                "email": "",
-                "link" : ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
+            "workshops" : [
+                {
+                    "title" : "Introduction to Git, GitHub, GitLab",
+                    "description" : "",
+                    "location" : {
+                        "name": "Batochime",
+                        "url": "",
+                        "address": ""
+                    },
+                    "speaker" : {
+                        "name" : "TBC",
+                        "description" : "",
+                        "photo" : "/res/images/speakers/speaker.png",
+                        "email": "",
+                        "link" : ""
+                    },
+                    "material_link": "",
+                    "keypoints": [
+                        "Key point 1",
+                        "Key point 2"
+                    ]
+                },
+                {
+                    "title" : "Intellectual property",
+                    "description" : "",
+                    "location" : {
+                        "name": "Batochime",
+                        "url": "",
+                        "address": ""
+                    },
+                    "speaker" : {
+                        "name" : "Mauro Lattuada",
+                        "description" : "EPFL Tech Transfer Office",
+                        "photo" : "/res/images/speakers/speaker.png",
+                        "email": "",
+                        "link" : ""
+                    },
+                    "material_link": "",
+                    "keypoints": [
+                        "Key point 1",
+                        "Key point 2"
+                    ]
+                },
+                {
+                    "title" : "Uploading data to repositories",
+                    "description" : "",
+                    "location" : {
+                        "name": "Batochime",
+                        "url": "",
+                        "address": ""
+                    },
+                    "speaker" : {
+                        "name" : "Valeria Granata",
+                        "description" : "Materials Cloud",
+                        "photo" : "/res/images/speakers/speaker.png",
+                        "email": "",
+                        "link" : ""
+                    },
+                    "material_link": "",
+                    "keypoints": [
+                        "Key point 1",
+                        "Key point 2"
+                    ]
+                }
             ]
         },
         {
@@ -323,75 +322,74 @@
             ]
         },
         {
-            "title" : "Electronic lab notebooks",
             "type" : "workshop",
             "description" : "",
             "start" : "16:00",
             "end" : "17:30",
-            "location" : {
-                "name": "Batochime",
-                "url": "",
-                "address": ""
-            },
-            "speaker" : {
-                "name" : "Luc Patiny",
-                "description" : "EPFL",
-                "photo" : "/res/images/speakers/speaker.png",
-                "email": "",
-                "link" : ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
-        },
-        {
-            "title" : "Sensitive data",
-            "type" : "workshop-parallel",
-            "description" : "",
-            "start" : "16:00",
-            "end" : "17:30",
-            "location" : {
-                "name": "Batochime",
-                "url": "",
-                "address": ""
-            },
-            "speaker" : {
-                "name" : "Marieke Heers",
-                "description" : "FORS",
-                "photo" : "/res/images/speakers/speaker.png",
-                "email": "",
-                "link" : ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
-        },
-        {
-            "title" : "Metadata",
-            "type" : "workshop-parallel",
-            "description" : "",
-            "start" : "16:00",
-            "end" : "17:30",
-            "location" : {
-                "name": "Batochime",
-                "url": "",
-                "address": ""
-            },
-            "speaker" : {
-                "name" : "Andreas Perret, Eva Fernandez",
-                "description" : "NCCR On the Move",
-                "photo" : "/res/images/speakers/speaker.png",
-                "email": "",
-                "link" : ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
+            "workshops" : [
+                {
+                    "title" : "Electronic lab notebooks",
+                    "description" : "",
+                    "location" : {
+                        "name": "Batochime",
+                        "url": "",
+                        "address": ""
+                    },
+                    "speaker" : {
+                        "name" : "Luc Patiny",
+                        "description" : "EPFL",
+                        "photo" : "/res/images/speakers/speaker.png",
+                        "email": "",
+                        "link" : ""
+                    },
+                    "material_link": "",
+                    "keypoints": [
+                        "Key point 1",
+                        "Key point 2"
+                    ]
+                },
+                {
+                    "title" : "Sensitive data",
+                    "description" : "",
+                    "location" : {
+                        "name": "Batochime",
+                        "url": "",
+                        "address": ""
+                    },
+                    "speaker" : {
+                        "name" : "Marieke Heers",
+                        "description" : "FORS",
+                        "photo" : "/res/images/speakers/speaker.png",
+                        "email": "",
+                        "link" : ""
+                    },
+                    "material_link": "",
+                    "keypoints": [
+                        "Key point 1",
+                        "Key point 2"
+                    ]
+                },
+                {
+                    "title" : "Metadata",
+                    "description" : "",
+                    "location" : {
+                        "name": "Batochime",
+                        "url": "",
+                        "address": ""
+                    },
+                    "speaker" : {
+                        "name" : "Andreas Perret, Eva Fernandez",
+                        "description" : "NCCR On the Move",
+                        "photo" : "/res/images/speakers/speaker.png",
+                        "email": "",
+                        "link" : ""
+                    },
+                    "material_link": "",
+                    "keypoints": [
+                        "Key point 1",
+                        "Key point 2"
+                    ]
+                }
             ]
         },
         {

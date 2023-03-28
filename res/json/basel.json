@@ -203,51 +203,53 @@
             ]
         },
         {
-            "title" : "Introduction to electronic lab notebooks",
             "type" : "workshop",
             "description" : "",
             "start" : "14:00",
             "end" : "15:15",
-            "location" : {
-                "name": "",
-                "url": "",
-                "address": ""
-            },
-            "speaker" : {
-                "name" : "Michael Podvinec",
-                "description" : "Research IT Technology Platform, UniBas",
-                "photo" : "/res/images/speakers/speaker.png",
-                "email": "",
-                "link" : ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
-        },
-        {
-            "title" : "Introduction to Git and GitHub",
-            "type" : "workshop-parallel",
-            "description" : "",
-            "start" : "14:00",
-            "end" : "15:15",
-            "location" : {
-                "name": "",
-                "url": "",
-                "address": ""
-            },
-            "speaker" : {
-                "name" : "Nichole Wespe",
-                "description" : "NCCR AntiResist",
-                "photo" : "/res/images/speakers/speaker.png",
-                "email": "",
-                "link" : ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
+            "workshops" : [
+                {
+                    "title" : "Introduction to electronic lab notebooks",
+                    "description" : "",
+                    "location" : {
+                        "name": "",
+                        "url": "",
+                        "address": ""
+                    },
+                    "speaker" : {
+                        "name" : "Michael Podvinec",
+                        "description" : "Research IT Technology Platform, UniBas",
+                        "photo" : "/res/images/speakers/speaker.png",
+                        "email": "",
+                        "link" : ""
+                    },
+                    "material_link": "",
+                    "keypoints": [
+                        "Key point 1",
+                        "Key point 2"
+                    ]
+                },
+                {
+                    "title" : "Introduction to Git and GitHub",
+                    "description" : "",
+                    "location" : {
+                        "name": "",
+                        "url": "",
+                        "address": ""
+                    },
+                    "speaker" : {
+                        "name" : "Nichole Wespe",
+                        "description" : "NCCR AntiResist",
+                        "photo" : "/res/images/speakers/speaker.png",
+                        "email": "",
+                        "link" : ""
+                    },
+                    "material_link": "",
+                    "keypoints": [
+                        "Key point 1",
+                        "Key point 2"
+                    ]
+                }
             ]
         },
         {
@@ -275,51 +277,53 @@
             ]
         },
         {
-            "title" : "Metadata & controled vocabularies",
             "type" : "workshop",
             "description" : "",
             "start" : "15:45",
             "end" : "17:00",
-            "location" : {
-                "name": "",
-                "url": "",
-                "address": ""
-            },
-            "speaker" : {
-                "name" : "Oliver Biehlmaier",
-                "description" : "UniBas",
-                "photo" : "/res/images/speakers/speaker.png",
-                "email": "",
-                "link" : ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
-        },
-        {
-            "title" : "Introduction to sensitive data ",
-            "type" : "workshop-parallel",
-            "description" : "",
-            "start" : "15:45",
-            "end" : "17:00",
-            "location" : {
-                "name": "",
-                "url": "",
-                "address": ""
-            },
-            "speaker" : {
-                "name" : "David Buechel",
-                "description" : "USB",
-                "photo" : "/res/images/speakers/speaker.png",
-                "email": "",
-                "link" : ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
+            "workshops" : [
+                {
+                    "title" : "Metadata & controled vocabularies",
+                    "description" : "",
+                    "location" : {
+                        "name": "",
+                        "url": "",
+                        "address": ""
+                    },
+                    "speaker" : {
+                        "name" : "Oliver Biehlmaier",
+                        "description" : "UniBas",
+                        "photo" : "/res/images/speakers/speaker.png",
+                        "email": "",
+                        "link" : ""
+                    },
+                    "material_link": "",
+                    "keypoints": [
+                        "Key point 1",
+                        "Key point 2"
+                    ]
+                },
+                {
+                    "title" : "Introduction to sensitive data ",
+                    "description" : "",
+                    "location" : {
+                        "name": "",
+                        "url": "",
+                        "address": ""
+                    },
+                    "speaker" : {
+                        "name" : "David Buechel",
+                        "description" : "USB",
+                        "photo" : "/res/images/speakers/speaker.png",
+                        "email": "",
+                        "link" : ""
+                    },
+                    "material_link": "",
+                    "keypoints": [
+                        "Key point 1",
+                        "Key point 2"
+                    ]
+                }
             ]
         },
         {

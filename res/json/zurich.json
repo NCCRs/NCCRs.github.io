@@ -203,75 +203,74 @@
             ]
         },
         {
-            "title" : "Reproducibility",
             "type" : "workshop",
             "description" : "",
             "start" : "14:00",
             "end" : "15:30",
-            "location" : {
-                "name": "",
-                "url": "",
-                "address": ""
-            },
-            "speaker" : {
-                "name" : "TBC",
-                "description" : "",
-                "photo" : "/res/images/speakers/speaker.png",
-                "email": "",
-                "link" : ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
-        },
-        {
-            "title" : "Git basics",
-            "type" : "workshop-parallel",
-            "description" : "",
-            "start" : "14:00",
-            "end" : "15:30",
-            "location" : {
-                "name": "",
-                "url": "",
-                "address": ""
-            },
-            "speaker" : {
-                "name" : "Uwe Schmitt",
-                "description" : "ETHZ ID",
-                "photo" : "/res/images/speakers/speaker.png",
-                "email": "",
-                "link" : ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
-        },
-        {
-            "title" : "Introduction to RDM with openBIS",
-            "type" : "workshop-parallel",
-            "description" : "",
-            "start" : "14:00",
-            "end" : "15:30",
-            "location" : {
-                "name": "",
-                "url": "",
-                "address": ""
-            },
-            "speaker" : {
-                "name" : "Rostyslav Kuzyakiv",
-                "description" : "ETHZ",
-                "photo" : "/res/images/speakers/speaker.png",
-                "email": "",
-                "link" : ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
+            "workshops" : [
+                {
+                    "title" : "Reproducibility",
+                    "description" : "",
+                    "location" : {
+                        "name": "",
+                        "url": "",
+                        "address": ""
+                    },
+                    "speaker" : {
+                        "name" : "TBC",
+                        "description" : "",
+                        "photo" : "/res/images/speakers/speaker.png",
+                        "email": "",
+                        "link" : ""
+                    },
+                    "material_link": "",
+                    "keypoints": [
+                        "Key point 1",
+                        "Key point 2"
+                    ]
+                },
+                {
+                    "title" : "Git basics",
+                    "description" : "",
+                    "location" : {
+                        "name": "",
+                        "url": "",
+                        "address": ""
+                    },
+                    "speaker" : {
+                        "name" : "Uwe Schmitt",
+                        "description" : "ETHZ ID",
+                        "photo" : "/res/images/speakers/speaker.png",
+                        "email": "",
+                        "link" : ""
+                    },
+                    "material_link": "",
+                    "keypoints": [
+                        "Key point 1",
+                        "Key point 2"
+                    ]
+                },
+                {
+                    "title" : "Introduction to RDM with openBIS",
+                    "description" : "",
+                    "location" : {
+                        "name": "",
+                        "url": "",
+                        "address": ""
+                    },
+                    "speaker" : {
+                        "name" : "Rostyslav Kuzyakiv",
+                        "description" : "ETHZ",
+                        "photo" : "/res/images/speakers/speaker.png",
+                        "email": "",
+                        "link" : ""
+                    },
+                    "material_link": "",
+                    "keypoints": [
+                        "Key point 1",
+                        "Key point 2"
+                    ]
+                }
             ]
         },
         {
@@ -299,75 +298,74 @@
             ]
         },
         {
-            "title" : "Workshop TBA",
             "type" : "workshop",
             "description" : "",
             "start" : "16:00",
             "end" : "17:30",
-            "location" : {
-                "name": "",
-                "url": "",
-                "address": ""
-            },
-            "speaker" : {
-                "name" : "TBC",
-                "description" : "",
-                "photo" : "/res/images/speakers/speaker.png",
-                "email": "",
-                "link" : ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
-        },
-        {
-            "title" : "Git advanced",
-            "type" : "workshop-parallel",
-            "description" : "",
-            "start" : "16:00",
-            "end" : "17:30",
-            "location" : {
-                "name": "",
-                "url": "",
-                "address": ""
-            },
-            "speaker" : {
-                "name" : "Uwe Schmitt",
-                "description" : "ETHZ ID",
-                "photo" : "/res/images/speakers/speaker.png",
-                "email": "",
-                "link" : ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
-        },
-        {
-            "title" : "Secure handling of sensitive data in research",
-            "type" : "workshop-parallel",
-            "description" : "",
-            "start" : "16:00",
-            "end" : "17:30",
-            "location" : {
-                "name": "",
-                "url": "",
-                "address": ""
-            },
-            "speaker" : {
-                "name" : "Diana Coman Schmid",
-                "description" : "ETHZ",
-                "photo" : "/res/images/speakers/speaker.png",
-                "email": "",
-                "link" : ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
+            "workshops" : [
+                {
+                    "title" : "Workshop TBA",
+                    "description" : "",
+                    "location" : {
+                        "name": "",
+                        "url": "",
+                        "address": ""
+                    },
+                    "speaker" : {
+                        "name" : "TBC",
+                        "description" : "",
+                        "photo" : "/res/images/speakers/speaker.png",
+                        "email": "",
+                        "link" : ""
+                    },
+                    "material_link": "",
+                    "keypoints": [
+                        "Key point 1",
+                        "Key point 2"
+                    ]
+                },
+                {
+                    "title" : "Git advanced",
+                    "description" : "",
+                    "location" : {
+                        "name": "",
+                        "url": "",
+                        "address": ""
+                    },
+                    "speaker" : {
+                        "name" : "Uwe Schmitt",
+                        "description" : "ETHZ ID",
+                        "photo" : "/res/images/speakers/speaker.png",
+                        "email": "",
+                        "link" : ""
+                    },
+                    "material_link": "",
+                    "keypoints": [
+                        "Key point 1",
+                        "Key point 2"
+                    ]
+                },
+                {
+                    "title" : "Secure handling of sensitive data in research",
+                    "description" : "",
+                    "location" : {
+                        "name": "",
+                        "url": "",
+                        "address": ""
+                    },
+                    "speaker" : {
+                        "name" : "Diana Coman Schmid",
+                        "description" : "ETHZ",
+                        "photo" : "/res/images/speakers/speaker.png",
+                        "email": "",
+                        "link" : ""
+                    },
+                    "material_link": "",
+                    "keypoints": [
+                        "Key point 1",
+                        "Key point 2"
+                    ]
+                }
             ]
         },
         {

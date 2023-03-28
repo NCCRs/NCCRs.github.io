@@ -140,8 +140,8 @@
                                 <div class="col-lg-12">
                                     <div class="tab-content" id="myTabContent">
                                         <div class="tab-pane show" role="tabpanel">
-                                            <div class="table-responsive">
-                                                <table class="table">
+                                            <div class="timeline-table-responsive">
+                                                <table class="table table-responsive">
                                                     <thead class="bg-gray">
                                                         <tr>
                                                             <th scope="col" id="event-day">
@@ -244,6 +244,7 @@
         <!-- //Section - Event banner end -->
 
         <script>
+            // Fill out all information from the json file
             fetch('/res/json/lausanne.json')
             .then(function(response) {
                 return response.json();
@@ -274,58 +275,131 @@
                 document.getElementById('event-location-map').src = data.location.iframe_url;
 
 
-                data.timeline.forEach(function(item){
+                data.timeline.forEach(function(item, i){
                     // Add the event to the timeline as a new row in the timeline-schedule table
                     var row = document.createElement('tr');
                     row.className = "inner-box";
                     if (item.type == "presentation") {
                         var titleClass = "text-base-color";
-                        var timeClass = "";
                     } else if (item.type == "workshop") {
                         var titleClass = "text-base-color";
-                        var timeClass = "";
-                    } else if (item.type == "workshop-parallel") {
-                        var titleClass = "text-base-color";
-                        var timeClass = "no-border-top";
-                        var hide = "hidden";
                     } else {
                         row.classList.add("bg-gray-light-2");
                         var titleClass = "text-light-color";
-                        var timeClass = "";
-                        var hide = "";
                     }
                     var duration = item.end - item.start;
-                    row.innerHTML = `
-                        <th scope="row" class="${timeClass}">
-                            <div class="event-time" ${hide}>
-                                <p class="font-weight-300 text-gray-dark-2">${item.start} - ${item.end}</p>
-                            </div>
-                        </th>
-                        <td>
-                            <div class="event-wrap">
-                                <h3 class="${titleClass}">${item.title}</h3>
-                                <div class="meta">
-                                    <div class="organizers">
-                                        <a href="#${item.speaker.name}">${item.speaker.name}</a>
+                    if (item.type == "workshop") {
+                        row.innerHTML = `
+                            <th scope="row">
+                                <div class="event-time">
+                                    <p class="font-weight-300 text-gray-dark-2">${item.start} - ${item.end}</p>
+                                </div>
+                            </th>
+                            <td class="workshop" colspan="2">
+                                <table class="table table-responsive table-workshop">
+                                    <thead class="bg-gray-light text-gray-dark">
+                                        <tr>
+                                            <th colspan="${item.workshops.length}">Parallel workshops</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr id="workshop-schedule-${i}">
+                                        <!-- Will be populated by the script -->
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            `;
+                        document.getElementById('timeline-schedule').appendChild(row);
+                        item.workshops.forEach(function(witem){
+                            var wcell = document.createElement('td');
+                            wcell.className = "col-md-4";
+                            wcell.innerHTML = `
+                                <div class="event-wrap">
+                                    <h3 class="text-base-color">${witem.title}</h3>
+                                    <div class="meta">
+                                        <div class="organizers">
+                                            <a href="#${witem.speaker.name}">${witem.speaker.name}</a>
+                                        </div>
+                                        <!--
+                                        <div class="categories">
+                                            <a href="${witem.material_link}">Material</a>
+                                        </div>
+                                        -->
+                                        <div class="font-weight-300 text-gray-dark-2">
+                                            ${witem.speaker.description}
+                                        </div>
                                     </div>
-                                    <!--
-                                    <div class="categories">
-                                        <a href="${item.material_link}">Material</a>
+                                    <div class="r-no">
+                                        <span>
+                                            ${witem.description}
+                                        </span>
                                     </div>
-                                    -->
-                                    <div class="font-weight-300 text-gray-dark-2">
-                                        ${item.speaker.description}
+                                    <div class="event-location">
+                                        <p class="room font-weight-300 text-gray-dark-2">
+                                            <i class="fa fa-map-marker text-gray"></i> ${witem.location.name}
+                                        </p>
+                                        <div class="room-address">
+                                            <span>${witem.location.address}</span>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="r-no">
-                                    <span>
-                                        ${item.description}
-                                    </span>
+                                `;
+                            document.getElementById('workshop-schedule-' + i).appendChild(wcell);
+                            // Add the speaker to the speaker section
+                            if (witem.speaker.name !== "" && witem.speaker.name !== "TBC") {
+                                var speaker = document.createElement('div');
+                                speaker.className = "member-box col-xs-6 col-sm-4 col-md-3";
+                                speaker.id = witem.speaker.name;
+                                speaker.innerHTML = `
+                                    <div class="overflow-hidden position-relative width-100">
+                                        <div class="position-relative">
+                                            <img src="${witem.speaker.photo}" alt="${witem.speaker.name}" class="img-fluid">
+                                        </div>
+                                        <div class="bg-gray-light no-padding-rl padding-6 position-relative text-center">
+                                            <span class="display-block font-family-alt font-weight-700 letter-spacing-2 text-gray-dark-2 text-small text-uppercase">
+                                                ${witem.speaker.name}
+                                            </span>
+                                            <span class="display-block margin-2 no-margin-rl no-margin-bottom font-weight-400 letter-spacing-1 text-gray-dark text-extra-small">
+                                                ${witem.speaker.description}
+                                            </span>
+                                        </div>
+                                    </div>
+                                    `;
+                                document.getElementById('speakers-grid').appendChild(speaker);
+                            }
+                        });
+                    } else {
+                        row.innerHTML = `
+                            <th scope="row">
+                                <div class="event-time">
+                                    <p class="font-weight-300 text-gray-dark-2">${item.start} - ${item.end}</p>
                                 </div>
-                            </div>
-                        </td>
-                        <td class="event-location">
-                            <div class="event-wrap">
+                            </th>
+                            <td>
+                                <div class="event-wrap">
+                                    <h3 class="${titleClass}">${item.title}</h3>
+                                    <div class="meta">
+                                        <div class="organizers">
+                                            <a href="#${item.speaker.name}">${item.speaker.name}</a>
+                                        </div>
+                                        <!--
+                                        <div class="categories">
+                                            <a href="${item.material_link}">Material</a>
+                                        </div>
+                                        -->
+                                        <div class="font-weight-300 text-gray-dark-2">
+                                            ${item.speaker.description}
+                                        </div>
+                                    </div>
+                                    <div class="r-no">
+                                        <span>
+                                            ${item.description}
+                                        </span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="event-location">
                                 <div class="meta">
                                     <p class="room font-weight-300 text-gray-dark-2">
                                         ${item.location.name}
@@ -334,38 +408,34 @@
                                         <span>${item.location.address}</span>
                                     </div>
                                 </div>
-                            </div>
-                        </td>
+                            </td>
                         `;
-                    document.getElementById('timeline-schedule').appendChild(row);
-
-                    // Add the speaker to the speaker section
-                    if (item.speaker.name !== "" && item.speaker.name !== "TBC") {
-                        var speaker = document.createElement('div');
-                        speaker.className = "member-box col-xs-6 col-sm-4 col-md-3";
-                        speaker.id = item.speaker.name;
-                        speaker.innerHTML = `
-                            <div class="overflow-hidden position-relative width-100">
-                                <div class="position-relative">
-                                    <img src="${item.speaker.photo}" alt="${item.speaker.name}" class="img-fluid">
+                        document.getElementById('timeline-schedule').appendChild(row);
+                        // Add the speaker to the speaker section
+                        if (item.speaker.name !== "" && item.speaker.name !== "TBC") {
+                            var speaker = document.createElement('div');
+                            speaker.className = "member-box col-xs-6 col-sm-4 col-md-3";
+                            speaker.id = item.speaker.name;
+                            speaker.innerHTML = `
+                                <div class="overflow-hidden position-relative width-100">
+                                    <div class="position-relative">
+                                        <img src="${item.speaker.photo}" alt="${item.speaker.name}" class="img-fluid">
+                                    </div>
+                                    <div class="bg-gray-light no-padding-rl padding-6 position-relative text-center">
+                                        <span class="display-block font-family-alt font-weight-700 letter-spacing-2 text-gray-dark-2 text-small text-uppercase">
+                                            ${item.speaker.name}
+                                        </span>
+                                        <span class="display-block margin-2 no-margin-rl no-margin-bottom font-weight-400 letter-spacing-1 text-gray-dark text-extra-small">
+                                            ${item.speaker.description}
+                                        </span>
+                                    </div>
                                 </div>
-                                <div class="bg-gray-light no-padding-rl padding-6 position-relative text-center">
-                                    <span class="display-block font-family-alt font-weight-700 letter-spacing-2 text-gray-dark-2 text-small text-uppercase">
-                                        ${item.speaker.name}
-                                    </span>
-                                    <span class="display-block margin-2 no-margin-rl no-margin-bottom font-weight-400 letter-spacing-1 text-gray-dark text-extra-small">
-                                        ${item.speaker.description}
-                                    </span>
-                                </div>
-                            </div>
-                            `;
-                        document.getElementById('speakers-grid').appendChild(speaker);
+                                `;
+                            document.getElementById('speakers-grid').appendChild(speaker);
+                        }
                     }
                 });
-
-
             });
-
     </script>
 
 
