@@ -3,16 +3,16 @@
 */
 
 .title-underline-base-color {
-    border-color: #e62b1e;
+    border-color: #D8BFD8;
 }
 .title-underline-thick-base-color {
-    border-color: #e62b1e;
+    border-color: #D8BFD8;
 }
 .title-sideline-base-color:before {
-    background-color: #e62b1e;
+    background-color: #D8BFD8;
 }
 .title-strikethrough-base-color:before {
-    background-color: #e62b1e;
+    background-color: #D8BFD8;
 }
 
 

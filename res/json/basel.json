@@ -1,22 +1,23 @@
 {
     "title": "ORD | Basel",
-    "description": "TODO: Add description",
-    "start" : "2023-06-02T09:30:00",
-    "end" : "2023-06-02T17:15:00",
+    "description": "Hosted at the Biozentrum of the University of Basel, the Open Research Data meeting will feature general or specialised lectures as well as practical workshops. We will start the day by learning why ORD is important and how it does benefit researchers and overall society. We will then hear about Data Life Cycle Management - what happens or should happen to your data from creation to retirement. Finally, we will end the morning session by learning about data repositories, which ones to use and how to use them. In the afternoon, we will host three practical workshops. You will have the opportunity to learn more about Electronic Lab Notebooks, Git and GitHub, as well as metadata and controlled vocabularies. A specialised lecture on sensitive data will also be offered. Overall, the day will cover several aspects of ORD – you will gain knowledge and skills, which will allow you to apply ORD principles to your daily life as a researcher.",
+    "start" : "2023-06-02T09:30",
+    "end" : "2023-06-02T17:15",
     "location" : {
         "name" : "Biozentrum",
-        "address" : "Rämistrasse 101, 8092 Zurich, Switzerland",
-        "url" : "http://www.example.com/",
-        "iframe_url" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.493729557988!2d8.54309831567382!3d47.37688697918501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e4e1f5c3c3b0d%3A0x7b2e3a4f4f4f4f4f!2sR%C3%A4mistrasse+101%2C+8092+Z%C3%BCrich!5e0!3m2!1sen!2sch!4v1427840000000"
+        "address" : "Spitalstrasse 41, 4056 Basel",
+        "url" : "",
+        "iframe_url" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1796.8185467056876!2d7.579422447587895!3d47.56417117994092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791b908135df8df%3A0x850b8df911af1a74!2sBiozentrum%20University%20of%20Basel!5e0!3m2!1sen!2sch!4v1680000742930!5m2!1sen!2sch"
     },
     "timeline" : [
         {
-            "title" : "Registration",
+            "title" : "Registration & Structured networking",
+            "type" : "",
             "description" : "",
-            "start" : "2023-06-02T09:30:00",
-            "end" : "2023-06-02T10:15:00",
+            "start" : "09:30",
+            "end" : "10:15",
             "location" : {
-                "name": "Room 1",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -35,11 +36,12 @@
         },
         {
             "title" : "Welcome",
+            "type" : "",
             "description" : "",
-            "start" : "2023-06-02T10:15:00",
-            "end" : "2023-06-02T10:30:00",
+            "start" : "10:15",
+            "end" : "10:30",
             "location" : {
-                "name": "Room 2",
+                "name": "U1.141",
                 "url": "",
                 "address": ""
             },
@@ -57,18 +59,19 @@
             ]
         },
         {
-            "title" : "Why is ORD important? How does it benefit society?",
+            "title" : "Why is ORD important?",
+            "type" : "presentation",
             "description" : "",
-            "start" : "2023-06-02T10:30:00",
-            "end" : "2023-06-02T11:00:00",
+            "start" : "10:30",
+            "end" : "11:00",
             "location" : {
-                "name": "Room 2",
+                "name": "U1.141",
                 "url": "",
                 "address": ""
             },
             "speaker" : {
-                "name" : "Annique Lombard",
-                "description" : "NCCR on the MOVE",
+                "name" : "TBC",
+                "description" : "",
                 "photo" : "/res/images/speakers/speaker.png",
                 "email": "",
                 "link" : ""
@@ -81,11 +84,12 @@
         },
         {
             "title" : "Data life cycle managment",
+            "type" : "presentation",
             "description" : "",
-            "start" : "2023-06-02T11:00:00",
-            "end" : "2023-06-02T11:30:00",
+            "start" : "11:00",
+            "end" : "11:30",
             "location" : {
-                "name": "Room 2",
+                "name": "U1.141",
                 "url": "",
                 "address": ""
             },
@@ -104,11 +108,12 @@
         },
         {
             "title" : "Coffee break",
+            "type" : "",
             "description" : "",
-            "start" : "2023-06-02T11:30:00",
-            "end" : "2023-06-02T11:45:00",
+            "start" : "11:30",
+            "end" : "11:45",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -127,11 +132,12 @@
         },
         {
             "title" : "Data repositories",
+            "type" : "presentation",
             "description" : "",
-            "start" : "2023-06-02T11:45:00",
-            "end" : "2023-06-02T12:15:00",
+            "start" : "11:45",
+            "end" : "12:15",
             "location" : {
-                "name": "Room 2",
+                "name": "U1.141",
                 "url": "",
                 "address": ""
             },
@@ -150,11 +156,12 @@
         },
         {
             "title" : "Lightning talks",
+            "type" : "presentation",
             "description" : "",
-            "start" : "2023-06-02T12:15:00",
-            "end" : "2023-06-02T12:30:00",
+            "start" : "12:15",
+            "end" : "12:30",
             "location" : {
-                "name": "Room 2",
+                "name": "U1.141",
                 "url": "",
                 "address": ""
             },
@@ -173,11 +180,12 @@
         },
         {
             "title" : "Lunch break",
+            "type" : "",
             "description" : "",
-            "start" : "2023-06-02T12:30:00",
-            "end" : "2023-06-02T14:00:00",
+            "start" : "12:30",
+            "end" : "14:00",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -195,17 +203,18 @@
             ]
         },
         {
-            "title" : "ELNs",
+            "title" : "Introduction to electronic lab notebooks",
+            "type" : "workshop",
             "description" : "",
-            "start" : "2023-06-02T14:00:00",
-            "end" : "2023-06-02T15:15:00",
+            "start" : "14:00",
+            "end" : "15:15",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
             "speaker" : {
-                "name" : "Michael Podvinec, Flavio Ackermann",
+                "name" : "Michael Podvinec",
                 "description" : "Research IT Technology Platform, UniBas",
                 "photo" : "/res/images/speakers/speaker.png",
                 "email": "",
@@ -218,12 +227,13 @@
             ]
         },
         {
-            "title" : "Git, Github, Gitlab",
+            "title" : "Introduction to Git and GitHub",
+            "type" : "workshop-parallel",
             "description" : "",
-            "start" : "2023-06-02T14:00:00",
-            "end" : "2023-06-02T15:15:00",
+            "start" : "14:00",
+            "end" : "15:15",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -242,11 +252,12 @@
         },
         {
             "title" : "Coffee break",
+            "type" : "",
             "description" : "",
-            "start" : "2023-06-02T15:15:00",
-            "end" : "2023-06-02T15:45:00",
+            "start" : "15:15",
+            "end" : "15:45",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -265,11 +276,12 @@
         },
         {
             "title" : "Metadata & controled vocabularies",
+            "type" : "workshop",
             "description" : "",
-            "start" : "2023-06-02T15:45:00",
-            "end" : "2023-06-02T17:00:00",
+            "start" : "15:45",
+            "end" : "17:00",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -287,12 +299,13 @@
             ]
         },
         {
-            "title" : "Data under constraints",
+            "title" : "Introduction to sensitive data ",
+            "type" : "workshop-parallel",
             "description" : "",
-            "start" : "2023-06-02T15:45:00",
-            "end" : "2023-06-02T17:00:00",
+            "start" : "15:45",
+            "end" : "17:00",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -311,11 +324,12 @@
         },
         {
             "title" : "Closing remarks",
+            "type" : "",
             "description" : "",
-            "start" : "2023-06-02T17:00:00",
-            "end" : "2023-06-02T17:15:00",
+            "start" : "17:00",
+            "end" : "17:15",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },

@@ -36,7 +36,7 @@
 
         <!-- Bootstrap -->
         <link rel="stylesheet" href="../res/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../res/css/css4.1/bootstrapcustom.min.css" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="../res/css/css4.1/bootstrapcustom.min.css" crossorigin="anonymous"> -->
 
         <!-- Font Icons -->
         <link rel="stylesheet" href="../res/css/font-awesome.min.css">
@@ -107,7 +107,10 @@
                             <!-- Will be filled by the script -->
                         </h2>
                         <span class="bg-base-color xs-margin-6 xs-no-margin-rl margin-3 no-margin-rl separator-line-extra-thick-long"></span>
-                        <p class="text-gray-dark-2 text-large-2" id="description">
+                        <h3 class="font-family-alt font-weight-700 letter-spacing-1 title-small" id="details">
+                            <!-- Will be filled by the script -->
+                        </h3>
+                        <p class="text-gray-dark-2 text-large-2 margin-2 no-margin-rl no-margin-bottom" id="description">
                             <!-- Will be filled by the script -->
                         </p>
                         <div class="row margin-4 no-margin-rl">
@@ -120,93 +123,70 @@
                 </div>
                 <!-- //.row -->
             </div>
-        </section>
-
-        <section id="timeline" class="bg-white-2 p-t-0 p-b-0">
             <div class="container">
                 <div class="row no-padding-rl">
-                    <div class="col-md-12">
-                        <h2 class="font-family-alt font-weight-700 sm-title-large title-extra-large-2 text-gray-dark-2">
-                            Timeline
-                        </h2>
-                        <span class="bg-base-color xs-margin-6 xs-no-margin-rl margin-3 no-margin-rl separator-line-extra-thick-long"></span>
-                        <br>
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                        <h3 class="font-family-alt font-weight-700 letter-spacing-2 text-uppercase xs-title-small title-medium title-sideline-base-color margin-4 no-margin-rl no-margin-top">
+                            Program
+                        </h3>
                     </div>
-                    <!-- //.col-md-10 -->
-                    <!-- Isolate bootstrap 4.1 in the bootstrapiso div -->
-                    <div class="row bootstrapiso">
-
-                        <div class="event-schedule-area-two bg-color pad100">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="section-title text-center">
-                                            <div class="title-text">
-                                            </div>
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <!-- /.col end-->
-                                </div>
-                                <!-- row end-->
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="tab-content" id="myTabContent">
-                                            <div class="tab-pane show" role="tabpanel">
-                                                <div class="table-responsive">
-                                                    <table class="table">
-                                                        <thead class="bg-base-color">
-                                                            <tr>
-                                                                <th class="text-center" scope="col" id="event-day">
-                                                                    <!-- Will be filled by JS -->
-                                                                </th>
-                                                                <th class="" scope="col">Session</th>
-                                                                <th scope="col">Description</th>
-                                                                <th class="text-center" scope="col">Location</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody id="timeline-schedule">
-                                                            <!-- Will be filled by JS -->
-                                                        </tbody>
-                                                    </table>
-                                                </div>
+                    <!-- //.col-md-8 -->
+                </div>
+                <!-- //.row -->
+                <div class="row">
+                    <div class="event-schedule-area-two bg-color pad100">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane show" role="tabpanel">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead class="bg-gray">
+                                                        <tr>
+                                                            <th scope="col" id="event-day">
+                                                                <!-- Will be filled by JS -->
+                                                            </th>
+                                                            <th scope="col"></th>
+                                                            <th scope="col">Location</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody id="timeline-schedule">
+                                                        <!-- Will be filled by JS -->
+                                                    </tbody>
+                                                </table>
                                             </div>
                                         </div>
-                                        <!--
-                                        <div class="primary-btn text-center">
-                                            <a href="#" class="btn btn-primary">Download Schedule</a>
-                                        </div>
                                     </div>
-                                    <!-- /col end-->
+                                    <!--
+                                    <div class="primary-btn text-center">
+                                        <a href="#" class="btn btn-primary">Download Schedule</a>
+                                    </div>
+                                    -->
                                 </div>
-                                <!-- /row end-->
+                                <!-- /col end-->
                             </div>
+                            <!-- /row end-->
                         </div>
                     </div>
-                    <!-- //.row -->
                 </div>
                 <!-- //.row -->
             </div>
-            <!-- //.container -->
         </section>
-        <!-- //Section - Timeline End -->
 
         <!-- Section - Speakers start -->
-        <section id="speakers" class="bg-white-2">
+        <section id="speakers" class="bg-white-2 pull-up">
+            <!-- //.container -->
             <div class="container">
                 <div class="row no-padding-rl">
-                    <div class="col-md-12">
-                        <h2 class="font-family-alt font-weight-700 sm-title-large title-extra-large-2 text-gray-dark-2">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                        <h3 class="font-family-alt font-weight-700 letter-spacing-2 text-uppercase xs-title-small title-medium title-sideline-base-color margin-4 no-margin-rl no-margin-top">
                             Speakers
-                        </h2>
-                        <span class="bg-base-color xs-margin-6 xs-no-margin-rl margin-3 no-margin-rl separator-line-extra-thick-long"></span>
-                        <br>
+                        </h3>
                     </div>
-                    <!-- //.col-md-10 -->
+                    <!-- //.col-md-8 -->
                 </div>
                 <!-- //.row -->
-
                 <div class="row" id="speakers-grid">
                     <!-- Will be populated by the script -->
                 </div>
@@ -216,31 +196,11 @@
         </section>
         <!-- //Section - Speakers End -->
 
-        <!-- Section - Practical Information start -->
-        <section id="information" class="bg-white-2">
-            <div class="container">
-                <div class="row no-padding-rl">
-                    <div class="col-md-12">
-                        <h2 class="font-family-alt font-weight-700 sm-title-large title-extra-large-2 text-gray-dark-2">
-                            Practical Information
-                        </h2>
-                        <span class="bg-base-color xs-margin-6 xs-no-margin-rl margin-3 no-margin-rl separator-line-extra-thick-long"></span>
-                    </div>
-                    <!-- //.col-md-10 -->
-                </div>
-                <!-- //.row -->
-            </div>
-            <!-- //.row -->
-            </div>
-            <!-- //.container -->
-        </section>
-        <!-- //Section - Contact End -->
-
         <!-- Section - Event banner start -->
         <section id="event-banner" class="bg-white pull-up">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 text-center">
+                    <div class="col-sm-4 text-center">
                         <i class="fa fa-clock-o display-block text-base-color title-extra-large-2"></i>
                         <span class="display-block font-family-alt font-weight-700 letter-spacing-1 margin-5 no-margin-bottom no-margin-rl text-large text-uppercase">
                             Date &amp; Time
@@ -251,7 +211,7 @@
                     </div>
                     <!-- //.col-sm-4 -->
 
-                    <div class="col-sm-6 xs-margin-8 xs-no-margin-bottom xs-no-margin-rl text-center">
+                    <div class="col-sm-4 xs-margin-8 xs-no-margin-bottom xs-no-margin-rl text-center">
                         <i class="fa fa-map-marker display-block text-base-color title-extra-large-2"></i>
                         <span class="display-block font-family-alt font-weight-700 letter-spacing-1 margin-5 no-margin-bottom no-margin-rl text-large text-uppercase" id="event-location-name">
                             <!-- Will be populated by the script -->
@@ -261,8 +221,8 @@
                         </p>
                     </div>
 
-                    <div class="col-md-8 col-md-offset-2 text-center">
-                        <div class="margin-8 no-margin-bottom no-margin-rl map">
+                    <div class="col-sm-4 xs-margin-8 xs-no-margin-bottom xs-no-margin-rl text-center">
+                        <div class="map">
                             <iframe
                                     src=""
                                     frameborder="0"
@@ -274,136 +234,139 @@
                     </div>
                 </div>
                 <!-- //.row -->
+                <div class="row margin-4 no-margin-rl">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdXgJlXctqw2Xdg4HX5gvtdjBpA0AXEfVN9uScJcx5f6Lv6lA/viewform?usp=pp_url" target="_blank" class="btn btn-base-color sm-btn-medium btn-large" style="margin:0">
+                        Register
+                    </a>
+                </div>
             </div>
         </section>
         <!-- //Section - Event banner end -->
 
         <script>
             fetch('/res/json/basel.json')
-                .then(function(response) {
-                    return response.json();
-                })
-                .then(function(data) {
-                    document.getElementById('title').innerHTML = data.title;
-                    // Add the description to the page
-                    document.getElementById('description').innerHTML = data.description;
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(data) {
+                // Add the the date to the page, format : From HH:MM to HH:MM, <br> DD.MM.YYYY (2 digits for hours, minutes, days, months and 4 digits for year)
+                // Get the start and end dates as date objects
+                var startDate = new Date(data.start);
+                var endDate = new Date(data.end);
 
-                    // Add the the date to the page, format : From HH:MM to HH:MM, <br> DD.MM.YYYY (2 digits for hours, minutes, days, months and 4 digits for year)
-                    // Get the start and end dates as date objects
-                    var startDate = new Date(data.start);
-                    var endDate = new Date(data.end);
-                    document.getElementById('event-day').innerHTML = startDate.toLocaleDateString('en-US', {month: 'short', day: 'numeric', year: 'numeric'});
-                    document.getElementById('event-date').innerHTML = 'From ' + ('0' + startDate.getHours()).substr(-2) + ':' + ('0' + startDate.getMinutes()).substr(-2) + ' to ' + ('0' + endDate.getHours()).substr(-2) + ':' + ('0' + endDate.getMinutes()).substr(-2) + ', <br>' + ('0' + startDate.getDate()).substr(-2) + '.' + ('0' + (startDate.getMonth() + 1)).substr(-2) + '.' + startDate.getFullYear();
-                    // Add the location name to the page
-                    document.getElementById('event-location-name').innerHTML = data.location.name;
-                    // Add the location address to the page
-                    document.getElementById('event-location-address').innerHTML = data.location.address;
-                    // Add an anchor div to the location address to link to google maps search
-                    document.getElementById('event-location-address').innerHTML = '<a href="https://www.google.com/maps/search/?api=1&query=' + data.location.address + '" target="_blank">' + document.getElementById('event-location-address').innerHTML + '</a>';
+                document.getElementById('title').innerHTML = data.title;
+                // Add the details to the page
+                document.getElementById('details').innerHTML = startDate.toLocaleDateString('en-US', {month: 'short', day: 'numeric', year: 'numeric'}) + ', ' + data.location.name + ', ' + data.location.address;
+                // Add the description to the page
+                document.getElementById('description').innerHTML = data.description;
+
+                document.getElementById('event-day').innerHTML = startDate.toLocaleDateString('en-US', {month: 'short', day: 'numeric', year: 'numeric'});
+                document.getElementById('event-date').innerHTML = ('0' + startDate.getDate()).substr(-2) + '.' + ('0' + (startDate.getMonth() + 1)).substr(-2) + '.' + startDate.getFullYear() + ' <br />' + ('0' + startDate.getHours()).substr(-2) + ':' + ('0' + startDate.getMinutes()).substr(-2) + ' - ' + ('0' + endDate.getHours()).substr(-2) + ':' + ('0' + endDate.getMinutes()).substr(-2);
+                // Add the location name to the page
+                document.getElementById('event-location-name').innerHTML = data.location.name;
+                // Add the location address to the page
+                document.getElementById('event-location-address').innerHTML = data.location.address;
+                // Add an anchor div to the location address to link to google maps search
+                document.getElementById('event-location-address').innerHTML = '<a href="https://www.google.com/maps/search/?api=1&query=' + data.location.address + '" target="_blank">' + document.getElementById('event-location-address').innerHTML + '</a>';
 
 
-                    // Add the iframe url to the map
-                    document.getElementById('event-location-map').src = data.location.iframe_url;
+                // Add the iframe url to the map
+                document.getElementById('event-location-map').src = data.location.iframe_url;
 
 
-                    data.timeline.forEach(function(item){
-                        // Add the event to the timeline as a new row in the timeline-schedule table
-                        var row = document.createElement('tr');
-                        item.start = new Date(item.start);
-                        item.end = new Date(item.end);
-                        var duration = item.end - item.start;
-                        row.innerHTML = `
-                            <tr class="inner-box">
-                                <th scope="row">
-                                    <div class="event-time">
-                                        <p class="font-weight-bold">` + ('0' + item.start.getHours()).substr(-2) + ':' + ('0' + item.start.getMinutes()).substr(-2) + ' - ' + ('0' + item.end.getHours()).substr(-2) + ':' + ('0' + item.end.getMinutes()).substr(-2) + `</p>
-                                        <p class="font-weight-light font-italic">` + ('0' + duration / 1000 / 60 / 60).substr(-2) + 'h' + ('0' + (duration / 1000 / 60) % 60).substr(-2) + `</p>
+                data.timeline.forEach(function(item){
+                    // Add the event to the timeline as a new row in the timeline-schedule table
+                    var row = document.createElement('tr');
+                    row.className = "inner-box";
+                    if (item.type == "presentation") {
+                        var titleClass = "text-base-color";
+                        var timeClass = "";
+                    } else if (item.type == "workshop") {
+                        var titleClass = "text-base-color";
+                        var timeClass = "";
+                    } else if (item.type == "workshop-parallel") {
+                        var titleClass = "text-base-color";
+                        var timeClass = "no-border-top";
+                        var hide = "hidden";
+                    } else {
+                        row.classList.add("bg-gray-light-2");
+                        var titleClass = "text-light-color";
+                        var timeClass = "";
+                        var hide = "";
+                    }
+                    var duration = item.end - item.start;
+                    row.innerHTML = `
+                        <th scope="row" class="${timeClass}">
+                            <div class="event-time" ${hide}>
+                                <p class="font-weight-300 text-gray-dark-2">${item.start} - ${item.end}</p>
+                            </div>
+                        </th>
+                        <td>
+                            <div class="event-wrap">
+                                <h3 class="${titleClass}">${item.title}</h3>
+                                <div class="meta">
+                                    <div class="organizers">
+                                        <a href="#${item.speaker.name}">${item.speaker.name}</a>
                                     </div>
-                                </th>
-                                <td>
-                                    <div class="event-wrap">
-                                        <h3 class="text-base-color">${item.title}</h3>
-                                        <div class="meta">
-                                            <div class="organizers">
-                                                <a href="#${item.speaker.name}">` + item.speaker.name + `</a>
-                                            </div>
-                                            <div class="categories">
-                                                <a href="${item.material_link}">Material</a>
-                                            </div>
-                                        </div>
+                                    <!--
+                                    <div class="categories">
+                                        <a href="${item.material_link}">Material</a>
                                     </div>
-                                </td>
-                                <td class="event-description">
-                                    <div class="r-no">
-                                        <span>
-                                            ${item.description}
-                                        </span>
+                                    -->
+                                    <div class="font-weight-300 text-gray-dark-2">
+                                        ${item.speaker.description}
                                     </div>
-                                </td>
-                                <td class="event-location">
-                                    <div class="event-wrap">
-                                        <div class="meta">
-                                            <h3 class="room">
-                                                <a href="${item.location.url}">${item.location.name}</a>
-                                            </h3>
-                                            <div class="room-address">
-                                                <span>${item.location.address}</span>
-                                            </div>
-                                        </div>
+                                </div>
+                                <div class="r-no">
+                                    <span>
+                                        ${item.description}
+                                    </span>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="event-location">
+                            <div class="event-wrap">
+                                <div class="meta">
+                                    <p class="room font-weight-300 text-gray-dark-2">
+                                        ${item.location.name}
+                                    </p>
+                                    <div class="room-address">
+                                        <span>${item.location.address}</span>
                                     </div>
-                                </td>
-                            </tr>
-                            `;
-                        document.getElementById('timeline-schedule').appendChild(row);
+                                </div>
+                            </div>
+                        </td>
+                        `;
+                    document.getElementById('timeline-schedule').appendChild(row);
 
-                        // Add the speaker to the speaker section
+                    // Add the speaker to the speaker section
+                    if (item.speaker.name !== "" && item.speaker.name !== "TBC") {
                         var speaker = document.createElement('div');
-                        speaker.className = 'features-box speaker-box col-sm-6 col-md-4';
+                        speaker.className = "member-box col-xs-6 col-sm-4 col-md-3";
                         speaker.id = item.speaker.name;
                         speaker.innerHTML = `
                             <div class="overflow-hidden position-relative width-100">
-                                <div class="img-wrapper">
-                                    <img src="${item.speaker.photo}" alt="${item.speaker.name}" class="img-responsive">
+                                <div class="position-relative">
+                                    <img src="${item.speaker.photo}" alt="${item.speaker.name}" class="img-fluid">
                                 </div>
-                                <!-- //.img-wrapper -->
-
-                                <div class="bg-black no-padding-rl padding-6 position-relative text-center">
-                                    <span class="display-block font-family-alt font-weight-700 letter-spacing-2 text-white text-medium text-uppercase">
+                                <div class="bg-gray-light no-padding-rl padding-6 position-relative text-center">
+                                    <span class="display-block font-family-alt font-weight-700 letter-spacing-2 text-gray-dark-2 text-small text-uppercase">
                                         ${item.speaker.name}
                                     </span>
+                                    <span class="display-block margin-2 no-margin-rl no-margin-bottom font-weight-400 letter-spacing-1 text-gray-dark text-extra-small">
+                                        ${item.speaker.description}
+                                    </span>
                                 </div>
-                                <!-- //.bg-black -->
-
-                                <div class="ease height-100 padding-2 position-absolute position-top position-left show-on-hover width-100">
-                                    <div class="bg-base-color height-100 width-100">
-                                        <div class="display-table height-100 width-100">
-                                            <div class="display-table-cell no-padding-tb padding-11 vertical-align-middle text-uppercase text-white">
-                                                <span class="display-block font-family-alt letter-spacing-1 title-small">
-                                                    ${item.speaker.name}
-                                                </span>
-                                                <br>
-                                                <span class="display-block font-weight-700 letter-spacing-1 text-medium">
-                                                    ${item.speaker.description}
-                                                </span>
-                                            </div>
-                                            <!-- //.display-table-cell -->
-                                        </div>
-                                        <!-- //.display-table -->
-                                    </div>
-                                    <!-- //.bg-base-color -->
-                                </div>
-                                <!-- //.ease -->
                             </div>
-                            <!-- //.overflow-hidden -->
-                        `;
-
+                            `;
                         document.getElementById('speakers-grid').appendChild(speaker);
-                    });
-
-
+                    }
                 });
 
-        </script>
+
+            });
+
+    </script>
 
 
 

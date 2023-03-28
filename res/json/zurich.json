@@ -1,22 +1,23 @@
 {
     "title": "ORD | Zurich",
-    "description": "TODO: Add description",
+    "description": "",
     "start" : "2023-04-28T09:00:00",
     "end" : "2023-04-28T17:45:00",
     "location" : {
         "name" : "ETHZ",
-        "address" : "Rämistrasse 101, 8092 Zurich, Switzerland",
-        "url" : "http://www.example.com/",
+        "address" : "Rämistrasse 101, 8092 Zurich",
+        "url" : "",
         "iframe_url" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.493729557988!2d8.54309831567382!3d47.37688697918501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e4e1f5c3c3b0d%3A0x7b2e3a4f4f4f4f4f!2sR%C3%A4mistrasse+101%2C+8092+Z%C3%BCrich!5e0!3m2!1sen!2sch!4v1427840000000"
     },
     "timeline" : [
         {
             "title" : "Registration",
+            "type" : "",
             "description" : "",
-            "start" : "2023-04-28T09:00:00",
-            "end" : "2023-04-28T09:30:00",
+            "start" : "09:00",
+            "end" : "09:30",
             "location" : {
-                "name": "Room 1",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -35,11 +36,12 @@
         },
         {
             "title" : "Welcome",
+            "type" : "",
             "description" : "",
-            "start" : "2023-04-28T09:30:00",
-            "end" : "2023-04-28T09:45:00",
+            "start" : "09:30",
+            "end" : "09:45",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -58,11 +60,12 @@
         },
         {
             "title" : "Why ORD?",
+            "type" : "presentation",
             "description" : "",
-            "start" : "2023-04-28T09:45:00",
-            "end" : "2023-04-28T10:30:00",
+            "start" : "09:45",
+            "end" : "10:30",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -81,11 +84,12 @@
         },
         {
             "title" : "Coffee break",
+            "type" : "",
             "description" : "",
-            "start" : "2023-04-28T10:30:00",
-            "end" : "2023-04-28T10:45:00",
+            "start" : "10:30",
+            "end" : "10:45",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -104,11 +108,12 @@
         },
         {
             "title" : "IP and Licensing",
+            "type" : "presentation",
             "description" : "",
-            "start" : "2023-04-28T10:45:00",
-            "end" : "2023-04-28T11:30:00",
+            "start" : "10:45",
+            "end" : "11:30",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -127,11 +132,12 @@
         },
         {
             "title" : "Coffee break",
+            "type" : "",
             "description" : "",
-            "start" : "2023-04-28T11:30:00",
-            "end" : "2023-04-28T11:45:00",
+            "start" : "11:30",
+            "end" : "11:45",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -150,17 +156,18 @@
         },
         {
             "title" : "Journey towards open science and open data",
+            "type" : "presentation",
             "description" : "",
-            "start" : "2023-04-28T11:45:00",
-            "end" : "2023-04-28T12:30:00",
+            "start" : "11:45",
+            "end" : "12:30",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
             "speaker" : {
-                "name" : "TBC",
-                "description" : "",
+                "name" : "Caterina Barillari",
+                "description" : "ETHZ SIS",
                 "photo" : "/res/images/speakers/speaker.png",
                 "email": "",
                 "link" : ""
@@ -173,11 +180,12 @@
         },
         {
             "title" : "Lunch break",
+            "type" : "",
             "description" : "",
-            "start" : "2023-04-28T12:30:00",
-            "end" : "2023-04-28T14:00:00",
+            "start" : "12:30",
+            "end" : "14:00",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -196,11 +204,12 @@
         },
         {
             "title" : "Reproducibility",
+            "type" : "workshop",
             "description" : "",
-            "start" : "2023-04-28T14:00:00",
-            "end" : "2023-04-28T15:30:00",
+            "start" : "14:00",
+            "end" : "15:30",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -219,17 +228,18 @@
         },
         {
             "title" : "Git basics",
+            "type" : "workshop-parallel",
             "description" : "",
-            "start" : "2023-04-28T14:00:00",
-            "end" : "2023-04-28T15:30:00",
+            "start" : "14:00",
+            "end" : "15:30",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
             "speaker" : {
                 "name" : "Uwe Schmitt",
-                "description" : "ETH ID",
+                "description" : "ETHZ ID",
                 "photo" : "/res/images/speakers/speaker.png",
                 "email": "",
                 "link" : ""
@@ -242,11 +252,12 @@
         },
         {
             "title" : "Introduction to RDM with openBIS",
+            "type" : "workshop-parallel",
             "description" : "",
-            "start" : "2023-04-28T14:00:00",
-            "end" : "2023-04-28T15:30:00",
+            "start" : "14:00",
+            "end" : "15:30",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -265,11 +276,12 @@
         },
         {
             "title" : "Coffee break",
+            "type" : "",
             "description" : "",
-            "start" : "2023-04-28T15:30:00",
-            "end" : "2023-04-28T16:00:00",
+            "start" : "15:30",
+            "end" : "16:00",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -288,11 +300,12 @@
         },
         {
             "title" : "Workshop TBA",
+            "type" : "workshop",
             "description" : "",
-            "start" : "2023-04-28T16:00:00",
-            "end" : "2023-04-28T17:30:00",
+            "start" : "16:00",
+            "end" : "17:30",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -311,17 +324,18 @@
         },
         {
             "title" : "Git advanced",
+            "type" : "workshop-parallel",
             "description" : "",
-            "start" : "2023-04-28T16:00:00",
-            "end" : "2023-04-28T17:30:00",
+            "start" : "16:00",
+            "end" : "17:30",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
             "speaker" : {
                 "name" : "Uwe Schmitt",
-                "description" : "ETH ID",
+                "description" : "ETHZ ID",
                 "photo" : "/res/images/speakers/speaker.png",
                 "email": "",
                 "link" : ""
@@ -334,11 +348,12 @@
         },
         {
             "title" : "Secure handling of sensitive data in research",
+            "type" : "workshop-parallel",
             "description" : "",
-            "start" : "2023-04-28T16:00:00",
-            "end" : "2023-04-28T17:30:00",
+            "start" : "16:00",
+            "end" : "17:30",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -357,11 +372,12 @@
         },
         {
             "title" : "Closing remarks",
+            "type" : "",
             "description" : "",
-            "start" : "2023-04-28T17:30:00",
-            "end" : "2023-04-28T17:45:00",
+            "start" : "17:30",
+            "end" : "17:45",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },

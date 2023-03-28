@@ -1,22 +1,23 @@
 {
     "title": "ORD | Lausanne",
-    "description": "TODO: Add description",
-    "start" : "2023-05-08T09:00:00",
-    "end" : "2023-05-08T17:00:00",
+    "description": "The Lausanne meeting will take place at the EPFL. The morning sessions will be in the CM 1 4 Auditorium, and the afternoon sessions will be in the Batochime building. The nearest metro stop is the Metro m1 at UNIL Sorge.",
+    "start" : "2023-05-08T08:30",
+    "end" : "2023-05-08T17:45",
     "location" : {
         "name" : "EPFL",
-        "address" : "Rämistrasse 101, 8092 Zurich, Switzerland",
-        "url" : "http://www.example.com/",
-        "iframe_url" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.493729557988!2d8.54309831567382!3d47.37688697918501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e4e1f5c3c3b0d%3A0x7b2e3a4f4f4f4f4f!2sR%C3%A4mistrasse+101%2C+8092+Z%C3%BCrich!5e0!3m2!1sen!2sch!4v1427840000000"
+        "address" : "Bâtiment CM 1 4, 1015 Lausanne",
+        "url" : "",
+        "iframe_url" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1222.9518270249287!2d6.565597024559677!3d46.5193141292759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c30fdddeca23f%3A0xbbcc34ab7f93b272!2sSwiss%20Federal%20Institute%20of%20Technology%20Lausanne!5e0!3m2!1sen!2sch!4v1680000870136!5m2!1sen!2sch"
     },
     "timeline" : [
         {
-            "title" : "Welcome",
+            "title" : "Registration",
+            "type" : "",
             "description" : "",
-            "start" : "2023-05-08T09:00:00",
-            "end" : "2023-05-08T09:15:00",
+            "start" : "08:30",
+            "end" : "09:00",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -34,12 +35,37 @@
             ]
         },
         {
-            "title" : "Science from publicly-available data",
+            "title" : "Welcome",
+            "type" : "",
             "description" : "",
-            "start" : "2023-05-08T09:15:00",
-            "end" : "2023-05-08T10:00:00",
+            "start" : "09:00",
+            "end" : "09:15",
             "location" : {
-                "name": "Room 2",
+                "name": "CM 1 4",
+                "url": "",
+                "address": ""
+            },
+            "speaker" : {
+                "name" : "",
+                "description" : "",
+                "photo" : "",
+                "email": "",
+                "link" : ""
+            },
+            "material_link": "",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
+            "title" : "Performing research with publicly-available data",
+            "type" : "presentation",
+            "description" : "",
+            "start" : "09:15",
+            "end" : "09:45",
+            "location" : {
+                "name": "CM 1 4",
                 "url": "",
                 "address": ""
             },
@@ -57,18 +83,19 @@
             ]
         },
         {
-            "title" : "Metadata and interoperability",
+            "title" : "Data interoperability",
+            "type" : "presentation",
             "description" : "",
-            "start" : "2023-05-08T10:00:00",
-            "end" : "2023-05-08T10:45:00",
+            "start" : "09:45",
+            "end" : "10:30",
             "location" : {
-                "name": "Room 2",
+                "name": "CM 1 4",
                 "url": "",
                 "address": ""
             },
             "speaker" : {
                 "name" : "Alan Pacheco, Lina Kim",
-                "description" : "",
+                "description" : "NCCR Microbiomes, ETH Zurich",
                 "photo" : "/res/images/speakers/speaker.png",
                 "email": "",
                 "link" : ""
@@ -81,11 +108,12 @@
         },
         {
             "title" : "Coffee break",
+            "type" : "",
             "description" : "",
-            "start" : "2023-05-08T10:45:00",
-            "end" : "2023-05-08T11:00:00",
+            "start" : "10:30",
+            "end" : "10:45",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -104,18 +132,43 @@
         },
         {
             "title" : "Reproducible workflows",
+            "type" : "presentation",
             "description" : "",
-            "start" : "2023-05-08T11:00:00",
-            "end" : "2023-05-08T11:45:00",
+            "start" : "10:45",
+            "end" : "11:15",
             "location" : {
-                "name": "Room 2",
+                "name": "CM 1 4",
                 "url": "",
                 "address": ""
             },
             "speaker" : {
                 "name" : "Marknik Bercx, Chris Sewell",
-                "description" : "EPFL/THEOS",
+                "description" : "NCCR MARVEL",
                 "photo" : "/res/images/speakers/speaker.png",
+                "email": "",
+                "link" : ""
+            },
+            "material_link": "",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
+            "title" : "Lightning talks",
+            "type" : "presentation",
+            "description" : "",
+            "start" : "11:15",
+            "end" : "11:45",
+            "location" : {
+                "name": "CM 1 4",
+                "url": "",
+                "address": ""
+            },
+            "speaker" : {
+                "name" : "",
+                "description" : "",
+                "photo" : "",
                 "email": "",
                 "link" : ""
             },
@@ -127,11 +180,12 @@
         },
         {
             "title" : "Lunch break",
+            "type" : "",
             "description" : "",
-            "start" : "2023-05-08T11:45:00",
-            "end" : "2023-05-08T13:00:00",
+            "start" : "11:45",
+            "end" : "13:00",
             "location" : {
-                "name": "Room 2",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -149,12 +203,13 @@
             ]
         },
         {
-            "title" : "Speed Dating",
+            "title" : "Structured networking",
+            "type" : "presentation",
             "description" : "",
-            "start" : "2023-05-08T13:00:00",
-            "end" : "2023-05-08T14:00:00",
+            "start" : "13:00",
+            "end" : "14:00",
             "location" : {
-                "name": "Room 2",
+                "name": "Batochime",
                 "url": "",
                 "address": ""
             },
@@ -172,127 +227,13 @@
             ]
         },
         {
-            "title" : "Intellectual property",
+            "title" : "Introduction to Git, GitHub, GitLab",
+            "type" : "workshop",
             "description" : "",
-            "start" : "2023-05-08T14:00:00",
-            "end" : "2023-05-08T15:15:00",
+            "start" : "14:00",
+            "end" : "15:30",
             "location" : {
-                "name": "Room 2",
-                "url": "",
-                "address": ""
-            },
-            "speaker" : {
-                "name" : "Mauro Lattuada",
-                "description" : "EPFL TTO",
-                "photo" : "/res/images/speakers/speaker.png",
-                "email": "",
-                "link" : ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
-        },
-        {
-            "title" : "Sensitive data",
-            "description" : "",
-            "start" : "2023-05-08T14:00:00",
-            "end" : "2023-05-08T15:15:00",
-            "location" : {
-                "name": "Room 2",
-                "url": "",
-                "address": ""
-            },
-            "speaker" : {
-                "name" : "Marieke Heers",
-                "description" : "",
-                "photo" : "/res/images/speakers/speaker.png",
-                "email": "",
-                "link" : ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
-        },
-        {
-            "title" : "Uploading data to repositories",
-            "description" : "",
-            "start" : "2023-05-08T14:00:00",
-            "end" : "2023-05-08T15:15:00",
-            "location" : {
-                "name": "Room 2",
-                "url": "",
-                "address": ""
-            },
-            "speaker" : {
-                "name" : "Valeria Granata",
-                "description" : "",
-                "photo" : "/res/images/speakers/speaker.png",
-                "email": "",
-                "link" : ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
-        },
-        {
-            "title" : "Coffee break",
-            "description" : "",
-            "start" : "2023-05-08T15:15:00",
-            "end" : "2023-05-08T15:30:00",
-            "location" : {
-                "name": "Room 2",
-                "url": "",
-                "address": ""
-            },
-            "speaker" : {
-                "name" : "",
-                "description" : "",
-                "photo" : "",
-                "email": "",
-                "link" : ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
-        },
-        {
-            "title" : "ELNs",
-            "description" : "",
-            "start" : "2023-05-08T15:30:00",
-            "end" : "2023-05-08T16:45:00",
-            "location" : {
-                "name": "Room 2",
-                "url": "",
-                "address": ""
-            },
-            "speaker" : {
-                "name" : "Luc Patiny",
-                "description" : "",
-                "photo" : "/res/images/speakers/speaker.png",
-                "email": "",
-                "link" : ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
-        },
-        {
-            "title" : "Git, Github, Gitlab",
-            "description" : "",
-            "start" : "2023-05-08T15:30:00",
-            "end" : "2023-05-08T16:45:00",
-            "location" : {
-                "name": "Room 2",
+                "name": "Batochime",
                 "url": "",
                 "address": ""
             },
@@ -310,18 +251,139 @@
             ]
         },
         {
-            "title" : "Metadata",
+            "title" : "Intellectual property",
+            "type" : "workshop-parallel",
             "description" : "",
-            "start" : "2023-05-08T15:30:00",
-            "end" : "2023-05-08T16:45:00",
+            "start" : "14:00",
+            "end" : "15:30",
             "location" : {
-                "name": "Room 2",
+                "name": "Batochime",
                 "url": "",
                 "address": ""
             },
             "speaker" : {
-                "name" : "Andreas Perret",
+                "name" : "Mauro Lattuada",
+                "description" : "EPFL Tech Transfer Office",
+                "photo" : "/res/images/speakers/speaker.png",
+                "email": "",
+                "link" : ""
+            },
+            "material_link": "",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
+            "title" : "Uploading data to repositories",
+            "type" : "workshop-parallel",
+            "description" : "",
+            "start" : "14:00",
+            "end" : "15:30",
+            "location" : {
+                "name": "Batochime",
+                "url": "",
+                "address": ""
+            },
+            "speaker" : {
+                "name" : "Valeria Granata",
+                "description" : "Materials Cloud",
+                "photo" : "/res/images/speakers/speaker.png",
+                "email": "",
+                "link" : ""
+            },
+            "material_link": "",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
+            "title" : "Coffee break",
+            "type" : "",
+            "description" : "",
+            "start" : "15:30",
+            "end" : "16:00",
+            "location" : {
+                "name": "",
+                "url": "",
+                "address": ""
+            },
+            "speaker" : {
+                "name" : "",
                 "description" : "",
+                "photo" : "",
+                "email": "",
+                "link" : ""
+            },
+            "material_link": "",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
+            "title" : "Electronic lab notebooks",
+            "type" : "workshop",
+            "description" : "",
+            "start" : "16:00",
+            "end" : "17:30",
+            "location" : {
+                "name": "Batochime",
+                "url": "",
+                "address": ""
+            },
+            "speaker" : {
+                "name" : "Luc Patiny",
+                "description" : "EPFL",
+                "photo" : "/res/images/speakers/speaker.png",
+                "email": "",
+                "link" : ""
+            },
+            "material_link": "",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
+            "title" : "Sensitive data",
+            "type" : "workshop-parallel",
+            "description" : "",
+            "start" : "16:00",
+            "end" : "17:30",
+            "location" : {
+                "name": "Batochime",
+                "url": "",
+                "address": ""
+            },
+            "speaker" : {
+                "name" : "Marieke Heers",
+                "description" : "FORS",
+                "photo" : "/res/images/speakers/speaker.png",
+                "email": "",
+                "link" : ""
+            },
+            "material_link": "",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
+            "title" : "Metadata",
+            "type" : "workshop-parallel",
+            "description" : "",
+            "start" : "16:00",
+            "end" : "17:30",
+            "location" : {
+                "name": "Batochime",
+                "url": "",
+                "address": ""
+            },
+            "speaker" : {
+                "name" : "Andreas Perret, Eva Fernandez",
+                "description" : "NCCR On the Move",
                 "photo" : "/res/images/speakers/speaker.png",
                 "email": "",
                 "link" : ""
@@ -334,11 +396,12 @@
         },
         {
             "title" : "Closing remarks",
+            "type" : "",
             "description" : "",
-            "start" : "2023-05-08T16:45:00",
-            "end" : "2023-05-08T17:00:00",
+            "start" : "17:30",
+            "end" : "17:45",
             "location" : {
-                "name": "Room 2",
+                "name": "Batochime",
                 "url": "",
                 "address": ""
             },
