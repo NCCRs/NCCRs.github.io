@@ -15,6 +15,11 @@
         "website_url": "https://nccr-catalysis.ch"
     },
     {
+        "name": "Evolving Language",
+        "image_path": "/res/images/logos/EvoLang_.svg",
+        "website_url": "https://evolvinglanguage.ch/"
+    },
+    {
         "name": "Marvel",
         "image_path": "/res/images/logos/LOGO_MARVEL_VECTORISE_reframed.svg",
         "website_url": "https://www.nccr-marvel.ch"
