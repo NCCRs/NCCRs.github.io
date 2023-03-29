@@ -275,7 +275,7 @@
                     ]
                 },
                 {
-                    "title" : "Uploading data to repositories",
+                    "title" : "Sensitive data",
                     "description" : "",
                     "location" : {
                         "name": "Batochime",
@@ -283,8 +283,8 @@
                         "address": ""
                     },
                     "speaker" : {
-                        "name" : "Valeria Granata",
-                        "description" : "Materials Cloud",
+                        "name" : "Marieke Heers",
+                        "description" : "FORS",
                         "photo" : "/res/images/speakers/speaker.png",
                         "email": "",
                         "link" : ""
@@ -349,7 +349,7 @@
                     ]
                 },
                 {
-                    "title" : "Sensitive data",
+                    "title" : "Uploading data to repositories",
                     "description" : "",
                     "location" : {
                         "name": "Batochime",
@@ -357,8 +357,8 @@
                         "address": ""
                     },
                     "speaker" : {
-                        "name" : "Marieke Heers",
-                        "description" : "FORS",
+                        "name" : "TBC",
+                        "description" : "",
                         "photo" : "/res/images/speakers/speaker.png",
                         "email": "",
                         "link" : ""
