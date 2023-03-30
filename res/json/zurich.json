@@ -4,10 +4,10 @@
     "start" : "2023-04-28T09:00:00",
     "end" : "2023-04-28T17:45:00",
     "location" : {
-        "name" : "ETHZ",
-        "address" : "Rämistrasse 101, 8092 Zurich",
+        "name" : "UZH",
+        "address" : "Rämistrasse 71, 8006 Zürich",
         "url" : "",
-        "iframe_url" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.493729557988!2d8.54309831567382!3d47.37688697918501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e4e1f5c3c3b0d%3A0x7b2e3a4f4f4f4f4f!2sR%C3%A4mistrasse+101%2C+8092+Z%C3%BCrich!5e0!3m2!1sen!2sch!4v1427840000000"
+        "iframe_url" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2701.913624753606!2d8.546662815887615!3d47.37460427916996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479aa0a8cacceabf%3A0x46d9e58414897465!2sR%C3%A4mistrasse%2071%2C%208006%20Z%C3%BCrich!5e0!3m2!1sen!2sch!4v1680168849104!5m2!1sen!2sch"
     },
     "timeline" : [
         {
