@@ -347,7 +347,8 @@
                                 `;
                             document.getElementById('workshop-schedule-' + i).appendChild(wcell);
                             // Add the speaker to the speaker section
-                            if (witem.speaker.name !== "" && witem.speaker.name !== "TBC") {
+                            console.log(document.getElementById(witem.speaker.name) == null);
+                            if (witem.speaker.name !== "" && witem.speaker.name !== "TBC" && document.getElementById(witem.speaker.name) == null) {
                                 var speaker = document.createElement('div');
                                 speaker.className = "member-box col-xs-6 col-sm-4 col-md-3";
                                 speaker.id = witem.speaker.name;
