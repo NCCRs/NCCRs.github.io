@@ -71,8 +71,8 @@
             },
             "speaker" : {
                 "name" : "Philippe Schwaller",
-                "description" : "",
-                "photo" : "/res/images/speakers/speaker.png",
+                "description" : "NCCR Catalysis, EPFL",
+                "photo" : "/res/images/speakers/philippe schwaller.jpeg",
                 "email": "",
                 "link" : ""
             },
@@ -241,8 +241,8 @@
                         "address": ""
                     },
                     "speaker" : {
-                        "name" : "TBC",
-                        "description" : "",
+                        "name" : "Uwe Schmitt",
+                        "description" : "Software and Data Management, ETH Zurich",
                         "photo" : "/res/images/speakers/speaker.png",
                         "email": "",
                         "link" : ""
@@ -338,7 +338,7 @@
                     "speaker" : {
                         "name" : "Luc Patiny",
                         "description" : "EPFL",
-                        "photo" : "/res/images/speakers/speaker.png",
+                        "photo" : "/res/images/speakers/luc patiny.jpeg",
                         "email": "",
                         "link" : ""
                     },
