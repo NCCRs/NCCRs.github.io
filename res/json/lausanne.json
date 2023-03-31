@@ -241,11 +241,11 @@
                         "address": ""
                     },
                     "speaker" : {
-                        "name" : "Uwe Schmitt",
-                        "description" : "Software and Data Management, ETH Zurich",
-                        "photo" : "/res/images/speakers/speaker.png",
-                        "email": "",
-                        "link" : ""
+                        "name" : "Romain Graux",
+                        "description" : "Data Officer at NCCR Catalysis, EPFL",
+                        "photo" : "/res/images/team/Romain_Graux.jpg",
+                        "email": "romain.graux@epfl.ch",
+                        "link" : "https://github.com/romaingrx"
                     },
                     "material_link": "",
                     "keypoints": [

@@ -321,7 +321,7 @@
                                         <div class="organizers">
                                             <a href="#${witem.speaker.name}">${witem.speaker.name}</a>
                                         </div>
-                                        <!--
+                                        <!-- 
                                         <div class="categories">
                                             <a href="${witem.material_link}">Material</a>
                                         </div>
@@ -366,6 +366,13 @@
                                         </div>
                                     </div>
                                     `;
+                                if (witem.speaker.link !== ''){
+                                    speaker.innerHTML = `
+                                        <a href="${witem.speaker.link}" target="_blank">
+                                            ${speaker.innerHTML}
+                                        </a>
+                                    `
+                                }
                                 document.getElementById('speakers-grid').appendChild(speaker);
                             }
                         });
