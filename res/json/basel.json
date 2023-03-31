@@ -83,7 +83,7 @@
             ]
         },
         {
-            "title" : "Data life cycle managment",
+            "title" : "Data life cycle management",
             "type" : "presentation",
             "description" : "",
             "start" : "11:00",
@@ -283,7 +283,7 @@
             "end" : "17:00",
             "workshops" : [
                 {
-                    "title" : "Metadata & controled vocabularies",
+                    "title" : "Metadata & controlled vocabularies",
                     "description" : "",
                     "location" : {
                         "name": "",

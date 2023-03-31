@@ -4801,3 +4801,19 @@ section.pull-up {
     padding-top: 80px;
   }
 }
+
+.min-height-homepage {
+  min-height: 900px;
+}
+
+@media (min-width:768px) {
+  .min-height-homepage {
+    min-height: 500px;
+  }
+}
+
+@media (min-width:992px) {
+  .min-height-homepage {
+    min-height: 650px;
+  }
+}

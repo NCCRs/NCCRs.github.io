@@ -171,12 +171,22 @@
     font-size: 16px;
     font-weight: 300;
 }
+.event-schedule-area-two .tab-content .table tbody tr td.workshop table.table-workshop tbody tr {
+    display: flex;
+    flex-wrap: wrap;
+}
 .event-schedule-area-two .tab-content .table tbody tr td.workshop table.table-workshop tbody tr td {
     border-top: none;
     border-right: 1px solid #ddd;
 }
 .event-schedule-area-two .tab-content .table tbody tr td.workshop table.table-workshop tbody tr td:last-child {
     border-right: none;
+}
+@media (max-width:767px) {
+    .event-schedule-area-two .tab-content .table tbody tr td.workshop table.table-workshop tbody tr td {
+        width: 100%;
+        border-right: none;
+    }
 }
 .event-schedule-area-two .tab-content .table tbody tr td.workshop table.table-workshop tbody tr td div.event-location {
     margin-top: 15px;
