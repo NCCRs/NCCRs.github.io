@@ -357,9 +357,9 @@
                         "address": ""
                     },
                     "speaker" : {
-                        "name" : "TBC",
-                        "description" : "",
-                        "photo" : "/res/images/speakers/speaker.png",
+                        "name" : "Kendra Brown",
+                        "description" : "NCCR Microbiomes",
+                        "photo" : "/res/images/team/KendraBrown.jpg",
                         "email": "",
                         "link" : ""
                     },
