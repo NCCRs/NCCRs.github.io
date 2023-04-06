@@ -107,7 +107,7 @@
             ]
         },
         {
-            "title" : "IP and Licensing",
+            "title" : "IP and licensing",
             "type" : "presentation",
             "description" : "",
             "start" : "10:45",
@@ -118,8 +118,8 @@
                 "address": ""
             },
             "speaker" : {
-                "name" : "TBC",
-                "description" : "",
+                "name" : "Natalia Clerc",
+                "description" : "Isler & Pedrazzini AG",
                 "photo" : "/res/images/speakers/speaker.png",
                 "email": "",
                 "link" : ""
@@ -209,7 +209,7 @@
             "end" : "15:30",
             "workshops" : [
                 {
-                    "title" : "Reproducibility",
+                    "title" : "Renku & reproducibility",
                     "description" : "",
                     "location" : {
                         "name": "",
@@ -217,8 +217,8 @@
                         "address": ""
                     },
                     "speaker" : {
-                        "name" : "TBC",
-                        "description" : "",
+                        "name" : "Tasko Olevski",
+                        "description" : "Swiss Data Science Center",
                         "photo" : "/res/images/speakers/speaker.png",
                         "email": "",
                         "link" : ""

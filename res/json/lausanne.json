@@ -370,7 +370,7 @@
                     ]
                 },
                 {
-                    "title" : "Metadata",
+                    "title" : "Sensitive metadata",
                     "description" : "",
                     "location" : {
                         "name": "Batochime",
