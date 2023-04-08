@@ -209,7 +209,7 @@
             "end" : "15:30",
             "workshops" : [
                 {
-                    "title" : "Renku & reproducibility",
+                    "title" : "Renku - reproducibility and collaboration in research",
                     "description" : "",
                     "location" : {
                         "name": "",
@@ -251,7 +251,7 @@
                     ]
                 },
                 {
-                    "title" : "Introduction to RDM with openBIS",
+                    "title" : "Active research data management with ETHZ ELN/LIMS openBIS",
                     "description" : "",
                     "location" : {
                         "name": "",
@@ -304,7 +304,7 @@
             "end" : "17:30",
             "workshops" : [
                 {
-                    "title" : "Workshop TBA",
+                    "title" : "BigRAIL licensing",
                     "description" : "",
                     "location" : {
                         "name": "",
@@ -312,8 +312,8 @@
                         "address": ""
                     },
                     "speaker" : {
-                        "name" : "TBC",
-                        "description" : "",
+                        "name" : "Alexander Sander",
+                        "description" : "Free Software Foundation Europe",
                         "photo" : "/res/images/speakers/speaker.png",
                         "email": "",
                         "link" : ""
