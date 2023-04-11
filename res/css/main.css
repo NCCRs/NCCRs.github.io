@@ -68,9 +68,10 @@ ul {
   list-style-position: outside
 }
 
-ul {
-  list-style: none
+ul > li {
+    margin-left: 15px;
 }
+
 
 iframe {
   border: 0

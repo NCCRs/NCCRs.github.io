@@ -1,32 +1,32 @@
 {
     "title": "ORD | Zurich",
-    "description": "",
-    "start" : "2023-04-28T09:00:00",
-    "end" : "2023-04-28T17:45:00",
-    "location" : {
-        "name" : "UZH",
-        "address" : "Rämistrasse 71, 8006 Zürich",
-        "url" : "",
-        "iframe_url" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2701.913624753606!2d8.546662815887615!3d47.37460427916996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479aa0a8cacceabf%3A0x46d9e58414897465!2sR%C3%A4mistrasse%2071%2C%208006%20Z%C3%BCrich!5e0!3m2!1sen!2sch!4v1680168849104!5m2!1sen!2sch"
+    "description": "Join us for a day of plenary lectures on topics such as the importance of ORD, IP and licensing, and reproducible research. In the workshops, you'll have the opportunity to learn about Renku for reproducibility, Git for version control, and OpenBIS for collaborating with data and electronic lab notebooks. In the second session, explore licenses for AI models with BigRAIL, advanced Git techniques, and best practices for managing sensitive data with OpenBIS. Don't miss this chance to enhance your knowledge and skills in ORD principles and apply them to your research!",
+    "start": "2023-04-28T09:00:00",
+    "end": "2023-04-28T17:45:00",
+    "location": {
+        "name": "UZH",
+        "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich",
+        "url": "",
+        "iframe_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2701.913624753606!2d8.546662815887615!3d47.37460427916996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479aa0a8cacceabf%3A0x46d9e58414897465!2sR%C3%A4mistrasse%2071%2C%208006%20Z%C3%BCrich!5e0!3m2!1sen!2sch!4v1680168849104!5m2!1sen!2sch"
     },
-    "timeline" : [
+    "timeline": [
         {
-            "title" : "Registration",
-            "type" : "",
-            "description" : "",
-            "start" : "09:00",
-            "end" : "09:30",
-            "location" : {
-                "name": "",
-                "url": "",
-                "address": ""
+            "title": "Registration",
+            "type": "",
+            "description": "",
+            "start": "09:00",
+            "end": "09:30",
+            "location": {
+                "name": "UZH",
+                "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
+                "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
             },
-            "speaker" : {
-                "name" : "",
-                "description" : "",
-                "photo" : "",
+            "speaker": {
+                "name": "",
+                "description": "",
+                "photo": "",
                 "email": "",
-                "link" : ""
+                "link": ""
             },
             "material_link": "",
             "keypoints": [
@@ -35,22 +35,22 @@
             ]
         },
         {
-            "title" : "Welcome",
-            "type" : "",
-            "description" : "",
-            "start" : "09:30",
-            "end" : "09:45",
-            "location" : {
-                "name": "",
-                "url": "",
-                "address": ""
+            "title": "Welcome",
+            "type": "",
+            "description": "",
+            "start": "09:30",
+            "end": "09:45",
+            "location": {
+                "name": "UZH",
+                "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
+                "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
             },
-            "speaker" : {
-                "name" : "",
-                "description" : "",
-                "photo" : "",
+            "speaker": {
+                "name": "",
+                "description": "",
+                "photo": "",
                 "email": "",
-                "link" : ""
+                "link": ""
             },
             "material_link": "",
             "keypoints": [
@@ -59,22 +59,22 @@
             ]
         },
         {
-            "title" : "Why ORD?",
-            "type" : "presentation",
-            "description" : "",
-            "start" : "09:45",
-            "end" : "10:30",
-            "location" : {
-                "name": "",
-                "url": "",
-                "address": ""
+            "title": "Why ORD?",
+            "type": "presentation",
+            "description": "",
+            "start": "09:45",
+            "end": "10:30",
+            "location": {
+                "name": "UZH",
+                "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
+                "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
             },
-            "speaker" : {
-                "name" : "Alexander Sander",
-                "description" : "Free Software Foundation Europe",
-                "photo" : "/res/images/speakers/speaker.png",
+            "speaker": {
+                "name": "Alexander Sander",
+                "description": "Free Software Foundation Europe",
+                "photo": "/res/images/speakers/alexander sander.jpg",
                 "email": "",
-                "link" : ""
+                "link": ""
             },
             "material_link": "",
             "keypoints": [
@@ -83,22 +83,22 @@
             ]
         },
         {
-            "title" : "Coffee break",
-            "type" : "",
-            "description" : "",
-            "start" : "10:30",
-            "end" : "10:45",
-            "location" : {
-                "name": "",
-                "url": "",
-                "address": ""
+            "title": "Coffee break",
+            "type": "",
+            "description": "",
+            "start": "10:30",
+            "end": "10:45",
+            "location": {
+                "name": "UZH",
+                "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
+                "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
             },
-            "speaker" : {
-                "name" : "",
-                "description" : "",
-                "photo" : "",
+            "speaker": {
+                "name": "",
+                "description": "",
+                "photo": "",
                 "email": "",
-                "link" : ""
+                "link": ""
             },
             "material_link": "",
             "keypoints": [
@@ -107,22 +107,22 @@
             ]
         },
         {
-            "title" : "IP and licensing",
-            "type" : "presentation",
-            "description" : "",
-            "start" : "10:45",
-            "end" : "11:30",
-            "location" : {
-                "name": "",
-                "url": "",
-                "address": ""
+            "title": "IP and licensing",
+            "type": "presentation",
+            "description": "",
+            "start": "10:45",
+            "end": "11:30",
+            "location": {
+                "name": "UZH",
+                "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
+                "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
             },
-            "speaker" : {
-                "name" : "Natalia Clerc",
-                "description" : "Isler & Pedrazzini AG",
-                "photo" : "/res/images/speakers/speaker.png",
+            "speaker": {
+                "name": "Natalia Clerc",
+                "description": "Isler & Pedrazzini AG",
+                "photo": "/res/images/speakers/natalia clerc.jpg",
                 "email": "",
-                "link" : ""
+                "link": ""
             },
             "material_link": "",
             "keypoints": [
@@ -131,22 +131,22 @@
             ]
         },
         {
-            "title" : "Coffee break",
-            "type" : "",
-            "description" : "",
-            "start" : "11:30",
-            "end" : "11:45",
-            "location" : {
-                "name": "",
-                "url": "",
-                "address": ""
+            "title": "Coffee break",
+            "type": "",
+            "description": "",
+            "start": "11:30",
+            "end": "11:45",
+            "location": {
+                "name": "UZH",
+                "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
+                "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
             },
-            "speaker" : {
-                "name" : "",
-                "description" : "",
-                "photo" : "",
+            "speaker": {
+                "name": "",
+                "description": "",
+                "photo": "",
                 "email": "",
-                "link" : ""
+                "link": ""
             },
             "material_link": "",
             "keypoints": [
@@ -155,22 +155,22 @@
             ]
         },
         {
-            "title" : "Journey towards open science and open data",
-            "type" : "presentation",
-            "description" : "",
-            "start" : "11:45",
-            "end" : "12:30",
-            "location" : {
-                "name": "",
-                "url": "",
-                "address": ""
+            "title": "Journey towards open science and open data",
+            "type": "presentation",
+            "description": "",
+            "start": "11:45",
+            "end": "12:30",
+            "location": {
+                "name": "UZH",
+                "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
+                "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
             },
-            "speaker" : {
-                "name" : "Caterina Barillari",
-                "description" : "ETHZ SIS",
-                "photo" : "/res/images/speakers/speaker.png",
+            "speaker": {
+                "name": "Caterina Barillari",
+                "description": "ETHZ SIS",
+                "photo": "/res/images/speakers/caterina barillari.jpg",
                 "email": "",
-                "link" : ""
+                "link": ""
             },
             "material_link": "",
             "keypoints": [
@@ -179,22 +179,22 @@
             ]
         },
         {
-            "title" : "Lunch break",
-            "type" : "",
-            "description" : "",
-            "start" : "12:30",
-            "end" : "14:00",
-            "location" : {
-                "name": "",
-                "url": "",
-                "address": ""
+            "title": "Lunch break",
+            "type": "",
+            "description": "",
+            "start": "12:30",
+            "end": "14:00",
+            "location": {
+                "name": "UZH",
+                "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
+                "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
             },
-            "speaker" : {
-                "name" : "",
-                "description" : "",
-                "photo" : "",
+            "speaker": {
+                "name": "",
+                "description": "",
+                "photo": "",
                 "email": "",
-                "link" : ""
+                "link": ""
             },
             "material_link": "",
             "keypoints": [
@@ -203,25 +203,49 @@
             ]
         },
         {
-            "type" : "workshop",
-            "description" : "",
-            "start" : "14:00",
-            "end" : "15:30",
-            "workshops" : [
+            "type": "workshop",
+            "description": "",
+            "start": "14:00",
+            "end": "15:30",
+            "workshops": [
                 {
-                    "title" : "Renku - reproducibility and collaboration in research",
-                    "description" : "",
-                    "location" : {
-                        "name": "",
-                        "url": "",
-                        "address": ""
+                    "title": "Renku - reproducibility and collaboration in research",
+                    "description": "Renku provides tools that foster reproducibility and collaboration in research projects. If you write and run code to analyze data, Renku can help you track your work, run your models, share results and collaborate with your colleagues. The workshop has two parts: a general introduction of Renku and the vision behind the project, and a demo. The demo is intended to show that with minimal effort Renku allows you to not only track and replicate your work, but also do so in a reproducible environment where you and your colleagues can explore, run, test and improve upon the work you have done.",
+                    "location": {
+                        "name": "UZH",
+                        "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
+                        "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
                     },
-                    "speaker" : {
-                        "name" : "Tasko Olevski",
-                        "description" : "Swiss Data Science Center",
-                        "photo" : "/res/images/speakers/speaker.png",
+                    "speaker": {
+                        "name": "Tasko Olevski",
+                        "description": "Swiss Data Science Center",
+                        "long_description" : "Tasko is a software engineer at the Swiss Data Science Center. He has worked on many components of the Renku platform and has been also involved in the operations of several different production-grade Renku deployments. Prior to joining the Swiss Data Science Center Tasko was working as an environmental consultant focusing on ambient air quality modeling. His degree is in chemical engineering, but his passion is writing code.",
+                        "photo": "/res/images/speakers/tasko olevski.jpeg",
                         "email": "",
-                        "link" : ""
+                        "link": "https://datascience.ch/team_member/tasko-olevski"
+                    },
+                    "material_link": "https://renku.readthedocs.io/en/stable",
+                    "keypoints": [
+                        "Learn about Renku and its key features and benefits",
+                        "Understand how Renku can help with reproducibility",
+                        "Understand how Renku can foster collaboration between researchers",
+                        "Understand how you can start to use Renku for your research"
+                    ]
+                },
+                {
+                    "title": "Git basics",
+                    "description": "",
+                    "location": {
+                        "name": "UZH",
+                        "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
+                        "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
+                    },
+                    "speaker": {
+                        "name": "Uwe Schmitt",
+                        "description": "Software and Data Management, ETH Zurich",
+                        "photo": "/res/images/speakers/uwe schmitt.jpg",
+                        "email": "",
+                        "link": ""
                     },
                     "material_link": "",
                     "keypoints": [
@@ -230,66 +254,49 @@
                     ]
                 },
                 {
-                    "title" : "Git basics",
-                    "description" : "",
-                    "location" : {
-                        "name": "",
-                        "url": "",
-                        "address": ""
+                    "title": "Active research data management with ETHZ ELN/LIMS openBIS",
+                    "description": "Active research data management involves the ongoing organization, storage, and sharing of research data throughout the entire data lifecycle. This approach allows researchers to maintain the integrity of their data and ensure that it is available for analysis, interpretation, and future use. With active  research data management, researchers can enhance the reproducibility of their work, facilitate collaboration, and accelerate scientific discovery.",
+                    "location": {
+                        "name": "UZH",
+                        "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
+                        "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
                     },
-                    "speaker" : {
-                        "name" : "Uwe Schmitt",
-                        "description" : "Software and Data Management, ETH Zurich",
-                        "photo" : "/res/images/speakers/speaker.png",
+                    "speaker": {
+                        "name": "Rostyslav Kuzyakiv",
+                        "description": "ETHZ",
+                        "long_description": "Senior Biomedical Data Management Expert / Data Scientist with a background in general medicine, biology, and expertise in bioinformatics, data management, and digital health applications. Currently, consulting and assisting the ETHZ scientist community in developing and implementing various data management solutions based on FAIR data principles and major protocols of the Swiss Personalized Health Network.",
+                        "photo": "/res/images/speakers/rostyslav kuzyakiv.jpg",
                         "email": "",
-                        "link" : ""
+                        "link": ""
                     },
                     "material_link": "",
                     "keypoints": [
-                        "Key point 1",
-                        "Key point 2"
-                    ]
-                },
-                {
-                    "title" : "Active research data management with ETHZ ELN/LIMS openBIS",
-                    "description" : "",
-                    "location" : {
-                        "name": "",
-                        "url": "",
-                        "address": ""
-                    },
-                    "speaker" : {
-                        "name" : "Rostyslav Kuzyakiv",
-                        "description" : "ETHZ",
-                        "photo" : "/res/images/speakers/speaker.png",
-                        "email": "",
-                        "link" : ""
-                    },
-                    "material_link": "",
-                    "keypoints": [
-                        "Key point 1",
-                        "Key point 2"
+                        "Consistency: to ensure reliable and reproducible results. Any deviation from the standard protocols and procedures can introduce variability and affect the accuracy of the results.",
+                        "Quality Control: to ensure the quality of the data generated. Can help to minimize errors and ensure that data is of high quality.",
+                        "Traceability: to ensure that the samples can be traced back to their source, and that the results can be verified if necessary.",
+                        "Compliance: to ensure that researchers are following the necessary guidelines and regulations.",
+                        "Collaboration: to ensure the reproducibility and validity of the research."
                     ]
                 }
             ]
         },
         {
-            "title" : "Coffee break",
-            "type" : "",
-            "description" : "",
-            "start" : "15:30",
-            "end" : "16:00",
-            "location" : {
-                "name": "",
-                "url": "",
-                "address": ""
+            "title": "Coffee break",
+            "type": "",
+            "description": "",
+            "start": "15:30",
+            "end": "16:00",
+            "location": {
+                "name": "UZH",
+                "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
+                "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
             },
-            "speaker" : {
-                "name" : "",
-                "description" : "",
-                "photo" : "",
+            "speaker": {
+                "name": "",
+                "description": "",
+                "photo": "",
                 "email": "",
-                "link" : ""
+                "link": ""
             },
             "material_link": "",
             "keypoints": [
@@ -298,25 +305,25 @@
             ]
         },
         {
-            "type" : "workshop",
-            "description" : "",
-            "start" : "16:00",
-            "end" : "17:30",
-            "workshops" : [
+            "type": "workshop",
+            "description": "",
+            "start": "16:00",
+            "end": "17:30",
+            "workshops": [
                 {
-                    "title" : "BigRAIL licensing",
-                    "description" : "",
-                    "location" : {
-                        "name": "",
-                        "url": "",
-                        "address": ""
+                    "title": "BigRAIL licensing",
+                    "description": "",
+                    "location": {
+                        "name": "UZH",
+                        "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
+                        "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
                     },
-                    "speaker" : {
-                        "name" : "Alexander Sander",
-                        "description" : "Free Software Foundation Europe",
-                        "photo" : "/res/images/speakers/speaker.png",
+                    "speaker": {
+                        "name": "Alexander Sander",
+                        "description": "Free Software Foundation Europe",
+                        "photo": "/res/images/speakers/alexander sander.jpg",
                         "email": "",
-                        "link" : ""
+                        "link": ""
                     },
                     "material_link": "",
                     "keypoints": [
@@ -325,19 +332,19 @@
                     ]
                 },
                 {
-                    "title" : "Git advanced",
-                    "description" : "",
-                    "location" : {
-                        "name": "",
-                        "url": "",
-                        "address": ""
+                    "title": "Git advanced",
+                    "description": "",
+                    "location": {
+                        "name": "UZH",
+                        "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
+                        "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
                     },
-                    "speaker" : {
-                        "name" : "Uwe Schmitt",
-                        "description" : "Software and Data Management, ETH Zurich",
-                        "photo" : "/res/images/speakers/speaker.png",
+                    "speaker": {
+                        "name": "Uwe Schmitt",
+                        "description": "Software and Data Management, ETH Zurich",
+                        "photo": "/res/images/speakers/speaker.png",
                         "email": "",
-                        "link" : ""
+                        "link": ""
                     },
                     "material_link": "",
                     "keypoints": [
@@ -346,45 +353,51 @@
                     ]
                 },
                 {
-                    "title" : "Secure handling of sensitive data in research",
-                    "description" : "",
-                    "location" : {
-                        "name": "",
-                        "url": "",
-                        "address": ""
+                    "title": "Secure handling of sensitive data in research",
+
+                    "description": "Research with sensitive data (e.g. personal data such as medical records) requires special cybersecurity and data protection measures to ensure the confidentiality of data and to protect the privacy of individuals. What are sensitive data in Research? What laws and regulations must be followed? What are the implication of non-compliance? I am a researcher - how do I translate and integrate laws, regulations and cybersecurity into my day-to-day research practice? Let's try to bring light to these questions. This workshop will be focused on: <ul> <li>research on sensitive data (sensitive personal data),</li> <li>data privacy and protection: legislation and cybersecurity awareness,</li> <li>data classification: strictly confidential and confidential data vs. internal and public data,</li> <li>Leonhard Med, ETH Zurich: Swiss secure, powerful and versatile Scientific IT Platform for research on and with confidential data,</li> <li>“best practices” for FAIRness of sensitive research data: secure handling of sensitive research data along the entire data lifecycle, from data collection, data management and analysis to publication in repositories and long-term preservation.</li> </ul> ",
+                    "location": {
+                        "name": "UZH",
+                        "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
+                        "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
                     },
-                    "speaker" : {
-                        "name" : "Diana Coman Schmid",
-                        "description" : "ETHZ",
-                        "photo" : "/res/images/speakers/speaker.png",
+                    "speaker": {
+                        "name": "Diana Coman Schmid",
+                        "description": "ETHZ",
+                        "long_description": "Diana Coman Schmid is Service Manager of the Personalized Health Data Services at the Scientific IT Services of ETH Zurich. Alongside, Diana is an enthusiastic giver and enjoys sharing knowledge and know-how around digitalization, cybersecurity and FAIRness of sensitive personal data. Diana did her PhD at ETH Zurich in Molecular Biology and expanded her expertise with a Degree in Advanced Applied Statistics at ETH. Diana is an expert in IT and Data Services for Personalized Health, Bioinformatics, Applied Statistics and Biological Networks. Working now at the interface between IT, Data and Medicine, Diana’s commitment is to be an active driver in making Data Driven Personalized Health becoming common practice. For this, Diana together the team at the Scientific IT Services of ETH Zurich develop and operate secure, scalable and versatile scientific Data and IT services for researchers working with sensitive personal data at ETH and at Swiss national level.",
+                        "photo": "/res/images/speakers/diana coman schmid.jpg",
                         "email": "",
-                        "link" : ""
+                        "link": ""
                     },
                     "material_link": "",
                     "keypoints": [
-                        "Key point 1",
-                        "Key point 2"
+                        "have a good understanding of data protection and privacy issues when dealing with sensitive data in research projects",
+                        "have the necessary knowledge to conduct research respecting both legislation as well as information security requirements",
+                        "be able to identify if research data classifies as strictly confidential or confidential",
+                        "be able to apply “best practices” for FAIRness of sensitive research data",
+                        "be aware of available secure scientific IT infrastructures for sensitive research data",
+                        "have the information needed for writing a data management plan for sensitive research data"
                     ]
                 }
             ]
         },
         {
-            "title" : "Closing remarks",
-            "type" : "",
-            "description" : "",
-            "start" : "17:30",
-            "end" : "17:45",
-            "location" : {
-                "name": "",
-                "url": "",
-                "address": ""
+            "title": "Closing remarks",
+            "type": "",
+            "description": "",
+            "start": "17:30",
+            "end": "17:45",
+            "location": {
+                "name": "UZH",
+                "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
+                "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
             },
-            "speaker" : {
-                "name" : "",
-                "description" : "",
-                "photo" : "",
+            "speaker": {
+                "name": "",
+                "description": "",
+                "photo": "",
                 "email": "",
-                "link" : ""
+                "link": ""
             },
             "material_link": "",
             "keypoints": [

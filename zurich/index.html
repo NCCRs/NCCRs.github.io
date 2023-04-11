@@ -336,12 +336,11 @@
                                         </span>
                                     </div>
                                     <div class="event-location">
-                                        <p class="room font-weight-300 text-gray-dark-2">
-                                            <i class="fa fa-map-marker text-gray"></i> ${witem.location.name}
-                                        </p>
-                                        <div class="room-address">
-                                            <span>${witem.location.address}</span>
-                                        </div>
+                                        <a href="${witem.location.url}" target="_blank">
+                                            <p class="room font-weight-300 text-gray-dark-2">
+                                                <i class="fa fa-map-marker text-gray"></i> ${witem.location.name}
+                                            </p>
+                                        </a>
                                     </div>
                                 </div>
                                 `;
@@ -367,6 +366,13 @@
                                         </div>
                                     </div>
                                     `;
+                                if (witem.speaker.link !== ''){
+                                    speaker.innerHTML = `
+                                        <a href="${witem.speaker.link}" target="_blank">
+                                            ${speaker.innerHTML}
+                                        </a>
+                                    `
+                                }
                                 document.getElementById('speakers-grid').appendChild(speaker);
                             }
                         });
@@ -402,12 +408,11 @@
                             </td>
                             <td class="event-location">
                                 <div class="meta">
-                                    <p class="room font-weight-300 text-gray-dark-2">
-                                        ${item.location.name}
-                                    </p>
-                                    <div class="room-address">
-                                        <span>${item.location.address}</span>
-                                    </div>
+                                        <a href="${item.location.url}" target="_blank">
+                                            <p class="room font-weight-300 text-gray-dark-2">
+                                                <i class="fa fa-map-marker text-gray"></i> ${item.location.name}
+                                            </p>
+                                        </a>
                                 </div>
                             </td>
                         `;

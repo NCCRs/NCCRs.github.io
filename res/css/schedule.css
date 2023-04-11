@@ -227,6 +227,7 @@
     font-family: fontawesome;
     padding-right: 5px;
 } */
+
 .event-schedule-area-two .tab-content .table tbody tr td .event-wrap .time span {
     color: #252525;
 }
@@ -261,3 +262,10 @@
     height: 100px;
     border-radius: 8px;
 }
+
+.event-schedule-area-two .tab-content .table tbody tr td .event-wrap .material a:before {
+    content: "\f07b";
+    font-family: fontawesome;
+    color: #D8BFD8;
+    padding-right: 5px;
+} 
