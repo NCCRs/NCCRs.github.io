@@ -85,7 +85,7 @@
         {
             "title" : "Data interoperability",
             "type" : "presentation",
-            "description" : "",
+            "description" : "Despite an ever-growing number of data sets that catalog and characterize interactions between microbes in different environments and conditions, many of these data are neither easily accessible nor intercompatible. These limitations present a major challenge to microbiome research by hindering the streamlined drawing of inferences across studies. Here, we propose guiding principles to make microbial data more findable, accessible, interoperable, and reusable (FAIR).<br>We outline specific use cases for interaction and sequence data that span the diverse space of microbiome research, and discuss the untapped potential for new insights that can be fulfilled through broader integration of microbial interaction data. These include, among others, the design of intercompatible synthetic communities for environmental, industrial, or medical applications, and the inference of novel interactions from disparate studies. Lastly, we describe work in progress for the deployment of FAIR microbial data based on existing resources, reporting standards, and current momentum within the community.",
             "start" : "09:45",
             "end" : "10:30",
             "location" : {
@@ -93,18 +93,23 @@
                 "url": "",
                 "address": ""
             },
-            "speaker" : {
-                "name" : "Alan Pacheco, Lina Kim",
+            "speaker" : [{
+                "name" : "Alan Pacheco",
                 "description" : "NCCR Microbiomes, ETH Zurich",
-                "photo" : "/res/images/speakers/speaker.png",
+                "long_description" : "Alan Pacheco is a James S. McDonnell postdoctoral fellow in the Vorholt group at ETH Zurich. He received his Ph.D. in 2021 from Boston University, where he studied how the behavior of microbial ecosystems could be modulated by tuning specific environmental features. His current research applies these principles to the microbiomes of plant leaves through the use of computational modeling, while also developing methods to catalogue and analyze the diversity of microbial interactions more generally.",
+                "photo" : "/res/images/speakers/alan pacheco.jpg",
                 "email": "",
                 "link" : ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
+            },{
+                "name" : "Lina Kim",
+                "description" : "NCCR Microbiomes, ETH Zurich",
+                "long_description" : "Lina Kim is a doctoral candidate at the ETH Zürich Laboratory for Food Systems Biotechnology. Through experiences as an academic researcher at MIT and bioinformatician in the biotechnology industry, she developed an appreciation for multi-omics technologies and their relevance to human health. Her current research involves developing and applying computational methods to complex microbial communities in stem cell patient outcomes.",
+                "photo" : "/res/images/speakers/lina kim.jpg",
+                "email": "",
+                "link" : ""
+            }],
+            "material_link": "https://doi.org/10.1128/msystems.00659-22",
+            "keypoints": []
         },
         {
             "title" : "Coffee break",
@@ -141,13 +146,20 @@
                 "url": "",
                 "address": ""
             },
-            "speaker" : {
-                "name" : "Marknik Bercx, Chris Sewell",
+            "speaker" : [{
+                "name" : "Marknik Bercx",
                 "description" : "NCCR MARVEL",
                 "photo" : "/res/images/speakers/speaker.png",
                 "email": "",
                 "link" : ""
-            },
+            },{
+                "name" : "Chris Sewell",
+                "description" : "NCCR MARVEL",
+                "photo" : "/res/images/speakers/speaker.png",
+                "email": "",
+                "link" : ""
+            }
+            ],
             "material_link": "",
             "keypoints": [
                 "Key point 1",
@@ -377,13 +389,19 @@
                         "url": "",
                         "address": ""
                     },
-                    "speaker" : {
-                        "name" : "Andreas Perret, Eva Fernandez",
+                    "speaker" : [{
+                        "name" : "Andreas Perret",
                         "description" : "NCCR On the Move",
                         "photo" : "/res/images/speakers/speaker.png",
                         "email": "",
                         "link" : ""
-                    },
+                    }, {
+                        "name" : "Eva Fernandez",
+                        "description" : "NCCR On the Move",
+                        "photo" : "/res/images/speakers/speaker.png",
+                        "email": "",
+                        "link" : ""
+                    }],
                     "material_link": "",
                     "keypoints": [
                         "Key point 1",
