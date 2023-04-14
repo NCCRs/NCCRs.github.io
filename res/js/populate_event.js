@@ -67,11 +67,6 @@ function populate(file_name) {
                             document.getElementById('timeline-schedule').appendChild(row);
                             item.workshops.forEach(function(witem){
                                 var wcell = document.createElement('td');
-                                material_div = witem.material_link != '' ? `
-                                    <div class="categories material">
-                                    <a href="${witem.material_link}">Material</a>
-                                    </div>
-                                ` : '';
                                 var speakers = Array.isArray(witem.speaker) ? witem.speaker : [witem.speaker];
                                 var linked_speakers = speakers.map(function(speaker){
                                     return `<a href="#${speaker.name}">${speaker.name}</a>`;
@@ -155,7 +150,7 @@ function populate(file_name) {
                                 </div>
                                     ${item.material_link != '' ? `
                                         <div class="categories material">
-                                            <a href="${item.material_link} target="_blank">Material</a>
+                                            <a href="${item.material_link}">Material</a>
                                         </div>
                                     ` : ''}
                                 <div class="font-weight-300 text-gray-dark-2">
