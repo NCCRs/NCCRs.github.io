@@ -35,7 +35,7 @@
             ]
         },
         {
-            "title": "Welcome",
+            "title": "Opening remarks & overview of the day",
             "type": "",
             "description": "",
             "start": "09:30",
@@ -85,11 +85,35 @@
             ]
         },
         {
+            "title": "Coffee break and networking session",
+            "type": "",
+            "description": "",
+            "start": "10:30",
+            "end": "11:15",
+            "location": {
+                "name": "UZH",
+                "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
+                "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
+            },
+            "speaker": {
+                "name": "",
+                "description": "",
+                "photo": "",
+                "email": "",
+                "link": ""
+            },
+            "material_link": "",
+            "keypoints": [
+                "Key point 1",
+                "Key point 2"
+            ]
+        },
+        {
             "title": "Intellectual Property (IP) and Research Data",
             "type": "presentation",
             "description": "What types of IP are out there, and how is data important to your patent applications? Can data presented in patent applications be used in research, or is it off-limits? This short keynote gives you a quick overview how experimental data can help you when applying for a patent and in what way you may re-use information sourced in patents for your research.",
-            "start": "10:30",
-            "end": "11:15",
+            "start": "11:15",
+            "end": "12:00",
             "location": {
                 "name": "UZH",
                 "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
@@ -108,30 +132,6 @@
                 "Patent applications are better with data",
                 "Patents can be a source of data",
                 "Patents don't stop you from researching the patented invention"
-            ]
-        },
-        {
-            "title": "Coffee break and networking session",
-            "type": "",
-            "description": "",
-            "start": "11:15",
-            "end": "12:00",
-            "location": {
-                "name": "UZH",
-                "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
-                "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
-            },
-            "speaker": {
-                "name": "",
-                "description": "",
-                "photo": "",
-                "email": "",
-                "link": ""
-            },
-            "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
             ]
         },
         {
@@ -361,7 +361,7 @@
             ]
         },
         {
-            "title": "Closing remarks",
+            "title": "Concluding remarks",
             "type": "",
             "description": "",
             "start": "17:30",
