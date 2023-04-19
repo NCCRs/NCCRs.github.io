@@ -79,7 +79,7 @@ function populate(file_name) {
                                     <div class="organizers">${linked_speakers}</div>
                                     ${witem.material_link != '' ? "<div class='categories material'><a href='" + witem.material_link + "'>Material</a></div>" : ""}
                                     </div>
-                                    <div class="font-weight-300 text-gray-dark-2">
+                                    <div class="font-weight-300 text-gray-dark-2 speaker-description">
                                 ${speakers.map(speaker => speaker.description).join(';&nbsp;')}
                                     </div>
                                     </div>

@@ -212,7 +212,7 @@
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    margin: 10px 0;
+    margin: 0;
 }
 .event-schedule-area-two .tab-content .table tbody tr td .event-wrap .categories a {
     color: #252525;
@@ -269,3 +269,8 @@
     color: #D8BFD8;
     padding-right: 5px;
 } 
+
+.event-schedule-area-two .tab-content .table tbody tr td .event-wrap .speaker-description {
+    margin-bottom: 5px;
+}
+
