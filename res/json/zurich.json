@@ -138,8 +138,8 @@
             "title": "Journey towards Open Science and Open Research Data",
             "type": "presentation",
             "description": "Over the last years the Open Science movement has significantly grown, with the aim to make scientific progress more transparent, efficient, and accessible. Open Science is fostered by UNESCO, the EU Commission and most national funding agencies and academic institutions. An important element of Open Science is the wider dissemination of scientific datasets, also known as Open Research Data (ORD). ORD comes with the requirement to publish research data and make them openly accessible, whenever possible. Open data need to adhere to the FAIR (Findable, Accessible, Interoperable, Reusable) principles, so that the scientific community can validate published results and build on them for further discoveries that can foster human progress.<br>To achieve this goal, managing research data from the moment they are generated is of outmost importance. Samples, materials, and equipment used in experiments, experimental procedures, codes used for data processing and analysis, models, datasets: all must be accurately documented. Moreover, all data that are generated in a research project need to be annotated with appropriate and sufficient metadata, that would make them reusable by other experts in the field, without the need to contact the authors, as it is still often the case.<br>In this talk we will look at some of the tools that enable efficient research data management and reproducible research results, thus paving the way to open FAIR data and Open Science.",
-            "start": "11:45",
-            "end": "12:30",
+            "start": "12:00",
+            "end": "12:45",
             "location": {
                 "name": "UZH",
                 "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
