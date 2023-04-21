@@ -69,7 +69,7 @@ function populate(file_name) {
                                 var wcell = document.createElement('td');
                                 var speakers = Array.isArray(witem.speaker) ? witem.speaker : [witem.speaker];
                                 var linked_speakers = speakers.map(function(speaker){
-                                    return `<a href="#${speaker.name}">${speaker.name}</a>`;
+                                    return speaker.photo !== '' ? `<a href="#${speaker.name}">${speaker.name}</a>` : speaker.name;
                                 }).join(';&nbsp;');
                                 wcell.className = "col-sm-" + 12/item.workshops.length;
                                 wcell.innerHTML = `
@@ -90,7 +90,7 @@ function populate(file_name) {
                                     </div>
                                     <div class="event-location">
                                     <p class="room font-weight-300 text-gray-dark-2">
-                                    <i class="fa fa-map-marker text-gray"></i> ${witem.location.name}
+                                    <i class="fa fa-map-marker text-gray"></i> <a href="${witem.location.url}">${witem.location.name}</a>
                                     </p>
                                     </div>
                                     </div>
@@ -101,7 +101,7 @@ function populate(file_name) {
                                 var speakers = Array.isArray(witem.speaker) ? witem.speaker : [witem.speaker];
                                 speakers.forEach((speaker_obj) => {
                                     console.log(speaker_obj);
-                                    if (speaker_obj.name !== "" && speaker_obj.name !== "TBC" && document.getElementById(speaker_obj.name) == null) {
+                                    if (speaker_obj.name !== "" && speaker_obj.name !== "TBC" && speaker_obj.photo !== "" && document.getElementById(speaker_obj.name) == null) {
                                         var speaker = document.createElement('div');
                                         speaker.className = "member-box col-xs-6 col-sm-4 col-md-3";
                                         speaker.id = speaker_obj.name;

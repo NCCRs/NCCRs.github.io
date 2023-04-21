@@ -17,9 +17,9 @@
             "start": "09:00",
             "end": "09:30",
             "location": {
-                "name": "UZH",
-                "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
-                "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
+                "name": "SOC-F-106",
+                "url": "https://www.google.com/maps/place/SOC+building+Z%C3%BCrich+Universitat/@47.3740348,8.5494489,21z/data=!4m13!1m6!4m5!1m0!1m3!2m2!1d8.5496054!2d47.3739988!3m5!1s0x479aa14361354c0d:0xdeef7058852f08eb!8m2!3d47.3739542!4d8.5494759!16s%2Fg%2F11h10w8zrm",
+                "address": "Rämistrasse 69, 8001 Zürich"
             },
             "speaker": {
                 "name": "",
@@ -41,9 +41,9 @@
             "start": "09:30",
             "end": "09:45",
             "location": {
-                "name": "UZH",
-                "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
-                "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
+                "name": "SOC-F-106",
+                "url": "https://www.google.com/maps/place/SOC+building+Z%C3%BCrich+Universitat/@47.3740348,8.5494489,21z/data=!4m13!1m6!4m5!1m0!1m3!2m2!1d8.5496054!2d47.3739988!3m5!1s0x479aa14361354c0d:0xdeef7058852f08eb!8m2!3d47.3739542!4d8.5494759!16s%2Fg%2F11h10w8zrm",
+                "address": "Rämistrasse 69, 8001 Zürich"
             },
             "speaker": {
                 "name": "",
@@ -65,9 +65,9 @@
             "start": "09:45",
             "end": "10:30",
             "location": {
-                "name": "UZH",
-                "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
-                "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
+                "name": "SOC-F-106",
+                "url": "https://www.google.com/maps/place/SOC+building+Z%C3%BCrich+Universitat/@47.3740348,8.5494489,21z/data=!4m13!1m6!4m5!1m0!1m3!2m2!1d8.5496054!2d47.3739988!3m5!1s0x479aa14361354c0d:0xdeef7058852f08eb!8m2!3d47.3739542!4d8.5494759!16s%2Fg%2F11h10w8zrm",
+                "address": "Rämistrasse 69, 8001 Zürich"
             },
             "speaker": {
                 "name": "Alexander Sander",
@@ -91,9 +91,9 @@
             "start": "10:30",
             "end": "11:15",
             "location": {
-                "name": "UZH",
-                "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
-                "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
+                "name": "KOL-D-49",
+                "url": "https://maps.google.com/maps?saddr=&daddr=47.37454373,8.54861294",
+                "address": "Rämistrasse 71, 8001 Zürich"
             },
             "speaker": {
                 "name": "",
@@ -115,9 +115,9 @@
             "start": "11:15",
             "end": "12:00",
             "location": {
-                "name": "UZH",
-                "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
-                "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
+                "name": "SOC-F-106",
+                "url": "https://www.google.com/maps/place/SOC+building+Z%C3%BCrich+Universitat/@47.3740348,8.5494489,21z/data=!4m13!1m6!4m5!1m0!1m3!2m2!1d8.5496054!2d47.3739988!3m5!1s0x479aa14361354c0d:0xdeef7058852f08eb!8m2!3d47.3739542!4d8.5494759!16s%2Fg%2F11h10w8zrm",
+                "address": "Rämistrasse 69, 8001 Zürich"
             },
             "speaker": {
                 "name": "Jospeh Schmitz",
@@ -141,9 +141,9 @@
             "start": "12:00",
             "end": "12:45",
             "location": {
-                "name": "UZH",
-                "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
-                "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
+                "name": "SOC-F-106",
+                "url": "https://www.google.com/maps/place/SOC+building+Z%C3%BCrich+Universitat/@47.3740348,8.5494489,21z/data=!4m13!1m6!4m5!1m0!1m3!2m2!1d8.5496054!2d47.3739988!3m5!1s0x479aa14361354c0d:0xdeef7058852f08eb!8m2!3d47.3739542!4d8.5494759!16s%2Fg%2F11h10w8zrm",
+                "address": "Rämistrasse 69, 8001 Zürich"
             },
             "speaker": {
                 "name": "Caterina Barillari",
@@ -167,9 +167,9 @@
             "start": "12:45",
             "end": "14:00",
             "location": {
-                "name": "UZH",
-                "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
-                "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
+                "name": "",
+                "url": "",
+                "address": ""
             },
             "speaker": {
                 "name": "",
@@ -194,9 +194,9 @@
                     "title": "Introduction to Renku and how it can help you with reproducibility and collaboration in your research",
                     "description": "Renku provides tools that foster reproducibility and collaboration in research projects. If you write and run code to analyze data, Renku can help you track your work, run your models, share results and collaborate with your colleagues. The workshop has two parts: a general introduction of Renku and the vision behind the project, and a demo. The demo is intended to show that with minimal effort Renku allows you to not only track and replicate your work, but also do so in a reproducible environment where you and your colleagues can explore, run, test and improve upon the work you have done.",
                     "location": {
-                        "name": "UZH",
-                        "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
-                        "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
+                        "name": "SOE-F-2",
+                        "url": "https://maps.google.com/maps?saddr=&daddr=47.37353017,8.54923521",
+                        "address": ""
                     },
                     "speaker": {
                         "name": "Tasko Olevski",
@@ -218,8 +218,8 @@
                     "title": "Git basics",
                     "description": "The course is structured into an introductory presentation and a hands-on session to get familiar with using git. We will start with basic principles and git commands and continue in the 2nd part with more advanced concepts such as branches and working with remote repositories such as gitlab.com or github.com.<br>As a prerequisite, you can have a look at the <a href=\"https://siscourses.ethz.ch/git-handson/hands_on_bash.html\">`hands on bash`</a> tutorial.",
                     "location": {
-                        "name": "UZH",
-                        "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
+                        "name": "SOE-E-7",
+                        "url": "https://maps.google.com/maps?saddr=&daddr=47.37353017,8.54923521",
                         "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
                     },
                     "speaker": {
@@ -239,9 +239,9 @@
                     "title": "Introduction to Active Research Data Management with the ETH Zurich ELN/LIMS openBIS",
                     "description": "Active research data management involves the ongoing organization, storage, and sharing of research data throughout the entire data lifecycle. This approach allows researchers to maintain the integrity of their data and ensure that it is available for analysis, interpretation, and future use. With active  research data management, researchers can enhance the reproducibility of their work, facilitate collaboration, and accelerate scientific discovery.<br>The workshop will cover:<ul><li>Intro on FAIR data principles</li><li>Intro on openBIS: structure and major functionality</li><li>User cases</li></ul>",
                     "location": {
-                        "name": "UZH",
-                        "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
-                        "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
+                        "name": "SOC-F-101",
+                        "url": "https://maps.google.com/maps?saddr=&daddr=47.37399881,8.54960535",
+                        "address": ""
                     },
                     "speaker": {
                         "name": "Rostyslav Kuzyakiv",
@@ -269,9 +269,9 @@
             "start": "15:30",
             "end": "16:00",
             "location": {
-                "name": "UZH",
-                "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
-                "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
+                "name": "KOL-D-49",
+                "url": "https://maps.google.com/maps?saddr=&daddr=47.37454373,8.54861294",
+                "address": "Rämistrasse 71, 8001 Zürich"
             },
             "speaker": {
                 "name": "",
@@ -296,9 +296,9 @@
                     "title": "Ethical aspects in open licensing",
                     "description": "Again and again there are discussions about the openness of licenses with regard to ethical considerations. Often the freedom to use the software for any purpose is questioned. In the field of AI research, there has recently been a well-known licence that restricts the use of the software in order to minimise its harmful effects. But does this make sense and is it successful, and what problems does it cause? The workshop will discuss the meaning and consequences of such ethical licences.",
                     "location": {
-                        "name": "UZH",
-                        "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
-                        "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
+                        "name": "SOE-F-2",
+                        "url": "https://maps.google.com/maps?saddr=&daddr=47.37353017,8.54923521",
+                        "address": ""
                     },
                     "speaker": {
                         "name": "Alexander Sander",
@@ -317,9 +317,9 @@
                     "title": "Git advanced",
                     "description": "The course is structured into an introductory presentation and a hands-on session to get familiar with using git. We will start with basic principles and git commands and continue in the 2nd part with more advanced concepts such as branches and working with remote repositories such as gitlab.com or github.com.<br>As a prerequisite, you can have a look at the <a href=\"https://siscourses.ethz.ch/git-handson/hands_on_bash.html\">`hands on bash`</a> tutorial.",
                     "location": {
-                        "name": "UZH",
-                        "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
-                        "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
+                        "name": "SOE-E-7",
+                        "url": "https://maps.google.com/maps?saddr=&daddr=47.37353017,8.54923521",
+                        "address": ""
                     },
                     "speaker": {
                         "name": "Uwe Schmitt",
@@ -336,9 +336,9 @@
 
                     "description": "Research with sensitive data (e.g. personal data such as medical records) requires special cybersecurity and data protection measures to ensure the confidentiality of data and to protect the privacy of individuals. What are sensitive data in Research? What laws and regulations must be followed? What are the implication of non-compliance? I am a researcher - how do I translate and integrate laws, regulations and cybersecurity into my day-to-day research practice? Let's try to bring light to these questions. This workshop will be focused on: <ul> <li>research on sensitive data (sensitive personal data),</li> <li>data privacy and protection: legislation and cybersecurity awareness,</li> <li>data classification: strictly confidential and confidential data vs. internal and public data,</li> <li>Leonhard Med, ETH Zurich: Swiss secure, powerful and versatile Scientific IT Platform for research on and with confidential data,</li> <li>“best practices” for FAIRness of sensitive research data: secure handling of sensitive research data along the entire data lifecycle, from data collection, data management and analysis to publication in repositories and long-term preservation.</li> </ul> ",
                     "location": {
-                        "name": "UZH",
-                        "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
-                        "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
+                        "name": "SOC-F-101",
+                        "url": "https://maps.google.com/maps?saddr=&daddr=47.37399881,8.54960535",
+                        "address": ""
                     },
                     "speaker": {
                         "name": "Diana Coman Schmid",
@@ -367,9 +367,9 @@
             "start": "17:30",
             "end": "17:45",
             "location": {
-                "name": "UZH",
-                "url": "https://www.google.com/maps/place/University+of+Zurich/@47.3746396,8.5473941,17.78z/data=!4m15!1m8!3m7!1s0x479aa0a8cacceabf:0x46d9e58414897465!2sR%C3%A4mistrasse+71,+8006+Z%C3%BCrich!3b1!8m2!3d47.3746043!4d8.5488515!16s%2Fg%2F11csgr4wmr!3m5!1s0x479aa1e28fb49e31:0x975efe26e2b57d4f!8m2!3d47.3745893!4d8.5486628!16s%2Fg%2F11s4cclj18",
-                "address": "R\u00e4mistrasse 71, 8006 Z\u00fcrich, Switzerland"
+                "name": "",
+                "url": "",
+                "address": ""
             },
             "speaker": {
                 "name": "",
