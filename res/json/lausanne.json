@@ -287,8 +287,8 @@
                     ]
                 },
                 {
-                    "title" : "Sensitive data",
-                    "description" : "",
+                    "title" : "Managing and Anonymizing Sensitive Data",
+                    "description" : "In the era of Open Science, researchers are increasingly required to share their research data. Not only do funders expect the sharing of data after the project’s completion, but also an increasing number of scientific journals make data sharing a condition for publication. While researchers tend to express positive attitudes towards data sharing, this is not without posing several legal, ethical and practical challenges. This holds particularly for researchers working with sensitive data, as they are subject to strict rules and principles. In the first part, this workshop will provide theoretical and practical insights for sharing sensitive data and meet Open Science requirements.<br>The second part of the workshop will deal with the topic of anonymisation of quantitative research data. It will present key concepts of anonymisation to help researchers to develop an appropriate anonymization strategy, and to provide the main techniques for anonymizing their data. Examples will be discussed along small exercises. The workshop takes a social sciences perspective but is relevant to anyone working with sensitive data. It will alternate between presentations and short exercises, which will allow to understand the challenges related to this topic in a practical way.",
                     "location" : {
                         "name": "Batochime",
                         "url": "",
@@ -297,7 +297,8 @@
                     "speaker" : {
                         "name" : "Marieke Heers",
                         "description" : "FORS",
-                        "photo" : "/res/images/speakers/speaker.png",
+                        "long_description" : "Marieke Heers is a senior researcher at the Swiss Centre of Expertise in the Social Sciences (FORS), where she works in the group Data Management Support. Marieke is an expert on data management with respect to social sciences data. She holds a PhD in the economics of education and is involved in research projects on education and migration.",
+                        "photo" : "/res/images/speakers/marieke heers.jpg",
                         "email": "",
                         "link" : ""
                     },
@@ -392,7 +393,7 @@
                     "speaker" : [{
                         "name" : "Andreas Perret",
                         "description" : "NCCR On the Move",
-                        "photo" : "/res/images/speakers/speaker.png",
+                        "photo" : "",
                         "email": "",
                         "link" : ""
                     }, {
