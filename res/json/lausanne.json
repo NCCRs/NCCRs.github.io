@@ -354,7 +354,7 @@
                 },
                 {
                     "title" : "Uploading data to repositories",
-                    "description" : "",
+                    "description" : "Uploading your research data to a public repository is critical to openness. It is a required practice by the Swiss NSF because it allows other researchers to find and reproduce publicly funded work.<br>In this workshop, participants will learn how to upload their data efficiently and responsibly, so that their work aligns with the FAIR principles of findability, accessibility, interoperability, and reproducibility. By the end of the session, participants will be able to:<ul><li>Identify the right repository for a given data set.</li><li>Streamline the process of uploading data.</li><li>Annotate data in a standard way, so that other researchers can understand them.</li><li>Understand the value of publishing protocols.</li></ul>",
                     "location" : {
                         "name": "Anthropole 3148",
                         "url": "https://goo.gl/maps/ay5XCA3xALE7xuNw5",
@@ -363,6 +363,7 @@
                     "speaker" : {
                         "name" : "Kendra Brown",
                         "description" : "NCCR Microbiomes",
+                        "long_description": "Kendra Brown is the data manager of the NCCR Microbiomes. She has a PhD in Environmental Engineering from Stanford University, and worked as an environmental consultant before joining the NCCR. She is dedicated to helping NCCR members adopt Open Research Data practices, because to solve the world’s challenges we need to make the best possible use of scientific data.",
                         "photo" : "/res/images/team/KendraBrown.jpg",
                         "email": "",
                         "link" : ""
@@ -374,8 +375,8 @@
                     ]
                 },
                 {
-                    "title" : "Sensitive metadata",
-                    "description" : "",
+                    "title" : "Codebooks for survey and interview data as part of a data management infrastructure",
+                    "description" : "Infrastructures are things you notice once they break down. You don’t think much about the sewers or wi-fi networks until you dearly miss them. If you want Open Research Data to work, you will need some corresponding infrastructure.<br>In this talk we will address a modest looking document, the codebook, and pull a few loose strings that end up connected to the semantic web, international standards, associations of librarians and swiss graphic design. We will look at a free tool that is both obsolete and a door to interconnected research data, the Nesstar Publisher.<br>In addition, we will discuss a specific research project as a case study that combines different data collection strategies to examine the challenges associated with developing common codebooks across data types that differ in terms of anonymization and thickness of topics covered.",
                     "location" : {
                         "name": "Anthropole 5146",
                         "url": "https://goo.gl/maps/ay5XCA3xALE7xuNw5",
@@ -384,20 +385,25 @@
                     "speaker" : [{
                         "name" : "Andreas Perret",
                         "description" : "NCCR On the Move",
+                        "long_description":"Andreas Perret is the Data Manager of the nccr – on the move, where he coordinates all matters linked to data management plans, data visualization and open access policy. He has previously led the medical hospital statistics at the Swiss Federal Statistical Office before heading the dissemination of public statistics at the social data archive FORS. He holds a master’s degree in sociology and anthropology, was an expert in conflict management and started his career as a professional photographer.",
                         "photo" : "",
                         "email": "",
                         "link" : ""
                     }, {
                         "name" : "Eva Fernandez",
                         "description" : "NCCR On the Move",
+                        "long_description":"Eva Fernández Guzmán G. is a scientific collaborator at the University of Geneva and a post-doctoral fellow at the University of Trento. She holds a PhD in Political Science and Sociology and her research focuses on immigration, solidarity and political behavior. She has also worked in the public health sector, mainly at the World Health Organization where she was part of the monitoring and evaluation team.",
                         "photo" : "/res/images/speakers/speaker.png",
                         "email": "",
                         "link" : ""
                     }],
-                    "material_link": "",
+                    "material_link": "https://nccr-onthemove.ch/data-management",
                     "keypoints": [
-                        "Key point 1",
-                        "Key point 2"
+                        "Feel free to hijack the tools that do the job, bricolage is king",
+                        "Trust your Data Librarian, she stands on much thicker shoulders than your IT specialist",
+                        "It ain’t good if it don’t look good",
+                        "Mixed-methods based strategies allow for generalization and thickness to be built into our data collection",
+                        "Combining data types involves connecting the dots early in the project, developing guidelines toward a common target and codebooks that can be read across data sets"
                     ]
                 }
             ]
