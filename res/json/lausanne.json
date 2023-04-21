@@ -1,13 +1,13 @@
 {
     "title": "ORD | Lausanne",
-    "description": "The Lausanne meeting will take place at the EPFL. The morning sessions will be in the CM 1 4 Auditorium, and the afternoon sessions will be in the Batochime building. The nearest metro stop is the Metro m1 at UNIL Sorge.",
+    "description": "The Lausanne meeting will take place at the University of Lausanne in the Anthropole building. The nearest metro stop is m1 Chamberonne. The morning sessions will be in the Anthropole 2097 auditorium, and the afternoon sessions will in different rooms (3059, 3148, 5135, 5146) of the Anthropole building as well.",
     "start" : "2023-05-08T08:30",
     "end" : "2023-05-08T17:45",
     "location" : {
-        "name" : "EPFL",
-        "address" : "Bâtiment CM 1 4, 1015 Lausanne",
-        "url" : "",
-        "iframe_url" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1222.9518270249287!2d6.565597024559677!3d46.5193141292759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c30fdddeca23f%3A0xbbcc34ab7f93b272!2sSwiss%20Federal%20Institute%20of%20Technology%20Lausanne!5e0!3m2!1sen!2sch!4v1680000870136!5m2!1sen!2sch"
+        "name" : "Anthropole, UNIL",
+        "address" : "Bâtiment Anthropole 2097, 1015 Lausanne",
+        "url" : "https://goo.gl/maps/ay5XCA3xALE7xuNw5",
+        "iframe_url" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d270.4006128855602!2d6.584210607697381!3d46.52360151218897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c31aded9bbc95%3A0xdc0453c0cad60cc8!2sUNIL%20-%20Anthropole!5e0!3m2!1sde!2sch!4v1682088194901!5m2!1sde!2sch"
     },
     "timeline" : [
         {
@@ -17,8 +17,8 @@
             "start" : "08:30",
             "end" : "09:00",
             "location" : {
-                "name": "",
-                "url": "",
+                "name": "Anthropole",
+                "url": "https://goo.gl/maps/ay5XCA3xALE7xuNw5",
                 "address": ""
             },
             "speaker" : {
@@ -41,8 +41,8 @@
             "start" : "09:00",
             "end" : "09:15",
             "location" : {
-                "name": "CM 1 4",
-                "url": "",
+                "name": "Anthropole",
+                "url": "https://goo.gl/maps/ay5XCA3xALE7xuNw5",
                 "address": ""
             },
             "speaker" : {
@@ -65,8 +65,8 @@
             "start" : "09:15",
             "end" : "09:45",
             "location" : {
-                "name": "CM 1 4",
-                "url": "",
+                "name": "Anthropole 2097",
+                "url": "https://goo.gl/maps/ay5XCA3xALE7xuNw5",
                 "address": ""
             },
             "speaker" : {
@@ -89,8 +89,8 @@
             "start" : "09:45",
             "end" : "10:30",
             "location" : {
-                "name": "CM 1 4",
-                "url": "",
+                "name": "Anthropole 2097",
+                "url": "https://goo.gl/maps/ay5XCA3xALE7xuNw5",
                 "address": ""
             },
             "speaker" : [{
@@ -102,7 +102,7 @@
                 "link" : ""
             },{
                 "name" : "Lina Kim",
-                "description" : "NCCR Microbiomes, ETH Zurich",
+                "description" : "ETH Zurich",
                 "long_description" : "Lina Kim is a doctoral candidate at the ETH Zürich Laboratory for Food Systems Biotechnology. Through experiences as an academic researcher at MIT and bioinformatician in the biotechnology industry, she developed an appreciation for multi-omics technologies and their relevance to human health. Her current research involves developing and applying computational methods to complex microbial communities in stem cell patient outcomes.",
                 "photo" : "/res/images/speakers/lina kim.jpg",
                 "email": "",
@@ -119,7 +119,7 @@
             "end" : "10:45",
             "location" : {
                 "name": "",
-                "url": "",
+                "url": "https://goo.gl/maps/ay5XCA3xALE7xuNw5",
                 "address": ""
             },
             "speaker" : {
@@ -130,10 +130,7 @@
                 "link" : ""
             },
             "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
+            "keypoints": []
         },
         {
             "title" : "Reproducible workflows",
@@ -142,12 +139,12 @@
             "start" : "10:45",
             "end" : "11:15",
             "location" : {
-                "name": "CM 1 4",
-                "url": "",
+                "name": "Anthropole 2097",
+                "url": "https://goo.gl/maps/ay5XCA3xALE7xuNw5",
                 "address": ""
             },
             "speaker" : [{
-                "name" : "Marknik Bercx",
+                "name" : "Marnik Bercx",
                 "description" : "NCCR MARVEL",
                 "photo" : "/res/images/speakers/speaker.png",
                 "email": "",
@@ -173,8 +170,8 @@
             "start" : "11:15",
             "end" : "11:45",
             "location" : {
-                "name": "CM 1 4",
-                "url": "",
+                "name": "Anthropole 2097",
+                "url": "https://goo.gl/maps/ay5XCA3xALE7xuNw5",
                 "address": ""
             },
             "speaker" : {
@@ -221,7 +218,7 @@
             "start" : "13:00",
             "end" : "14:00",
             "location" : {
-                "name": "Batochime",
+                "name": "",
                 "url": "",
                 "address": ""
             },
@@ -248,8 +245,8 @@
                     "title" : "Introduction to Git, GitHub, GitLab",
                     "description" : "",
                     "location" : {
-                        "name": "Batochime",
-                        "url": "",
+                        "name": "Anthropole 3059",
+                        "url": "https://goo.gl/maps/ay5XCA3xALE7xuNw5",
                         "address": ""
                     },
                     "speaker" : {
@@ -260,17 +257,14 @@
                         "link" : "https://github.com/romaingrx"
                     },
                     "material_link": "",
-                    "keypoints": [
-                        "Key point 1",
-                        "Key point 2"
-                    ]
+                    "keypoints": []
                 },
                 {
                     "title" : "Intellectual property",
                     "description" : "",
                     "location" : {
-                        "name": "Batochime",
-                        "url": "",
+                        "name": "Anthropole 3148",
+                        "url": "https://goo.gl/maps/ay5XCA3xALE7xuNw5",
                         "address": ""
                     },
                     "speaker" : {
@@ -290,8 +284,8 @@
                     "title" : "Managing and Anonymizing Sensitive Data",
                     "description" : "In the era of Open Science, researchers are increasingly required to share their research data. Not only do funders expect the sharing of data after the project’s completion, but also an increasing number of scientific journals make data sharing a condition for publication. While researchers tend to express positive attitudes towards data sharing, this is not without posing several legal, ethical and practical challenges. This holds particularly for researchers working with sensitive data, as they are subject to strict rules and principles. In the first part, this workshop will provide theoretical and practical insights for sharing sensitive data and meet Open Science requirements.<br>The second part of the workshop will deal with the topic of anonymisation of quantitative research data. It will present key concepts of anonymisation to help researchers to develop an appropriate anonymization strategy, and to provide the main techniques for anonymizing their data. Examples will be discussed along small exercises. The workshop takes a social sciences perspective but is relevant to anyone working with sensitive data. It will alternate between presentations and short exercises, which will allow to understand the challenges related to this topic in a practical way.",
                     "location" : {
-                        "name": "Batochime",
-                        "url": "",
+                        "name": "Anthropole 5146",
+                        "url": "https://goo.gl/maps/ay5XCA3xALE7xuNw5",
                         "address": ""
                     },
                     "speaker" : {
@@ -329,10 +323,7 @@
                 "link" : ""
             },
             "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
+            "keypoints": []
         },
         {
             "type" : "workshop",
@@ -344,8 +335,8 @@
                     "title" : "Electronic lab notebooks",
                     "description" : "",
                     "location" : {
-                        "name": "Batochime",
-                        "url": "",
+                        "name": "Anthropole 5136",
+                        "url": "https://goo.gl/maps/ay5XCA3xALE7xuNw5",
                         "address": ""
                     },
                     "speaker" : {
@@ -365,8 +356,8 @@
                     "title" : "Uploading data to repositories",
                     "description" : "",
                     "location" : {
-                        "name": "Batochime",
-                        "url": "",
+                        "name": "Anthropole 3148",
+                        "url": "https://goo.gl/maps/ay5XCA3xALE7xuNw5",
                         "address": ""
                     },
                     "speaker" : {
@@ -386,8 +377,8 @@
                     "title" : "Sensitive metadata",
                     "description" : "",
                     "location" : {
-                        "name": "Batochime",
-                        "url": "",
+                        "name": "Anthropole 5146",
+                        "url": "https://goo.gl/maps/ay5XCA3xALE7xuNw5",
                         "address": ""
                     },
                     "speaker" : [{
