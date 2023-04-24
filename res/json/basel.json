@@ -131,9 +131,9 @@
             ]
         },
         {
-            "title" : "Data repositories",
+            "title" : "Open-research data repositories and reproducible workflows",
             "type" : "presentation",
-            "description" : "",
+            "description" : "Open research data repositories are a need if you want to (or must!) publish all data needed to reproduce your scientific papers. Which repositories exist? I will discuss a few of the options, then focusing on Materials Cloud, a platform that we designed to enable open and seamless sharing of resources for computational science, driven by applications in materials modelling. Beside hosting an open-research data archive, it also provides online modelling services, as well as curated data together with its full provenance, making the data and the underlying simulations fully reproducible. Reproducibility is enabled thanks to the combination with our workflow engine AiiDA, a robust open-source high-throughput infrastructure addressing the challenges arising from the needs of automated workflow management and data provenance recording.  AiiDA stores the full provenance of any simulation workflow in the form of graphs that allow retracing and reproducing any computed result. The infrastructure is agnostic to the specific simulation codes used. Currently, most plugins (over 120 available to date) support applications in computational materials science, but the engine is generic, and plugins are already available also for domains that transcend its initial domain, such as chemistry, atmospheric physics, or weather and climate applications.",
             "start" : "11:45",
             "end" : "12:15",
             "location" : {
@@ -143,15 +143,18 @@
             },
             "speaker" : {
                 "name" : "Giovanni Pizzi",
-                "description" : "EPFL",
-                "photo" : "/res/images/speakers/speaker.png",
+                "description" : "Paul Scherrer Institut & NCCR MARVEL",
+                "long_description" : "Dr. Giovanni Pizzi obtained his PhD in Physics from Scuola Normale Superiore of Pisa, Italy. He then moved to EPFL as a post-doc and then as a senior researcher, and since 2022 he is group leader of the “Materials Software and Data” group at the Paul Scherrer Institute PSI. His research focuses on methods and applications of high-throughput atomistic simulations for materials design and discovery. He leads the development teams of the AiiDA reproducible-workflow infrastructure (http://www.aiida.net) and of the open Materials Cloud portal (http://www.materialscloud.org), and oversees their design. Moreover, he is co-author of the Wannier90 simulation code (http://www.wannier.org).  He is project leader of the Open Digital Infrastructure Pillar of the MARVEL NCCR, and coordinator of the 'Materials Cloud' Implementation Network of GO-FAIR.",
+                "photo" : "/res/images/speakers/giovanni_pizzi.png",
                 "email": "",
                 "link" : ""
             },
             "material_link": "",
             "keypoints": [
-                "Key point 1",
-                "Key point 2"
+                "The available repositories for open-research data, with particular focus on Materials Cloud Archive (for Materials Science)",
+                "Advantages of sharing open research data, and in particular of accessible and interoperable data",
+                "Why reproducible workflows are crucial in science, benefits of making simulations and workflow reproducible, and examples from our workflow engine AiiDA",
+                "Combining reproducible workflows and FAIR data repositories"
             ]
         },
         {
@@ -216,13 +219,20 @@
                         "url": "",
                         "address": ""
                     },
-                    "speaker" : {
+                    "speaker" : [{
                         "name" : "Michael Podvinec",
                         "description" : "Research IT Technology Platform, UniBas",
                         "photo" : "/res/images/speakers/speaker.png",
                         "email": "",
                         "link" : ""
-                    },
+                    }, {
+                        "name" : "Sofia Georgakopoulou",
+                        "description" : "sciCORE, UniBas",
+                        "long_description" : "",
+                        "photo" : "/res/images/speakers/speaker.png",
+                        "email": "",
+                        "link" : ""
+                    }],
                     "material_link": "",
                     "keypoints": [
                         "Key point 1",
@@ -231,7 +241,7 @@
                 },
                 {
                     "title" : "Introduction to Git and GitHub",
-                    "description" : "",
+                    "description" : "Git is a versioning system primarily used for code. Combined with GitHub, it becomes a powerful system for collaboration and sharing of code and any other text files. In this workshop, participants will learn the basics of working with git and GitHub through a brief lecture and a hands-on activity using cooking recipe text files. Participants will be guided through installing git, creating a GitHub account, and setting up git on their machines in order to work with GitHub repositories. The activity will also guide participants through common workflows for git and GitHub. As a bonus, participants will leave with a GitHub repository full of new recipes to try. No coding required!",
                     "location" : {
                         "name": "",
                         "url": "",
@@ -240,14 +250,14 @@
                     "speaker" : {
                         "name" : "Nichole Wespe",
                         "description" : "NCCR AntiResist",
-                        "photo" : "/res/images/speakers/speaker.png",
+                        "long_description" : "Nichole Wespe is the Research Data Officer of the NCCR AntiResist. She received her Ph.D. in Biology from Harvard University in 2017, after which she worked as a computational biologist at an agritech start-up company for 5 years before joining the NCCR in April 2023. Before leaving the bench, she accumulated over 10 years of experience in molecular biology research in systems including fly development, immunology, and experimental microbial evolution. She has been coding in Python for 8 years, during which time she has benefited greatly from other people sharing their code on GitHub.",
+                        "photo" : "/res/images/speakers/nichole_wespe.jpg",
                         "email": "",
                         "link" : ""
                     },
                     "material_link": "",
                     "keypoints": [
-                        "Key point 1",
-                        "Key point 2"
+                        "What exactly are git and GitHub, what (and what not) to use them for, and the basics of how to use them."
                     ]
                 }
             ]
@@ -304,24 +314,34 @@
                     ]
                 },
                 {
-                    "title" : "Introduction to sensitive data ",
-                    "description" : "",
+                    "title" : "Introduction to sensitive (patient) data – or data under constraints",
+                    "description" : "Today, research including patient related data has become more and more popular as for example routine patient data may be received from the University Hospitals. This data comes with an obligation and requirements towards correct storage, handling, processing, and sharing. Hence, within this workshop we will start with a short introduction into the regulatory and ethical aspects that encompass working with sensitive (patient) data. This will form the foundation for the presentation on sensitive (patient) data. In the second part we will look at what sensitive (patient) data are and then dive deeper into some of the topics that need to be considered when working with this type of data on a general level. It should also give a guideline as to how best to approach this, at the beginning daunting task, of the successful and safe usage of sensitive (patient) data. In part 3 we will show how we approached the handling of sensitive (patient) data in NCCR AntiResist. We will finish the workshop with small group discussions and a general plenum on the outcome of these discussions.",
                     "location" : {
                         "name": "",
                         "url": "",
                         "address": ""
                     },
-                    "speaker" : {
-                        "name" : "David Buechel",
+                    "speaker" : [{
+                        "name" : "David Büchel",
                         "description" : "USB",
-                        "photo" : "/res/images/speakers/speaker.png",
+                        "long_description" : "PhD (tumour biology) at the University Basel and now several years working as a data manager at the department for clinical research (DKF). Further education as a data steward at the University of Basel. Clinical Data Officer of the NCCR AntiResist.",
+                        "photo" : "/res/images/speakers/david_buechel.jpg",
                         "email": "",
                         "link" : ""
-                    },
+                    }, {
+                        "name" : "Claudia Saupper",
+                        "description" : "NCCR AntiResist",
+                        "long_description" : "IT by education, (research) data by heart. Master in Computer Science at ETH with nearly 20 years’ experience in research data in the industry as well as in the academic field. Part of the Clinical Data Office of the NCCR AntiResist.",
+                        "photo" : "/res/images/speakers/claudia_saupper.jpg",
+                        "email": "",
+                        "link" : ""
+                    }],
                     "material_link": "",
                     "keypoints": [
-                        "Key point 1",
-                        "Key point 2"
+                        "What are sensitive (patient) data?",
+                        "Why is this topic so important to consider?",
+                        "What are the general aspects to safely handle sensitive (patient) data?",
+                        "How can sensitive (patient) data be shared?"
                     ]
                 }
             ]
