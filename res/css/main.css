@@ -68,10 +68,9 @@ ul {
   list-style-position: outside
 }
 
-ul > li {
-    margin-left: 15px;
+ul, ol {
+  padding: 0px 25px;
 }
-
 
 iframe {
   border: 0
@@ -4818,3 +4817,4 @@ section.pull-up {
     min-height: 650px;
   }
 }
+
