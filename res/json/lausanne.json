@@ -222,7 +222,7 @@
             "workshops" : [
                 {
                     "title" : "Introduction to Git, GitHub, GitLab",
-                    "description" : "",
+                    "description" : "The course is structured into an introductory presentation and a hands-on session to get familiar with using git. We will start with basic principles and git commands.<br>As a prerequisite, you can have a look at the <a href=\"https://siscourses.ethz.ch/git-handson/hands_on_bash.html\">`hands on bash`</a> tutorial.",
                     "location" : {
                         "name": "Anthropole 3059",
                         "url": "https://goo.gl/maps/ay5XCA3xALE7xuNw5",
@@ -235,7 +235,7 @@
                         "email": "romain.graux@epfl.ch",
                         "link" : "https://github.com/romaingrx"
                     },
-                    "material_link": "",
+                    "material_link": "https://siscourses.ethz.ch/sib_workshop_best_practices/git_handson/hands_on_git.html",
                     "keypoints": []
                 },
                 {
