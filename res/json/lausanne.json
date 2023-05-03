@@ -353,14 +353,14 @@
                         "name" : "Andreas Perret",
                         "description" : "NCCR On the Move",
                         "long_description":"Andreas Perret is the Data Manager of the nccr – on the move, where he coordinates all matters linked to data management plans, data visualization and open access policy. He has previously led the medical hospital statistics at the Swiss Federal Statistical Office before heading the dissemination of public statistics at the social data archive FORS. He holds a master’s degree in sociology and anthropology, was an expert in conflict management and started his career as a professional photographer.",
-                        "photo" : "",
+                        "photo" : "/res/images/speakers/andreas perret.jpg",
                         "email": "",
                         "link" : ""
                     }, {
                         "name" : "Eva Fernandez",
                         "description" : "NCCR On the Move",
                         "long_description":"Eva Fernández Guzmán G. is a scientific collaborator at the University of Geneva and a post-doctoral fellow at the University of Trento. She holds a PhD in Political Science and Sociology and her research focuses on immigration, solidarity and political behavior. She has also worked in the public health sector, mainly at the World Health Organization where she was part of the monitoring and evaluation team.",
-                        "photo" : "/res/images/speakers/speaker.png",
+                        "photo" : "/res/images/speakers/eva fernandez.jpg",
                         "email": "",
                         "link" : ""
                     }],
