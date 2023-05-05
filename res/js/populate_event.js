@@ -118,12 +118,28 @@ function populate(file_name) {
                                         ${speaker_obj.description}
                                             </span>
                                             </div>
+                                            ${speaker_obj.long_description ? `
+                                            <div class="ease height-100 padding-2 position-absolute position-top position-left show-on-hover width-100">
+                                            <div class="bg-base-color height-100 width-100 overflow-y-scroll overflow-x-hidden">
+                                              <div class="display-table height-100 width-100">
+                                                <div class="display-table-cell no-padding-tb padding-11 vertical-align-middle text-white">
+                                                  <span class="display-block font-weight-500 letter-spacing-1 text-small" style="padding-bottom: 5px; padding-top: 5px;">
+                                                    ${speaker_obj.long_description}
+                                                  </span>
+                                                </div>
+                                                <!-- //.display-table-cell -->
+                                              </div>
+                                              <!-- //.display-table -->
+                                            </div>
+                                            </div>
+                                            </div>
+                                            ` : ``}
                                             </div>
                                         `;
                                         if (speaker_obj.link !== ''){
                                             speaker.innerHTML = `
                                                 <a href="${speaker_obj.link}" target="_blank">
-                                            ${speaker.innerHTML}
+                                                    ${speaker.innerHTML}
                                                 </a>
                                             `
                                         }
@@ -202,6 +218,22 @@ function populate(file_name) {
                                     ${speaker_obj.description}
                                         </span>
                                         </div>
+                                            ${speaker_obj.long_description ? `
+                                            <div class="ease height-100 padding-2 position-absolute position-top position-left show-on-hover width-100">
+                                            <div class="bg-base-color height-100 width-100 overflow-y-scroll overflow-x-hidden">
+                                              <div class="display-table height-100 width-100">
+                                                <div class="display-table-cell no-padding-tb padding-11 vertical-align-middle text-white">
+                                                  <span class="display-block font-weight-500 letter-spacing-1 text-small" style="padding-bottom: 5px; padding-top: 5px;">
+                                                    ${speaker_obj.long_description}
+                                                  </span>
+                                                </div>
+                                                <!-- //.display-table-cell -->
+                                              </div>
+                                              <!-- //.display-table -->
+                                            </div>
+                                            </div>
+                                            </div>
+                                            ` : ``}
                                         </div>
                                     `;
                                     if (speaker_obj.link !== ''){

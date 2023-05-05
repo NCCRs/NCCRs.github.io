@@ -1600,9 +1600,18 @@ h6 {
   opacity: .8
 }
 
+.show-on-hover {
+    display: none;
+}
+
+.member-box:hover .show-on-hover {
+    display: block;
+
+}
+
 .carousel.carousel-fullscreen,
 .carousel.carousel-fullscreen .flickity-viewport {
-  height: 100%!important;
+  height: 100%!i§mportant;
   width: 100%!important
 }
 
@@ -4816,5 +4825,13 @@ section.pull-up {
   .min-height-homepage {
     min-height: 650px;
   }
+}
+
+.overflow-y-scroll {
+    overflow-y: scroll;
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden;
 }
 
