@@ -13,7 +13,7 @@
         {
             "title" : "Registration & Structured networking",
             "type" : "",
-            "description" : "",
+            "description" : "with complimentary breakfast",
             "start" : "09:30",
             "end" : "10:15",
             "location" : {
@@ -61,7 +61,7 @@
         {
             "title" : "Why is ORD important?",
             "type" : "presentation",
-            "description" : "",
+            "description" : "Open research data refers to the idea of making research data available to anyone who wishes to access it, without restrictions or fees. Firstly, open research data promotes transparency in scientific research. It allows other researchers to access and verify the data that was used in a study, which can help to ensure the reliability and accuracy of scientific findings. Secondly, open research data can lead to increased collaboration and innovation. When data is made freely available, researchers from different fields and organizations can access it and use it to develop new insights and approaches. Finally, open research data can help to promote equity and fairness in scientific research. When data is freely available, it allows researchers from any location to access and use the same data. On the Swiss level, swissuniversities together with other partners, developed an ORD Strategy and Action Plan, having open access to research data at their core.  For SIB, providing open and efficient access to biological and biomedical data for worldwide sharing and reuse is also crucial and at the core of SIB's activities. Among the databases maintained by SIB, we can find Rhea, STRING and UniProt, which provide biochemical reactions, protein-protein interactions, and protein sequences and functions, respectively. These biodata resources provide expert-curated and annotated biological knowledge, add value to open research data and enable further discoveries. SIB’s activities also include federating data in pan-European life and health projects according to the FAIR principles, and teaching life scientists and bioinformaticians topics such as reproducible research, data analysis, statistics, and FAIR data management. We present here an overview of how ORD has become a pillar in Swiss academic research and why it is essential, and we will illustrate those with some of the SIB ongoing projects.",
             "start" : "10:30",
             "end" : "11:00",
             "location" : {
@@ -72,20 +72,24 @@
             "speaker" : {
                 "name" : "Valeria Di Cola",
                 "description" : "Swiss Institute of Bioinformatics",
-                "photo" : "/res/images/speakers/speaker.png",
+                "long_description" : "Valeria Di Cola is Training Manager at the SIB Swiss Institute of Bioinformatics. In the past she was Data Manager at NCCR Robotics based in EPFL, and prior to this appointment she was Research Manager at the Ecospat Lab at UNIL. Her research and teaching interests include research data management, species distribution models, and data visualization. At SIB, she is involved in the training activities regarding computational biology and Research Data Management. She is an author of the ecospat R package and contributed to the development of the book Habitat Suitability and Distribution Models with Applications in R (2017). She holds a degree in Biology and a Doctorate in Biological Sciences from the National University of Córdoba, Argentina.",
+                "photo" : "/res/images/speakers/valeria_di_cola.jpg",
                 "email": "",
                 "link" : ""
             },
             "material_link": "",
             "keypoints": [
-                "Key point 1",
-                "Key point 2"
+                "Open research data reduces efforts and costs, allowing reproducibility",
+                "Carefully curated and annotated data allows future discoveries and research developments",
+                "Global access to research data is key to enable focusing on your own research",
+                "Research data should be supported and available over time",
+                "Open research data is important because it promotes transparency, collaboration, and equity in scientific research, which can lead to more reliable findings and more effective solutions to complex problems"
             ]
         },
         {
-            "title" : "Data life cycle management",
+            "title" : "Research data lifecycle management",
             "type" : "presentation",
-            "description" : "",
+            "description" : "As science becomes ever more digital and data-driven, efficient management of research data has become crucial for the scientific community. This presentation will provide an engaging and accessible introduction to the research data lifecycle and the usefulness of this model in research data management. The image of a Research Data Lifecycle that loops back on itself is a good metaphor for science in a connected and collaborative world. Hypotheses and projects are born out of pre-existing knowledge and data, and once new data are generated, processed and analyzed, not only the findings, but also the data that lead to them should be made available to the broad scientific community. This way, they can again foster new research projects and discoveries. In this presentation, attendees will learn how the lifecycle model can facilitate collaboration, enhance data quality, and increase the potential for valuable insights and discoveries. We will discuss the key challenges for open research data as they arise in the different phases of the cycle and look at some useful tools and concepts that can help you make your data more open, more FAIR and more accessible.",
             "start" : "11:00",
             "end" : "11:30",
             "location" : {
@@ -95,15 +99,19 @@
             },
             "speaker" : {
                 "name" : "Michael Podvinec",
-                "description" : "Research IT Technology Platform, UniBas",
-                "photo" : "/res/images/speakers/speaker.png",
+                "description" : "Biozentrum Research IT, UniBas",
+                "long_description" : "Initially a wet-lab molecular biologist, Michael did post-doctoral research in bioinformatics, driven by his enthusiasm for computers and digital technology. Identifying the distinct and dynamic IT needs of biomolecular researchers, he contributed to the establishment of the Research IT Technology Platform at the Biozentrum of the University of Basel. This Platform provides strategic, technical, and operational assistance, promoting a unified scientific and administrative IT environment that allows researchers to focus on their projects and data with ease.",
+                "photo" : "/res/images/speakers/michael_podvinec.jpg",
                 "email": "",
                 "link" : ""
             },
             "material_link": "",
             "keypoints": [
-                "Key point 1",
-                "Key point 2"
+                "The importance and usefulness of the research data lifecycle model",
+                "Specific considerations during the different phases of the research data lifecycle",
+                "What the main funding agencies require you to do, and in which phase to best do it",
+                "Advice and concepts on how to address data management challenges",
+                "Tools and resources for effective data management strategies"
             ]
         },
         {
@@ -215,14 +223,15 @@
                     "title" : "Introduction to electronic lab notebooks",
                     "description" : "",
                     "location" : {
-                        "name": "",
+                        "name": "U1.191",
                         "url": "",
                         "address": ""
                     },
                     "speaker" : [{
                         "name" : "Michael Podvinec",
-                        "description" : "Research IT Technology Platform, UniBas",
-                        "photo" : "/res/images/speakers/speaker.png",
+                        "description" : "Biozentrum Research IT, UniBas",
+                        "long_description" : "Initially a wet-lab molecular biologist, Michael did post-doctoral research in bioinformatics, driven by his enthusiasm for computers and digital technology. Identifying the distinct and dynamic IT needs of biomolecular researchers, he contributed to the establishment of the Research IT Technology Platform at the Biozentrum of the University of Basel. This Platform provides strategic, technical, and operational assistance, promoting a unified scientific and administrative IT environment that allows researchers to focus on their projects and data with ease.",
+                        "photo" : "/res/images/speakers/michael_podvinec.jpg",
                         "email": "",
                         "link" : ""
                     }, {
@@ -243,7 +252,7 @@
                     "title" : "Introduction to Git and GitHub",
                     "description" : "Git is a versioning system primarily used for code. Combined with GitHub, it becomes a powerful system for collaboration and sharing of code and any other text files. In this workshop, participants will learn the basics of working with git and GitHub through a brief lecture and a hands-on activity using cooking recipe text files. Participants will be guided through installing git, creating a GitHub account, and setting up git on their machines in order to work with GitHub repositories. The activity will also guide participants through common workflows for git and GitHub. As a bonus, participants will leave with a GitHub repository full of new recipes to try. No coding required!",
                     "location" : {
-                        "name": "",
+                        "name": "U1.197",
                         "url": "",
                         "address": ""
                     },
@@ -293,44 +302,46 @@
             "end" : "17:00",
             "workshops" : [
                 {
-                    "title" : "Metadata & controlled vocabularies",
-                    "description" : "",
+                    "title" : "Metadata & controlled vocabularies in life sciences",
+                    "description" : "Metadata is crucial in scientific research but also in everyday life. It is providing a way to organize, describe, and share data. Different types of metadata include descriptive metadata, administrative metadata, and structural metadata. The standardization of metadata plays an important role and helps to improve data interoperability, sharing and reuse. Controlled vocabularies are a common component of metadata These are standardized and organized arrangements of words and phrases that provide a consistent way to describe data. Metadata creators assign terms from controlled vocabularies to improve and unify the search for information. Common types of controlled vocabularies include subject headings lists, ontologies, and thesauri. Metadata and controlled vocabularies can facilitate data sharing and collaboration among researchers in life sciences, as they provide a common language and framework to describe and access data. They can also ensure consistency in data analysis, as they reduce ambiguity and variability in data interpretation. However, there remain challenges to their use in life sciences, such as the need for better integration with existing data management systems and the development of new standards in multiple areas. For example, bioimaging data still largely lacks metadata standards and controlled vocabularies that can capture the complexity and diversity of the data. To improve data quality, these metadata standards and controlled vocabularies must be adopted and better implemented in bioimaging data workflows. This will improve the consistency and accuracy of data description and enable better data analysis and reuse based on the F.A.I.R. principles. In this workshop, metadata and controlled vocabularies will be explained using examples from everyday life as well as from bioimaging, and possible data repositories and ontologies for life sciences will be presented. Finally, in a practical exercise, participants are given a bioimaging dataset to describe using a metadata standard and a controlled vocabulary or thesaurus of their choice.",
                     "location" : {
-                        "name": "",
+                        "name": "U1.191",
                         "url": "",
                         "address": ""
                     },
                     "speaker" : {
                         "name" : "Oliver Biehlmaier",
                         "description" : "UniBas",
-                        "photo" : "/res/images/speakers/speaker.png",
+                        "long_description" : "Oliver Biehlmaier is a microscopy expert and the head of the Imaging Core Facility at the Biozentrum of the University of Basel. He leads a team of experts in providing various microscopy techniques, including confocal, super-resolution, and light-sheet microscopy. Along with these services, he and his team also offer image analysis services and state of the art data management infrastructure.",
+                        "photo" : "/res/images/speakers/oliver_biehlmaier.jpg",
                         "email": "",
                         "link" : ""
                     },
                     "material_link": "",
                     "keypoints": [
-                        "Key point 1",
-                        "Key point 2"
+                        "Understand that 'Metadata is a love letter to your future self!'",
+                        "Know where to search for ontologies",
+                        "Know how to generate FAIR data based on the respective metadata requirements"
                     ]
                 },
                 {
                     "title" : "Introduction to sensitive (patient) data – or data under constraints",
                     "description" : "Today, research including patient related data has become more and more popular as for example routine patient data may be received from the University Hospitals. This data comes with an obligation and requirements towards correct storage, handling, processing, and sharing. Hence, within this workshop we will start with a short introduction into the regulatory and ethical aspects that encompass working with sensitive (patient) data. This will form the foundation for the presentation on sensitive (patient) data. In the second part we will look at what sensitive (patient) data are and then dive deeper into some of the topics that need to be considered when working with this type of data on a general level. It should also give a guideline as to how best to approach this, at the beginning daunting task, of the successful and safe usage of sensitive (patient) data. In part 3 we will show how we approached the handling of sensitive (patient) data in NCCR AntiResist. We will finish the workshop with small group discussions and a general plenum on the outcome of these discussions.",
                     "location" : {
-                        "name": "",
+                        "name": "U1.197",
                         "url": "",
                         "address": ""
                     },
                     "speaker" : [{
                         "name" : "David Büchel",
-                        "description" : "USB",
+                        "description" : "USB & NCCR AntiResist",
                         "long_description" : "PhD (tumour biology) at the University Basel and now several years working as a data manager at the department for clinical research (DKF). Further education as a data steward at the University of Basel. Clinical Data Officer of the NCCR AntiResist.",
                         "photo" : "/res/images/speakers/david_buechel.jpg",
                         "email": "",
                         "link" : ""
                     }, {
                         "name" : "Claudia Saupper",
-                        "description" : "NCCR AntiResist",
+                        "description" : "USB & NCCR AntiResist",
                         "long_description" : "IT by education, (research) data by heart. Master in Computer Science at ETH with nearly 20 years’ experience in research data in the industry as well as in the academic field. Part of the Clinical Data Office of the NCCR AntiResist.",
                         "photo" : "/res/images/speakers/claudia_saupper.jpg",
                         "email": "",
@@ -353,7 +364,7 @@
             "start" : "17:00",
             "end" : "17:15",
             "location" : {
-                "name": "",
+                "name": "U1.141",
                 "url": "",
                 "address": ""
             },
