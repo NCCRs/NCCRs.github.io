@@ -66,6 +66,7 @@
             "speaker" : {
                 "name" : "Philippe Schwaller",
                 "description" : "NCCR Catalysis, EPFL",
+                "long_description" : "Philippe Schwaller joined EPFL as a tenure-track assistant professor in the Institute of Chemical Sciences and Engineering in February 2022. He leads the Laboratory of Artificial Chemical Intelligence, which works on AI-accelerated discovery and synthesis of molecules. Philippe is also a core PI of the NCCR Catalysis, a Swiss centre for sustainable chemistry research, education, and innovation. He belongs to a new generation of scientists with a broad set of skills – in his case a combination of chemistry, materials science, computer science, and experimental research.",
                 "photo" : "/res/images/speakers/philippe schwaller.jpeg",
                 "email": "",
                 "link" : ""
@@ -74,7 +75,7 @@
             "keypoints": []
         },
         {
-            "title" : "Data interoperability",
+            "title" : "FAIR Microbiome Data Practices",
             "type" : "presentation",
             "description" : "Despite an ever-growing number of data sets that catalog and characterize interactions between microbes in different environments and conditions, many of these data are neither easily accessible nor intercompatible. These limitations present a major challenge to microbiome research by hindering the streamlined drawing of inferences across studies. Here, we propose guiding principles to make microbial data more findable, accessible, interoperable, and reusable (FAIR).<br>We outline specific use cases for interaction and sequence data that span the diverse space of microbiome research, and discuss the untapped potential for new insights that can be fulfilled through broader integration of microbial interaction data. These include, among others, the design of intercompatible synthetic communities for environmental, industrial, or medical applications, and the inference of novel interactions from disparate studies. Lastly, we describe work in progress for the deployment of FAIR microbial data based on existing resources, reporting standards, and current momentum within the community.",
             "start" : "09:45",
@@ -124,9 +125,9 @@
             "keypoints": []
         },
         {
-            "title" : "Reproducible workflows",
+            "title" : "Towards fully reproducible workflows with the AiiDA informatics infrastructure",
             "type" : "presentation",
-            "description" : "",
+            "description" : "Reproducibility is one of the key tenets of scientific work. In reality, however, a significant part of the results in the literature cannot be reproduced by other researchers, or even the authors themselves. To tackle this important challenge, the AiiDA informatics infrastructure stores and connects every step and piece of data of a scientific workflow in what we call the \"provenance\", i.e. the history of a workflow. This both enforces an increased organisation of the data and allows other researchers - or the future version of the author - to have access to the full inputs of every workflow step. In this talk we discuss how this approach increases the reproducibility of scientific results, as well as some of the challenges that still remain. We highlight some examples of AiiDA being used in practice, e.g to generate databases of materials properties or develop common interfaces with ab initio codes to make them more interoperable and verifiable. Finally, we demonstrate how data produced via AiiDA are easily shared with other researchers on platforms such as the Materials Cloud.",
             "start" : "10:45",
             "end" : "11:15",
             "location" : {
@@ -137,19 +138,26 @@
             "speaker" : [{
                 "name" : "Marnik Bercx",
                 "description" : "NCCR MARVEL",
-                "photo" : "/res/images/speakers/speaker.png",
+                "long_description" : "Born and raised in Belgium, obtained his Master’s and PhD at the university of Antwerp on the topic of high-throughput in silico materials design. Has now been working for approx. 3 years at EPFL along the same lines, mainly in charge of developing and maintaining the infrastructure required to run computational workflows at scale.",
+                "photo" : "/res/images/speakers/marnik bercx.jpg",
                 "email": "",
                 "link" : ""
             },{
                 "name" : "Chris Sewell",
                 "description" : "NCCR MARVEL",
-                "photo" : "/res/images/speakers/speaker.png",
+                "long_description" : "Chris is a Post-doc within the group of Nicola Mazari, where he works on supporting high-throughput workflows for materials discovery. He previously completed he’s doctorate in the theory and computational modelling of thin-film formation on iron alloys, during which he developed a passion for open-source, reproducible and shareable data science. He now combines he’s expertise in Python and Javascript software design, and background in computational chemistry, to develop cutting-edge informatics frameworks.",
+                "photo" : "/res/images/speakers/chris sewell.jpg",
                 "email": "",
                 "link" : ""
             }
             ],
-            "material_link": "",
-            "keypoints": []
+            "material_link": "https://www.aiida.net/",
+            "keypoints": [
+                "Reproducibility is important but certainly not trivial;",
+                "Disorganised or unfindable data is impossible to use and hence useless;",
+                "Mistakes are easy to make, but hard to spot;",
+                "AiiDA is designed to make scientific data more reproducible and organised."
+            ]
         },
         {
             "title" : "Lightning talks",
@@ -231,6 +239,7 @@
                     "speaker" : {
                         "name" : "Romain Graux",
                         "description" : "Data Officer at NCCR Catalysis, EPFL",
+                        "long_description" : "Romain Graux, a Belgian native, recently joined the NCCR Catalysis as a Data Officer in January 2023. Romain completed his Master's degree in Data Science in September 2022 and brings a strong interest in open-source and software engineering to his work. As a member of the NCCR Catalysis team, Romain collaborates with researchers to develop sustainable chemistry solutions through innovative data-driven approaches.",
                         "photo" : "/res/images/team/Romain_Graux.jpg",
                         "email": "romain.graux@epfl.ch",
                         "link" : "https://github.com/romaingrx"
@@ -239,8 +248,8 @@
                     "keypoints": []
                 },
                 {
-                    "title" : "Intellectual property",
-                    "description" : "",
+                    "title" : "Managing Intellectual Property in a research institution",
+                    "description" : "In this workshop you will learn about basics of intellectual property as well as licensing. After a small introduction about IP we will discuss how licenses are used to transfer IP to third parties and the rational needed to successfully transfer a technology.",
                     "location" : {
                         "name": "Anthropole 3148",
                         "url": "https://goo.gl/maps/ay5XCA3xALE7xuNw5",
@@ -249,11 +258,12 @@
                     "speaker" : {
                         "name" : "Mauro Lattuada",
                         "description" : "EPFL Tech Transfer Office",
-                        "photo" : "/res/images/speakers/speaker.png",
+                        "long_description" : "Since 10 years I work as technology transfer manager for the Technology Transfer Office of EPFL. I’ve a background in telco engineering and a PhD in signal processing. Before joining EPFL I work 7 years in multinational group in multiple positions.",
+                        "photo" : "/res/images/speakers/mauro lattuada.jpg",
                         "email": "",
                         "link" : ""
                     },
-                    "material_link": "",
+                    "material_link": "https://welc.wipo.int/",
                     "keypoints": []
                 },
                 {
@@ -315,6 +325,7 @@
                     "speaker" : {
                         "name" : "Luc Patiny",
                         "description" : "EPFL",
+                        "long_description" : "With a background in organic chemistry and structural analysis I'm Interested in chemical information for over 20 years and I'm strongly involved in the development of open-source tools accessible directly from the web browser.",
                         "photo" : "/res/images/speakers/luc patiny.jpeg",
                         "email": "",
                         "link" : ""
