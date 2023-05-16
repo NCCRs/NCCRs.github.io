@@ -220,8 +220,8 @@
             "end" : "15:15",
             "workshops" : [
                 {
-                    "title" : "Introduction to electronic lab notebooks",
-                    "description" : "",
+                    "title" : "Introduction to Electronic Lab Notebooks (ELNs) and management of structured biomedical data using the LabKey Server solution",
+                    "description" : "In the life sciences, keeping a laboratory notebook is the established method of recording the progress of scientific experiments: the Who, When, How, What, and What Next of research. For centuries, this was done on paper. As biomedical laboratory data has virtually become digital, laboratory notebooks, along with other systems to manage research data, are likewise becoming digital tools. This development presents substantial benefits while also introducing certain challenges that warrant attention. In this workshop, we will present some of the general concepts and challenges of organizing digital laboratory data, focusing on the experience of the researcher. We will also demonstrate a wiki-based system for electronic lab notebooks that is in use by many research groups at the Biozentrum, the Department of Biomedicine and some other institutes and use this concrete example to further discuss some key factors for success when taking lab notes digitally. This presentation is held jointly with Dr. Sofia Georgakopoupou, who will take the second part of the time slot to introduce LabKey, a tool for the management of structured data in the life sciences. Such systems are complementary to the more narrative form of information stored in an ELN and allow a more data-forward way to access and process research data. LabKey is a data management platform in which researchers can collaboratively manage and analyze their data. It is ideal for groups looking to transition to a more robust solution when working with conventional solutions such as Excel becomes unmanageable. Compared to other commercial software that are primarily oriented towards data analysis, LabKey allows to manage and collaborate with data directly through the software. Its API enables scripted data access from languages such as R and Python. The LabKey Server is a well recognised data management solution and sciCORE recommends it in the context of data management requirement of SNF.",
                     "location" : {
                         "name": "U1.191",
                         "url": "",
@@ -238,7 +238,7 @@
                         "name" : "Sofia Georgakopoulou",
                         "description" : "sciCORE, UniBas",
                         "long_description" : "",
-                        "photo" : "/res/images/speakers/speaker.png",
+                        "photo" : "/res/images/speakers/sofia_georgakopoulou.jpg",
                         "email": "",
                         "link" : ""
                     }],
