@@ -71,6 +71,10 @@ function populate(file_name) {
                                 var linked_speakers = speakers.map(function(speaker){
                                     return speaker.photo !== '' ? `<a href="#${speaker.name}">${speaker.name}</a>` : speaker.name;
                                 }).join(';&nbsp;');
+                                var presentations = Array.isArray(witem.presentations) ? witem.presentations : [witem.presentations];
+                                var linked_presentations = presentations.map(function(presentation){
+                                    return `<a class="btn btn-outline-base-color btn-small margin-1 no-margin-rl no-margin-bottom" href="${presentation.link}" target="_blank">${presentation.name}</a>`;
+                                }).join('&nbsp;');
                                 wcell.className = "col-sm-" + 12/item.workshops.length;
                                 wcell.innerHTML = `
                                     <div class="event-wrap">
@@ -80,14 +84,15 @@ function populate(file_name) {
                                     ${witem.material_link != '' ? "<div class='categories material'><a href='" + witem.material_link + "'>Material</a></div>" : ""}
                                     </div>
                                     <div class="font-weight-300 text-gray-dark-2 speaker-description">
-                                ${speakers.map(speaker => speaker.description).join(';&nbsp;')}
+                                    ${speakers.map(speaker => speaker.description).join(';&nbsp;')}
                                     </div>
                                     </div>
                                     <div class="r-no">
                                     <span>
-                                ${witem.description}
+                                    ${witem.description}
                                     </span>
                                     </div>
+                                    ${linked_presentations}
                                     <div class="event-location">
                                     <p class="room font-weight-300 text-gray-dark-2">
                                     <i class="fa fa-map-marker text-gray"></i> <a href="${witem.location.url}">${witem.location.name}</a>
@@ -100,7 +105,6 @@ function populate(file_name) {
                                 // Check if the speaker is a list of speakers
                                 var speakers = Array.isArray(witem.speaker) ? witem.speaker : [witem.speaker];
                                 speakers.forEach((speaker_obj) => {
-                                    console.log(speaker_obj);
                                     if (speaker_obj.name !== "" && speaker_obj.name !== "TBC" && speaker_obj.photo !== "" && document.getElementById(speaker_obj.name) == null) {
                                         var speaker = document.createElement('div');
                                         speaker.className = "member-box col-xs-6 col-sm-4 col-md-3";
@@ -112,10 +116,10 @@ function populate(file_name) {
                                             </div>
                                             <div class="bg-gray-light no-padding-rl padding-6 position-relative text-center">
                                             <span class="display-block font-family-alt font-weight-700 letter-spacing-2 text-gray-dark-2 text-small text-uppercase">
-                                        ${speaker_obj.name}
+                                            ${speaker_obj.name}
                                             </span>
                                             <span class="display-block margin-2 no-margin-rl no-margin-bottom font-weight-400 letter-spacing-1 text-gray-dark text-extra-small">
-                                        ${speaker_obj.description}
+                                            ${speaker_obj.description}
                                             </span>
                                             </div>
                                             ${speaker_obj.long_description ? `
@@ -151,6 +155,10 @@ function populate(file_name) {
                             var linked_speakers = speakers.map(function(speaker){
                                 return `<a href="#${speaker.name}">${speaker.name}</a>`;
                             }).join(';&nbsp;');
+                            var presentations = Array.isArray(item.presentations) ? item.presentations : [item.presentations];
+                            var linked_presentations = presentations.map(function(presentation){
+                                return `<a class="btn btn-outline-base-color btn-small margin-1 no-margin-rl no-margin-bottom" href="${presentation.link}" target="_blank">${presentation.name}</a>`;
+                            }).join('&nbsp;');
                             row.innerHTML = `
                                 <th scope="row">
                                 <div class="event-time">
@@ -170,14 +178,15 @@ function populate(file_name) {
                                         </div>
                                     ` : ''}
                                 <div class="font-weight-300 text-gray-dark-2">
-                            ${speakers.map(speaker => speaker.description).join(';&nbsp;')}
+                                ${speakers.map(speaker => speaker.description).join(';&nbsp;')}
                                 </div>
                                 </div>
                                 <div class="r-no">
                                 <span>
-                            ${item.description}
+                                ${item.description}
                                 </span>
                                 </div>
+                                ${linked_presentations}
                                 </div>
                                 </td>
                                 <td class="event-location">
@@ -200,7 +209,6 @@ function populate(file_name) {
                             // Add the speaker to the speaker section
                             var speakers = Array.isArray(item.speaker) ? item.speaker : [item.speaker];
                             speakers.forEach((speaker_obj) => {
-                                console.log(speaker_obj);
                                 if (speaker_obj.name !== "" && speaker_obj.name !== "TBC" && document.getElementById(speaker_obj.name) == null) {
                                     var speaker = document.createElement('div');
                                     speaker.className = "member-box col-xs-6 col-sm-4 col-md-3";
@@ -212,10 +220,10 @@ function populate(file_name) {
                                         </div>
                                         <div class="bg-gray-light no-padding-rl padding-6 position-relative text-center">
                                         <span class="display-block font-family-alt font-weight-700 letter-spacing-2 text-gray-dark-2 text-small text-uppercase">
-                                    ${speaker_obj.name}
+                                        ${speaker_obj.name}
                                         </span>
                                         <span class="display-block margin-2 no-margin-rl no-margin-bottom font-weight-400 letter-spacing-1 text-gray-dark text-extra-small">
-                                    ${speaker_obj.description}
+                                        ${speaker_obj.description}
                                         </span>
                                         </div>
                                             ${speaker_obj.long_description ? `

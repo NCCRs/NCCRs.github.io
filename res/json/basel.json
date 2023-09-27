@@ -4,6 +4,7 @@
     "start" : "2023-06-02T09:30",
     "end" : "2023-06-02T17:15",
     "location" : {
+        "city" : "Basel",
         "name" : "Biozentrum",
         "address" : "Spitalstrasse 41, 4056 Basel",
         "url" : "",
@@ -29,10 +30,8 @@
                 "link" : ""
             },
             "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
+            "keypoints": [],
+            "presentations": []
         },
         {
             "title" : "Welcome",
@@ -53,10 +52,8 @@
                 "link" : ""
             },
             "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
+            "keypoints": [],
+            "presentations": []
         },
         {
             "title" : "Why is ORD important?",
@@ -84,7 +81,14 @@
                 "Global access to research data is key to enable focusing on your own research",
                 "Research data should be supported and available over time",
                 "Open research data is important because it promotes transparency, collaboration, and equity in scientific research, which can lead to more reliable findings and more effective solutions to complex problems"
-            ]
+            ],
+            "presentations": [{
+                "name": "YouTube",
+                "link": "https://youtu.be/qprOTPddZOM"
+            }, {
+                "name": "PDF",
+                "link": "/presentations/pdfs/di_cola.pdf"
+            }]
         },
         {
             "title" : "Research data lifecycle management",
@@ -112,7 +116,14 @@
                 "What the main funding agencies require you to do, and in which phase to best do it",
                 "Advice and concepts on how to address data management challenges",
                 "Tools and resources for effective data management strategies"
-            ]
+            ],
+            "presentations": [{
+                "name": "YouTube",
+                "link": "https://youtu.be/mSSNrnpvsmA"
+            }, {
+                "name": "PDF",
+                "link": "/presentations/pdfs/podvinec.pdf"
+            }]
         },
         {
             "title" : "Coffee break",
@@ -133,10 +144,8 @@
                 "link" : ""
             },
             "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
+            "keypoints": [],
+            "presentations": []
         },
         {
             "title" : "Open-research data repositories and reproducible workflows",
@@ -163,7 +172,14 @@
                 "Advantages of sharing open research data, and in particular of accessible and interoperable data",
                 "Why reproducible workflows are crucial in science, benefits of making simulations and workflow reproducible, and examples from our workflow engine AiiDA",
                 "Combining reproducible workflows and FAIR data repositories"
-            ]
+            ],
+            "presentations": [{
+                "name": "YouTube",
+                "link": "https://youtu.be/Sq48T03vkio"
+            }, {
+                "name": "PDF",
+                "link": "/presentations/pdfs/pizzi.pdf"
+            }]
         },
         {
             "title" : "Lightning talks",
@@ -184,10 +200,8 @@
                 "link" : ""
             },
             "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
+            "keypoints": [],
+            "presentations": []
         },
         {
             "title" : "Lunch break",
@@ -208,10 +222,8 @@
                 "link" : ""
             },
             "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
+            "keypoints": [],
+            "presentations": []
         },
         {
             "type" : "workshop",
@@ -243,10 +255,14 @@
                         "link" : ""
                     }],
                     "material_link": "",
-                    "keypoints": [
-                        "Key point 1",
-                        "Key point 2"
-                    ]
+                    "keypoints": [],
+                    "presentations": [{
+                        "name": "PDF 1",
+                        "link": "/presentations/pdfs/podvinec_workshop.pdf"
+                    }, {
+                        "name": "PDF 2",
+                        "link": "/presentations/pdfs/georgakopoulou.pdf"
+                    }]
                 },
                 {
                     "title" : "Introduction to Git and GitHub",
@@ -267,7 +283,14 @@
                     "material_link": "",
                     "keypoints": [
                         "What exactly are git and GitHub, what (and what not) to use them for, and the basics of how to use them."
-                    ]
+                    ],
+                    "presentations": [{
+                        "name": "PDF 1",
+                        "link": "/presentations/pdfs/wespe.pdf"
+                    }, {
+                        "name": "PDF 2",
+                        "link": "/presentations/pdfs/wespe_2.pdf"
+                    }]
                 }
             ]
         },
@@ -290,10 +313,8 @@
                 "link" : ""
             },
             "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
+            "keypoints": [],
+            "presentations": []
         },
         {
             "type" : "workshop",
@@ -322,7 +343,11 @@
                         "Understand that 'Metadata is a love letter to your future self!'",
                         "Know where to search for ontologies",
                         "Know how to generate FAIR data based on the respective metadata requirements"
-                    ]
+                    ],
+                    "presentations": [{
+                        "name": "PDF",
+                        "link": "/presentations/pdfs/biehlmaier.pdf"
+                    }]
                 },
                 {
                     "title" : "Introduction to sensitive (patient) data – or data under constraints",
@@ -353,7 +378,11 @@
                         "Why is this topic so important to consider?",
                         "What are the general aspects to safely handle sensitive (patient) data?",
                         "How can sensitive (patient) data be shared?"
-                    ]
+                    ],
+                    "presentations": [{
+                        "name": "PDF",
+                        "link": "/presentations/pdfs/buechel_saupper.pdf"
+                    }]
                 }
             ]
         },
@@ -376,10 +405,8 @@
                 "link" : ""
             },
             "material_link": "",
-            "keypoints": [
-                "Key point 1",
-                "Key point 2"
-            ]
+            "keypoints": [],
+            "presentations": []
         }
     ]
 }

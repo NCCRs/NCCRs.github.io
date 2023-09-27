@@ -4,6 +4,7 @@
     "start" : "2023-05-08T08:30",
     "end" : "2023-05-08T17:45",
     "location" : {
+        "city" : "Lausanne",
         "name" : "CM 1 4, EPFL",
         "address" : "Chem. des Arpenteurs, 1015 Ecublens",
         "url" : "https://goo.gl/maps/cCqY4EL9BJR59v626",
@@ -29,7 +30,8 @@
                 "link" : ""
             },
             "material_link": "",
-            "keypoints": []
+            "keypoints": [],
+            "presentations": []
         },
         {
             "title" : "Welcome",
@@ -50,7 +52,8 @@
                 "link" : ""
             },
             "material_link": "",
-            "keypoints": []
+            "keypoints": [],
+            "presentations": []
         },
         {
             "title" : "Performing research with publicly-available data",
@@ -72,7 +75,11 @@
                 "link" : ""
             },
             "material_link": "",
-            "keypoints": []
+            "keypoints": [],
+            "presentations": [{
+                "name": "PDF",
+                "link": "/presentations/pdfs/schwaller.pdf"
+            }]
         },
         {
             "title" : "FAIR Microbiome Data Practices",
@@ -101,7 +108,11 @@
                 "link" : ""
             }],
             "material_link": "https://doi.org/10.1128/msystems.00659-22",
-            "keypoints": []
+            "keypoints": [],
+            "presentations": [{
+                "name": "PDF",
+                "link": "/presentations/pdfs/pacheco_kim.pdf"
+            }]
         },
         {
             "title" : "Coffee break",
@@ -122,7 +133,8 @@
                 "link" : ""
             },
             "material_link": "",
-            "keypoints": []
+            "keypoints": [],
+            "presentations": []
         },
         {
             "title" : "Towards fully reproducible workflows with the AiiDA informatics infrastructure",
@@ -157,7 +169,11 @@
                 "Disorganised or unfindable data is impossible to use and hence useless;",
                 "Mistakes are easy to make, but hard to spot;",
                 "AiiDA is designed to make scientific data more reproducible and organised."
-            ]
+            ],
+            "presentations": [{
+                "name": "PDF",
+                "link": "/presentations/pdfs/bercx_sewell.pdf"
+            }]
         },
         {
             "title" : "Lightning talks",
@@ -178,7 +194,8 @@
                 "link" : ""
             },
             "material_link": "",
-            "keypoints": []
+            "keypoints": [],
+            "presentations": []
         },
         {
             "title" : "Lunch break",
@@ -199,7 +216,8 @@
                 "link" : ""
             },
             "material_link": "",
-            "keypoints": []
+            "keypoints": [],
+            "presentations": []
         },
         {
             "title" : "Structured networking",
@@ -220,7 +238,8 @@
                 "link" : ""
             },
             "material_link": "",
-            "keypoints": []
+            "keypoints": [],
+            "presentations": []
         },
         {
             "type" : "workshop",
@@ -245,7 +264,8 @@
                         "link" : "https://github.com/romaingrx"
                     },
                     "material_link": "https://siscourses.ethz.ch/sib_workshop_best_practices/git_handson/hands_on_git.html",
-                    "keypoints": []
+                    "keypoints": [],
+                    "presentations": []
                 },
                 {
                     "title" : "Managing Intellectual Property in a research institution",
@@ -264,7 +284,8 @@
                         "link" : ""
                     },
                     "material_link": "https://welc.wipo.int/",
-                    "keypoints": []
+                    "keypoints": [],
+                    "presentations": []
                 },
                 {
                     "title" : "Managing and Anonymizing Sensitive Data",
@@ -283,7 +304,11 @@
                         "link" : ""
                     },
                     "material_link": "",
-                    "keypoints": []
+                    "keypoints": [],
+                    "presentations": [{
+                        "name": "PDF",
+                        "link": "/presentations/pdfs/heers.pdf"
+                    }]
                 }
             ]
         },
@@ -306,7 +331,8 @@
                 "link" : ""
             },
             "material_link": "",
-            "keypoints": []
+            "keypoints": [],
+            "presentations": []
         },
         {
             "type" : "workshop",
@@ -331,7 +357,8 @@
                         "link" : ""
                     },
                     "material_link": "/res/materials/eln_luc_patiny.pdf",
-                    "keypoints": []
+                    "keypoints": [],
+                    "presentations": []
                 },
                 {
                     "title" : "Uploading data to repositories",
@@ -350,7 +377,11 @@
                         "link" : ""
                     },
                     "material_link": "",
-                    "keypoints": []
+                    "keypoints": [],
+                    "presentations": [{
+                        "name": "PDF",
+                        "link": "/presentations/pdfs/brown.pdf"
+                    }]
                 },
                 {
                     "title" : "Codebooks for survey and interview data as part of a data management infrastructure",
@@ -382,7 +413,14 @@
                         "It ain’t good if it don’t look good",
                         "Mixed-methods based strategies allow for generalization and thickness to be built into our data collection",
                         "Combining data types involves connecting the dots early in the project, developing guidelines toward a common target and codebooks that can be read across data sets"
-                    ]
+                    ],
+                    "presentations": [{
+                        "name": "PDF 1",
+                        "link": "/presentations/pdfs/perret_fernandez.pdf"
+                    }, {
+                        "name": "PDF 2",
+                        "link": "/presentations/pdfs/perret_fernandez_2.pdf"
+                    }]
                 }
             ]
         },
@@ -405,7 +443,8 @@
                 "link" : ""
             },
             "material_link": "",
-            "keypoints": []
+            "keypoints": [],
+            "presentations": []
         }
     ]
 }
